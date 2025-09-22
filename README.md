@@ -9,33 +9,222 @@ This repository provides the supplementary materials to support peer review. The
 
 ## FOS Categories and RQ Counts
 
-| FOS Category (Major) | Subject | RQs | Evaluation Method |
-| --- | --- | ---: | --- |
-| Natural Sciences | Computer and information sciences | 8 | Automated |
-| Engineering and technology | Food and beverages | 2 | Expert |
-| Medical and Health Sciences | Clinical medicine | 1 | Expert |
-| Agricultural sciences | Agriculture, Forestry, and Fisheries | 1 | Expert |
-| Social Sciences | Educational sciences | 1 | Expert |
-| Humanities | Arts | 1 | Expert |
+<table>
+  <thead>
+    <tr>
+      <th>FOS Category (Major)</th>
+      <th>Subject</th>
+      <th>RQs</th>
+      <th>Evaluation Method</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td align="right">8</td>
+      <td>Automated</td>
+    </tr>
+    <tr>
+      <td colspan="4"><hr></td>
+    </tr>
+    <tr>
+      <td>Engineering and technology</td>
+      <td>Food and beverages</td>
+      <td align="right">2</td>
+      <td>Expert</td>
+    </tr>
+    <tr>
+      <td>Medical and Health Sciences</td>
+      <td>Clinical medicine</td>
+      <td align="right">1</td>
+      <td>Expert</td>
+    </tr>
+    <tr>
+      <td>Agricultural sciences</td>
+      <td>Agriculture, Forestry, and Fisheries</td>
+      <td align="right">1</td>
+      <td>Expert</td>
+    </tr>
+    <tr>
+      <td>Social Sciences</td>
+      <td>Educational sciences</td>
+      <td align="right">1</td>
+      <td>Expert</td>
+    </tr>
+    <tr>
+      <td>Humanities</td>
+      <td>Arts</td>
+      <td align="right">1</td>
+      <td>Expert</td>
+    </tr>
+  </tbody>
+  </table>
+
+<hr>
+<hr>
 
 ## RQs and Extracted Dataset Counts
 
-| FOS Category (Major) | Subject | Research Question | Extracted Datasets | Survey | Google | DataCite | Overview (xlsx) |
-| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
-| Natural Sciences | Computer and information sciences | All in One Image Restoration | 309 | 32 | 9 | 26 | [overview](research_questions/Computer_and_information_sciences/RQ_All_in_One_Image_Restoration/final/All_in_One_Image_Restoration_overview.xlsx) |
-| Natural Sciences | Computer and information sciences | Document level Event Extraction | 149 | 25 | 9 | 13 | [overview](research_questions/Computer_and_information_sciences/RQ_Document_level_Event_Extraction/final/Document_level_Event_Extraction_overview.xlsx) |
-| Natural Sciences | Computer and information sciences | Event based Stereo Depth | 78 | 18 | 2 | 2 | [overview](research_questions/Computer_and_information_sciences/RQ_Event_based_Stereo_Depth/final/Event_based_Stereo_Depth_overview.xlsx) |
-| Natural Sciences | Computer and information sciences | Multi modal Knowledge Graph Reasoning | 256 | 12 | 3 | 9 | [overview](research_questions/Computer_and_information_sciences/RQ_Multi_modal_Knowledge_Graph_Reasoning/final/Multi_modal_Knowledge_Graph_Reasoning_overview.xlsx) |
-| Natural Sciences | Computer and information sciences | Patent Classification NLP | 75 | 7 | 7 | 2 | [overview](research_questions/Computer_and_information_sciences/RQ_Patent_Classification_NLP/final/Patent_Classification_NLP_overview.xlsx) |
-| Natural Sciences | Computer and information sciences | Personalized Text Generation | 241 | 17 | 45 | 21 | [overview](research_questions/Computer_and_information_sciences/RQ_Personalized_Text_Generation/final/Personalized_Text_Generation_overview.xlsx) |
-| Natural Sciences | Computer and information sciences | Planning Capabilities of LLM | 293 | 39 | 4 | 19 | [overview](research_questions/Computer_and_information_sciences/RQ_Planning_Capabilities_of_LLM/final/Planning_Capabilities_of_LLM_overview.xlsx) |
-| Natural Sciences | Computer and information sciences | Text Line Segmentation | 175 | 44 | 9 | 8 | [overview](research_questions/Computer_and_information_sciences/RQ_Text_Line_Segmentation/final/Text_Line_Segmentation_overview.xlsx) |
-| Engineering and technology | Food and beverages | Antioxidant peptides sequence activity | 65 | 10 | 3 | 1 | [overview](research_questions/Food_and_beverages/RQ_Antioxidant_peptides_sequence_activity/final/Antioxidant_peptides_sequence_activity_overview.xlsx) |
-| Engineering and technology | Food and beverages | Salty enhancing peptides | 20 | 2 | 8 | 0 | [overview](research_questions/Food_and_beverages/RQ_Salty_enhancing_peptides/final/Salty_enhancing_peptides_overview.xlsx) |
-| Medical and Health Sciences | Clinical medicine | CRLM scRNAseq | 34 | 11 | 4 | 1 | [overview](research_questions/Clinical_medicine/RQ_CRLM_scRNAseq/final/CRLM_scRNAseq_overview.xlsx) |
-| Agricultural sciences | Agriculture, Forestry and Fisheries | Plant disease pest detection image dataset | 239 | 16 | 4 | 3 | [overview](research_questions/Agriculture_Forestry_and_Fisheries/RQ_Plant_disease_pest_detection_image_dataset/final/Plant_disease_pest_detection_image_dataset_overview.xlsx) |
-| Social Sciences | Educational sciences | Statistical Learning Non native | 11 | 3 | 0 | 1 | [overview](research_questions/Educational_sciences/RQ_Statistical_Learning_Non_native/final/Statistical_Learning_Non_native_overview.xlsx) |
-| Humanities | Arts | Laban movement analysis for dance emotion | 7 | 0 | 1 | 1 | [overview](research_questions/Arts/RQ_Laban_movement_analysis_for_dance_emotion/final/Laban_movement_analysis_for_dance_emotion_overview.xlsx) |
+<table>
+  <thead>
+    <tr>
+      <th>FOS Category (Major)</th>
+      <th>Subject</th>
+      <th>Research Question</th>
+      <th>Survey (Gold Standard)</th>
+      <th>Extracted Datasets (Ours)</th>
+      <th>Google</th>
+      <th>DataCite</th>
+      <th>Overview (xlsx)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>All in One Image Restoration</td>
+      <td align="right">32</td>
+      <td align="right">309</td>
+      <td align="right">9</td>
+      <td align="right">26</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_All_in_One_Image_Restoration/final/All_in_One_Image_Restoration_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>Document level Event Extraction</td>
+      <td align="right">25</td>
+      <td align="right">149</td>
+      <td align="right">9</td>
+      <td align="right">13</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_Document_level_Event_Extraction/final/Document_level_Event_Extraction_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>Event based Stereo Depth</td>
+      <td align="right">18</td>
+      <td align="right">78</td>
+      <td align="right">2</td>
+      <td align="right">2</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_Event_based_Stereo_Depth/final/Event_based_Stereo_Depth_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>Multi modal Knowledge Graph Reasoning</td>
+      <td align="right">12</td>
+      <td align="right">256</td>
+      <td align="right">3</td>
+      <td align="right">9</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_Multi_modal_Knowledge_Graph_Reasoning/final/Multi_modal_Knowledge_Graph_Reasoning_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>Patent Classification NLP</td>
+      <td align="right">7</td>
+      <td align="right">75</td>
+      <td align="right">7</td>
+      <td align="right">2</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_Patent_Classification_NLP/final/Patent_Classification_NLP_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>Personalized Text Generation</td>
+      <td align="right">17</td>
+      <td align="right">241</td>
+      <td align="right">45</td>
+      <td align="right">21</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_Personalized_Text_Generation/final/Personalized_Text_Generation_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>Planning Capabilities of LLM</td>
+      <td align="right">39</td>
+      <td align="right">293</td>
+      <td align="right">4</td>
+      <td align="right">19</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_Planning_Capabilities_of_LLM/final/Planning_Capabilities_of_LLM_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Natural Sciences</td>
+      <td>Computer and information sciences</td>
+      <td>Text Line Segmentation</td>
+      <td align="right">44</td>
+      <td align="right">175</td>
+      <td align="right">9</td>
+      <td align="right">8</td>
+      <td><a href="research_questions/Computer_and_information_sciences/RQ_Text_Line_Segmentation/final/Text_Line_Segmentation_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td colspan="8"><hr></td>
+    </tr>
+    <tr>
+      <td>Engineering and technology</td>
+      <td>Food and beverages</td>
+      <td>Antioxidant peptides sequence activity</td>
+      <td align="right">10</td>
+      <td align="right">65</td>
+      <td align="right">3</td>
+      <td align="right">1</td>
+      <td><a href="research_questions/Food_and_beverages/RQ_Antioxidant_peptides_sequence_activity/final/Antioxidant_peptides_sequence_activity_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Engineering and technology</td>
+      <td>Food and beverages</td>
+      <td>Salty enhancing peptides</td>
+      <td align="right">2</td>
+      <td align="right">20</td>
+      <td align="right">8</td>
+      <td align="right">0</td>
+      <td><a href="research_questions/Food_and_beverages/RQ_Salty_enhancing_peptides/final/Salty_enhancing_peptides_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Medical and Health Sciences</td>
+      <td>Clinical medicine</td>
+      <td>CRLM scRNAseq</td>
+      <td align="right">11</td>
+      <td align="right">34</td>
+      <td align="right">4</td>
+      <td align="right">1</td>
+      <td><a href="research_questions/Clinical_medicine/RQ_CRLM_scRNAseq/final/CRLM_scRNAseq_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Agricultural sciences</td>
+      <td>Agriculture, Forestry and Fisheries</td>
+      <td>Plant disease pest detection image dataset</td>
+      <td align="right">16</td>
+      <td align="right">239</td>
+      <td align="right">4</td>
+      <td align="right">3</td>
+      <td><a href="research_questions/Agriculture_Forestry_and_Fisheries/RQ_Plant_disease_pest_detection_image_dataset/final/Plant_disease_pest_detection_image_dataset_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Social Sciences</td>
+      <td>Educational sciences</td>
+      <td>Statistical Learning Non native</td>
+      <td align="right">3</td>
+      <td align="right">11</td>
+      <td align="right">0</td>
+      <td align="right">1</td>
+      <td><a href="research_questions/Educational_sciences/RQ_Statistical_Learning_Non_native/final/Statistical_Learning_Non_native_overview.xlsx">overview</a></td>
+    </tr>
+    <tr>
+      <td>Humanities</td>
+      <td>Arts</td>
+      <td>Laban movement analysis for dance emotion</td>
+      <td align="right">0</td>
+      <td align="right">7</td>
+      <td align="right">1</td>
+      <td align="right">1</td>
+      <td><a href="research_questions/Arts/RQ_Laban_movement_analysis_for_dance_emotion/final/Laban_movement_analysis_for_dance_emotion_overview.xlsx">overview</a></td>
+    </tr>
+  </tbody>
+  </table>
 
 
 ## Evaluation Files
