@@ -20,13 +20,10 @@ This repository provides the supplementary materials to support peer review. The
   </thead>
   <tbody>
     <tr>
-      <td>Natural Sciences</td>
-      <td>Computer and information sciences</td>
-      <td align="right">8</td>
-      <td>Automated</td>
-    </tr>
-    <tr>
-      <td colspan="4"><hr></td>
+      <td style="border-bottom: 4px double #888;">Natural Sciences</td>
+      <td style="border-bottom: 4px double #888;">Computer and information sciences</td>
+      <td align="right" style="border-bottom: 4px double #888;">8</td>
+      <td style="border-bottom: 4px double #888;">Automated</td>
     </tr>
     <tr>
       <td>Engineering and technology</td>
@@ -151,17 +148,14 @@ This repository provides the supplementary materials to support peer review. The
       <td><a href="research_questions/Computer_and_information_sciences/RQ_Planning_Capabilities_of_LLM/final/Planning_Capabilities_of_LLM_overview.xlsx">overview</a></td>
     </tr>
     <tr>
-      <td>Natural Sciences</td>
-      <td>Computer and information sciences</td>
-      <td>Text Line Segmentation</td>
-      <td align="right">44</td>
-      <td align="right">175</td>
-      <td align="right">9</td>
-      <td align="right">8</td>
-      <td><a href="research_questions/Computer_and_information_sciences/RQ_Text_Line_Segmentation/final/Text_Line_Segmentation_overview.xlsx">overview</a></td>
-    </tr>
-    <tr>
-      <td colspan="8"><hr></td>
+      <td style="border-bottom: 4px double #888;">Natural Sciences</td>
+      <td style="border-bottom: 4px double #888;">Computer and information sciences</td>
+      <td style="border-bottom: 4px double #888;">Text Line Segmentation</td>
+      <td align="right" style="border-bottom: 4px double #888;">44</td>
+      <td align="right" style="border-bottom: 4px double #888;">175</td>
+      <td align="right" style="border-bottom: 4px double #888;">9</td>
+      <td align="right" style="border-bottom: 4px double #888;">8</td>
+      <td style="border-bottom: 4px double #888;"><a href="research_questions/Computer_and_information_sciences/RQ_Text_Line_Segmentation/final/Text_Line_Segmentation_overview.xlsx">overview</a></td>
     </tr>
     <tr>
       <td>Engineering and technology</td>
