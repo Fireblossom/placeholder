@@ -1,0 +1,2429 @@
+{
+  "summary": {
+    "total_unique_datasets": 33,
+    "total_dataset_mentions": 52,
+    "unique_dataset_names": 33,
+    "extraction_successful": 105,
+    "extraction_failed": 972,
+    "unique_contexts_processed": 912,
+    "total_citation_instances": 1077,
+    "total_processing_time": 53.437472105026245
+  },
+  "datasets_sorted_by_citation_count": [
+    {
+      "cited_paper_id": "245343990",
+      "citation_count": 0,
+      "total_dataset_mentions": 8,
+      "unique_datasets": [
+        "USPTO-2M"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to evaluate a hierarchical feature extraction model for multi-label mechanical patent classification, focusing on 2,000,147 cleaned records from 2,679,443 USA raw utility patents in 637 IPC subclasses.",
+          "citing_paper_id": "235262768",
+          "cited_paper_id": 124360271,
+          "context_text": "They evaluated their model on USPTO-2M with 2,000,147 records after data cleaning of 2,679,443 USA raw utility patent documents in 637 categories at the IPC subclass level (Li et al., 2018).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "USPTO-2M is a specific dataset mentioned in the context, used for evaluating a model on patent classification.",
+          "citing_paper_doi": "10.1016/j.techfore.2024.123536",
+          "cited_paper_doi": "10.3390/SU10010219",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b2c614c057a72ac28961f803599c84ca5451f9ad",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/33fb8bc4ab743a99b7dd30fde19c01c72737c6c6",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to fine-tune the BERT model for patent classification, focusing on improving subclass-level accuracy through supervised learning. | Introduced as a new dataset at the subclass level to support future research in patent classification, enhancing the scope and depth of training data. | Used to evaluate the assessment of patent value based on textual data, providing quality metrics for the evaluation process.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 52967399,
+          "context_text": "The first study (Lee and Hsiang, 2020b) which involves PLMs, fine-tune the BERT model on the USPTO-2M dataset and introducing a new dataset, USPTO-3M at the subclass level to aid in future research.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two datasets, USPTO-2M and USPTO-3M, both of which are used for patent classification. The BERT model is mentioned but is not a dataset.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.18653/v1/N19-1423",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2019
+        },
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to fine-tune the BERT model for patent classification, focusing on improving subclass-level accuracy through supervised learning. | Introduced as a new dataset at the subclass level to support future research in patent classification, enhancing the scope and depth of training data.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 195791872,
+          "context_text": "The first study (Lee and Hsiang, 2020b) which involves PLMs, fine-tune the BERT model on the USPTO-2M dataset and introducing a new dataset, USPTO-3M at the subclass level to aid in future research.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two datasets, USPTO-2M and USPTO-3M, both of which are used for patent classification. The BERT model is mentioned but is not a dataset.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1016/j.wpi.2020.101983",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/76eac57d3ca9279def9c9542d536ed009dc492b0",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2019
+        },
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to evaluate the impact of different patent sections and word counts on classification performance, focusing on improving patent classification accuracy. | Used to train the DeepPatent model for 50 epochs, focusing on patent classification using distributed representation. | Used to conduct experiments on patent classification, specifically evaluating the performance of the DeepPatent model as a baseline. | Used to extract title, abstract, description, and claim parts of English patents in the F category of IPC taxonomy for patent classification. | Used for patent classification experiments, specifically to train and evaluate models over 40 epochs, aligning with the methodology described by Hu et al. (2018a). | Used as a large-scale benchmark for patent classification, specifically to evaluate the performance of keyword extraction algorithms based on distributed representation. | Used to train and evaluate patent classification models, providing a larger and more comprehensive dataset compared to previous benchmarks.",
+          "citing_paper_id": "245343990",
+          "cited_paper_id": 4565108,
+          "context_text": "The USPTO-2M is a large-scale patent classification benchmark made publicly available by Li et al. (2018) 2 .",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'USPTO-2M' as a specific, verifiable dataset used for patent classification. It is clearly identified and relevant to the research topic.",
+          "citing_paper_doi": "10.1007/s11192-021-04179-4",
+          "cited_paper_doi": "10.3390/e20020104",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/17aa05693a9d3dcbb0ffc7a05be59ef621c4d0d4",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/5b4655d7f5c9ecaf908490748e87b6972ba144c0",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to fine-tune the BERT model for patent classification, focusing on improving subclass-level accuracy through supervised learning. | Introduced as a new dataset at the subclass level to support future research in patent classification, enhancing the scope and depth of training data.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 195792769,
+          "context_text": "The first study (Lee and Hsiang, 2020b) which involves PLMs, fine-tune the BERT model on the USPTO-2M dataset and introducing a new dataset, USPTO-3M at the subclass level to aid in future research.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two datasets, USPTO-2M and USPTO-3M, both of which are used for patent classification. The BERT model is mentioned but is not a dataset.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1016/j.wpi.2020.101965",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/9662e98b02bca2b1764f319ffa588d51a3cd101a",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        },
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to fine-tune BERT, XLNet, and RoBERTa for multi-label classification of patent documents, focusing on improving language understanding in the patent domain. | Used to fine-tune BERT, XLNet, and RoBERTa models for multi-label classification of patent documents, focusing on improving language understanding in the patent domain.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 195069387,
+          "context_text": "Concurrently, [50] also fine-tune BERT, along with XLNet [58], and RoBERTa on the USPTO-2M dataset.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the USPTO-2M dataset, which is a specific, verifiable dataset used for patent classification. The dataset is used for fine-tuning BERT, XLNet, and RoBERTa models.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e0c6abdbdecf04ffac65c440da77fb9d66bb474c",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2019
+        },
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to fine-tune BERT, XLNet, and RoBERTa for multi-label classification of patent documents, focusing on improving language understanding in the patent domain. | Used to organize patents into a hierarchical scheme, facilitating multi-label classification in the patent domain. | Used to fine-tune BERT, XLNet, and RoBERTa models for multi-label classification of patent documents, focusing on improving language understanding in the patent domain. | Used to enhance the hierarchical organization of patents, supporting multi-label classification and deep learning-based language understanding.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 245343990,
+          "context_text": "Concurrently, [50] also fine-tune BERT, along with XLNet [58], and RoBERTa on the USPTO-2M dataset.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the USPTO-2M dataset, which is a specific, verifiable dataset used for patent classification. The dataset is used for fine-tuning BERT, XLNet, and RoBERTa models.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1007/s11192-021-04179-4",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/17aa05693a9d3dcbb0ffc7a05be59ef621c4d0d4",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2021
+        },
+        {
+          "dataset_name": "USPTO-2M",
+          "dataset_description": "Used to train and evaluate patent classification models, providing a larger and more comprehensive dataset compared to previous benchmarks. | Used as a subset for training and evaluation in patent classification, focusing on intellectual property retrieval tasks. | Used to gather 1.35 million patents from the European Patent Office and World Intellectual Property Organization for intellectual property retrieval tasks.",
+          "citing_paper_id": "245343990",
+          "cited_paper_id": 12711052,
+          "context_text": "DeepPatent outperformed other algorithms from the CLEF-IP (Piroi et al., 2011) competition and contributed the new USPTO-2M dataset, which is much larger than the previous benchmarks.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the CLEF-IP competition and the USPTO-2M dataset. CLEF-IP is a benchmark, but USPTO-2M is a specific, reusable dataset.",
+          "citing_paper_doi": "10.1007/s11192-021-04179-4",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/17aa05693a9d3dcbb0ffc7a05be59ef621c4d0d4",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/23ed0f8595a04d76efc2f71b3c72c30bc56c4fe4",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2011
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "236776781",
+      "citation_count": 0,
+      "total_dataset_mentions": 5,
+      "unique_datasets": [
+        "CLEF-IP"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CLEF-IP",
+          "dataset_description": "Used for training and evaluating patent classification models, focusing on the performance of various NLP techniques in classifying patents from the United States Patent and Trademark Office. | Used for evaluating patent classification models, focusing on the accuracy of classifying patents into specific categories using supervised learning.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 236776781,
+          "context_text": "…[5] BiLSTM-CRF, BiGRU-HAN USPTO supervised [25] DUAL-VGG CLEF-IP, USPTO supervised [51] SVM, Naive Bayes, Random Forest, MLP IPO supervised [44] RoBERTa, CLIP EPO pre-trained [53] Sentence-BERT, TransE USPTO pre-trained, unsupervised [33] (ImageNet, Sketchy) ResNet50 DeepPatent supervised,…",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions several datasets and models, but only 'CLEF-IP' and 'USPTO' are specific datasets used in the context of patent classification.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/4a5ced246bce6e1064a907a6517edb49d9a7532f",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2021
+        },
+        {
+          "dataset_name": "CLEF-IP",
+          "dataset_description": "Used to develop and evaluate patent classification models, focusing on linguistic experiments and classification accuracy.",
+          "citing_paper_id": "15296714",
+          "cited_paper_id": 4456086,
+          "context_text": "A number of approaches were proposed to address the patent classification using the CLEF-IP data sets (Guyot et al. 2010; Derieux et al. 2010; Verberne and D’hondt 2011; Beney 2010).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the use of 'CLEF-IP data sets' for patent classification, which is a specific dataset used in multiple studies.",
+          "citing_paper_doi": "10.1007/s10791-015-9270-2",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6232be9adf4f8cf9ba4be25ad90297c4b2a2a299",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/d072a5b1898b207bbc1699cbb52d7c0f74e60db2",
+          "citing_paper_year": 2015,
+          "cited_paper_year": 2010
+        },
+        {
+          "dataset_name": "CLEF-IP",
+          "dataset_description": "Provided by CLEF-IP to researchers for training systems on realistic patent classification tasks, enhancing the robustness and applicability of models. | Used to organize patent classification evaluation tasks, providing researchers with large-scale, realistic patent data for training and evaluating systems.",
+          "citing_paper_id": "15296714",
+          "cited_paper_id": 12711052,
+          "context_text": "In recent years, CLEF-IP has organized patent classification evaluation tasks and has provided to the researchers very large patent data to train their systems on more realistic data sets (Piroi et al. 2010, 2011, 2012).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'CLEF-IP' and 'very large patent data' which are specific resources used for patent classification tasks. The cited papers confirm the relevance of these resources.",
+          "citing_paper_doi": "10.1007/s10791-015-9270-2",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6232be9adf4f8cf9ba4be25ad90297c4b2a2a299",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/23ed0f8595a04d76efc2f71b3c72c30bc56c4fe4",
+          "citing_paper_year": 2015,
+          "cited_paper_year": 2011
+        },
+        {
+          "dataset_name": "CLEF-IP",
+          "dataset_description": "Provided by CLEF-IP to researchers for training systems on realistic patent classification tasks, enhancing the robustness and applicability of models. | Used to organize patent classification evaluation tasks, providing researchers with large-scale, realistic patent data for training and evaluating systems.",
+          "citing_paper_id": "15296714",
+          "cited_paper_id": 33391284,
+          "context_text": "In recent years, CLEF-IP has organized patent classification evaluation tasks and has provided to the researchers very large patent data to train their systems on more realistic data sets (Piroi et al. 2010, 2011, 2012).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'CLEF-IP' and 'very large patent data' which are specific resources used for patent classification tasks. The cited papers confirm the relevance of these resources.",
+          "citing_paper_doi": "10.1007/s10791-015-9270-2",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6232be9adf4f8cf9ba4be25ad90297c4b2a2a299",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/58778cb722ed398c129cab491c679c8d47300faf",
+          "citing_paper_year": 2015,
+          "cited_paper_year": 2014
+        },
+        {
+          "dataset_name": "CLEF-IP",
+          "dataset_description": "Used to classify patents in multiple languages, focusing on English and German, employing various approaches to improve classification accuracy.",
+          "citing_paper_id": "251496240",
+          "cited_paper_id": 14012633,
+          "context_text": " https://www.wipo.int/classifications/ipc/en/ITsupport/Categorization/dataset/index.html Derieux et al. (2010) used different approaches to classify CLEF-IP dataset with English (68%), German (24",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the CLEF-IP dataset, which is a specific, verifiable dataset used for patent classification. The dataset is clearly identified and used in the research context.",
+          "citing_paper_doi": "10.2478/jdis-2022-0015",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/feeee8ce0cda6ffb8572716fb2b1784289c873dc",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/b8197cfd87733395cc4bc73855b1d3f4706edbc3",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2010
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "12711052",
+      "citation_count": 0,
+      "total_dataset_mentions": 3,
+      "unique_datasets": [
+        "CLEF-IP 2011"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CLEF-IP 2011",
+          "dataset_description": "Provided datasets and tasks for retrieval in the intellectual property domain, supporting research in patent classification and information retrieval methodologies.",
+          "citing_paper_id": "132667166",
+          "cited_paper_id": 12711052,
+          "context_text": "As its predecessor, the CLEF-IP track of 2011 [14] provided datasets and tasks for a large number of publications concerning retrieval in the intellectual property domain.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'CLEF-IP track of 2011' as providing datasets for publications concerning retrieval in the intellectual property domain, which aligns with the topic of patent classification.",
+          "citing_paper_doi": "10.1108/DTA-01-2019-0002",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c72e758a7b91afde5f4c2c22d59bc6818a92f903",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/23ed0f8595a04d76efc2f71b3c72c30bc56c4fe4",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2011
+        },
+        {
+          "dataset_name": "CLEF-IP 2011",
+          "dataset_description": "Used to extract title and abstract sections for transforming words into encoding real-value vectors using the skipgram model.",
+          "citing_paper_id": "52273103",
+          "cited_paper_id": 12711052,
+          "context_text": "Our study has two stages: at the first stage, we extract title and abstract sections from two patent corpuses USPTO-2 M and CLEF-IP 2011 (Piroi et al. 2011), and then use the skipgram model to transform words in the extracted text into encoding real-value vectors.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific patent corpuses, USPTO-2 M and CLEF-IP 2011, which are used to extract title and abstract sections for further processing.",
+          "citing_paper_doi": "10.1007/s11192-018-2905-5",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/58413faf1917145147188c30c7c53c025c5ea7af",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/23ed0f8595a04d76efc2f71b3c72c30bc56c4fe4",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2011
+        },
+        {
+          "dataset_name": "CLEF-IP 2011",
+          "dataset_description": "Used for training models for IPC/CPC classification tasks, highlighting limitations in scope and coverage. | Employed for abstractive summarization of patent documents, ensuring coherence and relevance in generated summaries. | Used to train and evaluate patent classification models, highlighting its limitations in scope and features. | Used to evaluate NLP models on patent text, focusing on information retrieval and classification tasks. | Utilized for training and evaluating NLP models on a large-scale patent dataset, emphasizing classification and summarization. | Used to assess the performance of patent classification methods, noting its limitations in scope and features. | Used to evaluate patent classification systems, focusing on the limitations in scope and features compared to newer datasets.",
+          "citing_paper_id": "250408264",
+          "cited_paper_id": 52273103,
+          "context_text": "In recent years, there have been some efforts to address this limitation, but all the patent corpora in NLP so far, including CLEF-IP 2011 [38], USPTO-2M [28], and BIGPATENT [46], are still limited in their scopes and features, as shown in Table 1.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions specific patent corpora used in NLP, which are relevant to the topic of patent classification.",
+          "citing_paper_doi": "10.48550/arXiv.2207.04043",
+          "cited_paper_doi": "10.1007/s11192-018-2905-5",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/80d07be8164d20493aa1aee5a52448aaade4e386",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/58413faf1917145147188c30c7c53c025c5ea7af",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "238766042",
+      "citation_count": 0,
+      "total_dataset_mentions": 3,
+      "unique_datasets": [
+        "Patentsview"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Patentsview",
+          "dataset_description": "Utilized to obtain patent indices and maintenance periods, supporting the development and validation of machine learning models for patent classification. | Used to extract patent data for training and evaluation, focusing on abstracts and claims to classify patents using deep learning models.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 225253208,
+          "context_text": "PCA DNN Accuracy ETSI and DI [22] Investor reaction, citations Many MAE Patentsview [9] Abstract, claims, predefined CNN, Bi-LSTM Precision, recall USPTO [2] 12 patent indices ANN APR, F1, FNR, MAE USPTO, OECD [12] 9 patent indices MLP Accuracy, Kappa, MAE USPTO [39] Maintenance period…",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Patentsview' and 'USPTO', which are specific databases used in patent-related research. These are likely used for training and evaluating models for patent classification.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1016/j.techfore.2020.120146",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/c2e4c523e6ad0f4dd107c10438189557d5a1e118",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        },
+        {
+          "dataset_name": "Patentsview",
+          "dataset_description": "Utilized to obtain patent indices and maintenance periods, supporting the development and validation of machine learning models for patent classification. | Used to extract patent data for training and evaluation, focusing on abstracts and claims to classify patents using deep learning models.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 233751708,
+          "context_text": "PCA DNN Accuracy ETSI and DI [22] Investor reaction, citations Many MAE Patentsview [9] Abstract, claims, predefined CNN, Bi-LSTM Precision, recall USPTO [2] 12 patent indices ANN APR, F1, FNR, MAE USPTO, OECD [12] 9 patent indices MLP Accuracy, Kappa, MAE USPTO [39] Maintenance period…",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Patentsview' and 'USPTO', which are specific databases used in patent-related research. These are likely used for training and evaluating models for patent classification.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.2139/ssrn.3758388",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/9d885cc8efd76064e0f4b87abc3bd2f1cefafd4d",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        },
+        {
+          "dataset_name": "Patentsview",
+          "dataset_description": "Used to analyze investor reaction and citations, focusing on abstract and claims with predefined CNN and Bi-LSTM models. | Utilized to evaluate various patent indices using different machine learning models, including ANN, MLP, and BiLSTM-ATT-CRF, to predict maintenance periods.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 238766042,
+          "context_text": "…Accuracy ETSI and DI [22] Investor reaction, citations Many MAE Patentsview [9] Abstract, claims, predefined CNN, Bi-LSTM Precision, recall USPTO [2] 12 patent indices ANN APR, F1, FNR, MAE USPTO, OECD [12] 9 patent indices MLP Accuracy, Kappa, MAE USPTO [39] Maintenance period BiLSTM-ATT-CRF…",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Patentsview' and 'USPTO', which are specific datasets or databases used in patent classification research. These are clearly identified and relevant to the topic.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.17863/CAM.69403",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/981a8abde2c456590b0aa0c502962b8d7ff46b01",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "218489934",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "WIPO-alpha"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "WIPO-alpha",
+          "dataset_description": "Used to evaluate classifier performance in patent categorization, focusing on micro-F1 score improvements through ensemble methods.",
+          "citing_paper_id": "132667166",
+          "cited_paper_id": 12577135,
+          "context_text": "An ensemble of different classifiers slightly improves micro-F1 score on a refined version of the WIPO-alpha dataset according to Mathiassen and Ortiz-Arroyo [11].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'WIPO-alpha dataset', which is a specific dataset used for patent categorization. The dataset is used to evaluate classifier performance.",
+          "citing_paper_doi": "10.1108/DTA-01-2019-0002",
+          "cited_paper_doi": "10.1007/11875581_124",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c72e758a7b91afde5f4c2c22d59bc6818a92f903",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/946e71156a0aff384955cb3ddf6f94802dbe283a",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2006
+        },
+        {
+          "dataset_name": "WIPO-alpha",
+          "dataset_description": "Used to evaluate the performance of an optimized neural network for patent classification, focusing on accuracy metrics.",
+          "citing_paper_id": "251496240",
+          "cited_paper_id": 218489934,
+          "context_text": "With this optimised neural network, they achieved 55.02% accuracy on the public Wipo-Alpha dataset  (Abdelgawad et al., 2020).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'Wipo-Alpha' dataset, which is a specific, verifiable dataset used for patent classification. The dataset is used to evaluate the performance of an optimized neural network.",
+          "citing_paper_doi": "10.2478/jdis-2022-0015",
+          "cited_paper_doi": "10.1007/978-3-030-46133-1_41",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/feeee8ce0cda6ffb8572716fb2b1784289c873dc",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/70683865d94b26e03f27532ae59a638ec951c888",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "75974701",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "OECD quality indicators"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "OECD quality indicators",
+          "dataset_description": "Used to evaluate the assessment of patent value based on textual data, providing quality metrics for the evaluation process.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 75974701,
+          "context_text": "3.3.2 Pre-trained Language Models (PLMs) (Krant, 2023) proposes to use MSABERT to assess patent value based entirely on the textual data and use the OECD (Eurostat, O., 2005) quality indicators for evaluation.",
+          "confidence_score": 0.6,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'OECD (Eurostat, O., 2005) quality indicators' which could be a dataset, but it is not clear if it is a specific, verifiable dataset. The context does not mention any other datasets.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3f6be422c6e4e9a6cb9d690cdbb467ba860bbdb9",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2005
+        },
+        {
+          "dataset_name": "OECD quality indicators",
+          "dataset_description": "Used to evaluate the assessment of patent value based on textual data, providing quality metrics for the evaluation process.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": null,
+          "context_text": "3.3.2 Pre-trained Language Models (PLMs) (Krant, 2023) proposes to use MSABERT to assess patent value based entirely on the textual data and use the OECD (Eurostat, O., 2005) quality indicators for evaluation.",
+          "confidence_score": 0.6,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'OECD (Eurostat, O., 2005) quality indicators' which could be a dataset, but it is not clear if it is a specific, verifiable dataset. The context does not mention any other datasets.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": null,
+          "citing_paper_year": 2024,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "132667166",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "corpus of 5 million patent documents"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "corpus of 5 million patent documents",
+          "dataset_description": "Used to train fastText word embeddings for patent classification, focusing on domain-specific language and improving classification accuracy using Bi-GRU models.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 132667166,
+          "context_text": "(Risch and Krestel, 2018) and (Risch and Krestel, 2019) focus on training fastText word embeddings on a corpus of 5 million patent documents, then use Bi-GRU for classification.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a corpus of 5 million patent documents used for training word embeddings. This corpus is specific and relevant to the research topic of patent classification.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1108/DTA-01-2019-0002",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/c72e758a7b91afde5f4c2c22d59bc6818a92f903",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2019
+        },
+        {
+          "dataset_name": "corpus of 5 million patent documents",
+          "dataset_description": "Used to train fastText word embeddings for patent classification, focusing on domain-specific language and improving classification accuracy using Bi-GRU models. | Used to evaluate the precision of early works in patent classification, focusing on domain-specific word embeddings and their impact on model performance.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 203566711,
+          "context_text": "(Risch and Krestel, 2018) and (Risch and Krestel, 2019) focus on training fastText word embeddings on a corpus of 5 million patent documents, then use Bi-GRU for classification.",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions a corpus of 5 million patent documents used for training word embeddings. This corpus is specific and relevant to the research topic of patent classification.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1109/ICDIM.2018.8846972",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ad45802580f68d0889aca284eebd93951fc716ac",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "254616496",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "Indonesian Patent Database"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Indonesian Patent Database",
+          "dataset_description": "Used to integrate region-specific innovations with global patent data, enhancing the capture of local innovation trends. | Used to integrate global patent data with local databases, improving the comprehensive coverage of patent information.",
+          "citing_paper_id": "276148061",
+          "cited_paper_id": 254616496,
+          "context_text": "3) Local–global integration: Existing frameworks [12], [13] have rarely combined local patent databases (e.g. Indonesian Patent Database) with international repositories (e.g. Google Patents), limiting their ability to capture region-specific innovations.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Indonesian Patent Database' and 'Google Patents' as examples of local and international repositories, respectively. These are specific, verifiable datasets used in the context of integrating local and global patent data.",
+          "citing_paper_doi": "10.14569/ijacsa.2025.01601106",
+          "cited_paper_doi": "10.3390/electronics11244124",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/0902ceb478e1578b173df339ad319be5d7fd1914",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e92b2b6a6e38c7e88f9cef3bf3f08fd2c28268d2",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2022
+        },
+        {
+          "dataset_name": "Indonesian Patent Database",
+          "dataset_description": "Used to integrate region-specific innovations with global patent data, enhancing the capture of local innovation trends. | Used to integrate global patent data with local databases, improving the comprehensive coverage of patent information.",
+          "citing_paper_id": "276148061",
+          "cited_paper_id": null,
+          "context_text": "3) Local–global integration: Existing frameworks [12], [13] have rarely combined local patent databases (e.g. Indonesian Patent Database) with international repositories (e.g. Google Patents), limiting their ability to capture region-specific innovations.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Indonesian Patent Database' and 'Google Patents' as examples of local and international repositories, respectively. These are specific, verifiable datasets used in the context of integrating local and global patent data.",
+          "citing_paper_doi": "10.14569/ijacsa.2025.01601106",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/0902ceb478e1578b173df339ad319be5d7fd1914",
+          "cited_paper_url": null,
+          "citing_paper_year": 2025,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "1407274",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "CLEF-IP 2010"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CLEF-IP 2010",
+          "dataset_description": "Used to evaluate patent classification performance, specifically measuring micro-F1 and micro-precision on a subset of 532,264 English abstracts.",
+          "citing_paper_id": "132667166",
+          "cited_paper_id": 1407274,
+          "context_text": "Dhondt et al. report a microf1 0.751 and a micro-precision of 0.800 on a subset of 532,264 English abstracts from the so called CLEF-IP 2010 corpus [13].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the CLEF-IP 2010 corpus, which is a specific dataset used for patent classification experiments. The dataset is clearly identified and used for evaluating performance metrics.",
+          "citing_paper_doi": "10.1108/DTA-01-2019-0002",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c72e758a7b91afde5f4c2c22d59bc6818a92f903",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/38fa94345fa000d66d92cf2e8217fbf014010db1",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2010
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "3641284",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "gold standard data"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "gold standard data",
+          "dataset_description": "Used to perform UMAP dimensional reduction on CPC class codes, aiming to illustrate possible causes in patent classification through visualization.",
+          "citing_paper_id": "216371276",
+          "cited_paper_id": 3641284,
+          "context_text": "In order to illustrate possible causes, a UMAP dimensional reduction [13] was performed on the entire gold standard data, using a pre-existing deep learning embedding 10 of CPC class codes.",
+          "confidence_score": 0.6,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'gold standard data' which is domain-qualified but lacks a specific name. No other datasets are explicitly named.",
+          "citing_paper_doi": "10.1016/j.wpi.2020.101961",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/d96da788935d3369d8104d3611513f96af9b819a",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3a288c63576fc385910cb5bc44eaea75b442e62e",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "46320871",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "1948 patent documents from United States Patent Classification (USPC) 360/324"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "1948 patent documents from United States Patent Classification (USPC) 360/324",
+          "dataset_description": "Used to train a two-layered feed-forward neural network for patent classification, focusing on documents from USPC 360/324. The dataset consists of 1948 patent documents.",
+          "citing_paper_id": "124360271",
+          "cited_paper_id": 46320871,
+          "context_text": "[25] proposed a two-layered feed-forward neural network and employed the Levenberg–Marquardt algorithm to train the network for 1948 patent documents from United States Patent Classification (USPC) 360/324.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions '1948 patent documents from United States Patent Classification (USPC) 360/324', which is a specific subset of patent documents used for training a neural network.",
+          "citing_paper_doi": "10.3390/SU10010219",
+          "cited_paper_doi": "10.1016/j.cad.2011.12.006",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/33fb8bc4ab743a99b7dd30fde19c01c72737c6c6",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/793f3c525db1b8242793e19f42b5aee65e9cba5e",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2012
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "7365231",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "M-patent dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "M-patent dataset",
+          "dataset_description": "Used to train and evaluate neural network models, applying early stopping to prevent over-fitting during the training process.",
+          "citing_paper_id": "245343990",
+          "cited_paper_id": 7365231,
+          "context_text": "However, for the experiment on the M-patent dataset we set the number of epochs to 15 with early stopping (Caruana et al., 2001) of patience level 3 to prevent over-fitting.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'M-patent dataset' which is a specific dataset used for experiments. The cited paper is used to explain the method of early stopping to prevent over-fitting.",
+          "citing_paper_doi": "10.1007/s11192-021-04179-4",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/17aa05693a9d3dcbb0ffc7a05be59ef621c4d0d4",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/072d756c8b17a78018298e67ff29e6d3a4fe5770",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2000
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "35058596",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "WIPO datasets"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "WIPO datasets",
+          "dataset_description": "Specifically used for experimentation in patent classification, focusing on kernel classifier methods that account for the hierarchical structure of patents. | Used for experimentation in patent classification, focusing on kernel classifier methods that account for the hierarchical structure of patents.",
+          "citing_paper_id": "203639485",
+          "cited_paper_id": 35058596,
+          "context_text": "There are other works that have used the WIPO datasets (specially the WIPO-alpha) for experimentation, many of them focusing on kernel classifier methods that take the hierarchical structure into account (Bi and Kwok 2014; Cai and Hofmann 2004; Chen and Chang 2012; Rousu et al. 2006; Tsochantaridis et al. 2005; Zhang 2014).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'WIPO datasets' and specifically 'WIPO-alpha', which are relevant to patent classification. These datasets are used for experimentation, particularly with kernel classifier methods that consider the hierarchical structure of patents.",
+          "citing_paper_doi": "10.1007/s11192-019-03246-1",
+          "cited_paper_doi": "10.1016/j.neucom.2013.08.013",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/31646294ffe4321e79a508f9198630e4036a90d0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/73a623da97bd0d72d29d98b36c7e1af55d9bbef4",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "235390652",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Cooperative Patent Classification"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Cooperative Patent Classification",
+          "dataset_description": "Used to organize patents into a hierarchical scheme, facilitating multi-label classification in the patent domain. | Used to enhance the hierarchical organization of patents, supporting multi-label classification and deep learning-based language understanding.",
+          "citing_paper_id": "269149653",
+          "cited_paper_id": 235390652,
+          "context_text": "Patent classification can benefit from multi-label classification tools for the hierarchical schemes: International Patent Classification (IPC) and the Cooperative Patent Classification (Roudsari et al., 2022; Althammer et al., 2021).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'International Patent Classification (IPC)' and 'Cooperative Patent Classification' as hierarchical schemes used in patent classification. These are specific, verifiable resources used for organizing patents.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/949f92adedc4c90d4f5f368f6ebb8c6aebcfe2d2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/d4e4a545160d8a6eba5338463168f51e8cbe411e",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "205438988",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "U.S. Patent Classification (USPC)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "U.S. Patent Classification (USPC)",
+          "dataset_description": "Used for technology class assignments in patent classification, providing a structured system for categorizing patents based on technological areas. | Used for technology class assignments in patent classification, offering a more detailed and harmonized system compared to USPC and IPC. | Used for technology class assignments in patent classification, serving as a global standard for organizing patents into hierarchical classes.",
+          "citing_paper_id": "522219",
+          "cited_paper_id": 205438988,
+          "context_text": "Technology class assignments are available for each of the three PCSs: the U.S. Patent Classification (USPC) system, the Cooperative Patent Classification (CPC) system, and the International Patent Classification (IPC) system.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions specific patent classification systems which are used as datasets for patent classification tasks.",
+          "citing_paper_doi": "10.1007/978-3-319-71928-3_3",
+          "cited_paper_doi": "10.1002/asi.21459",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/dde60271b41c412e1cbf7e0402b139e12928d810",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ec4190322a2f55a1419d8489ccf8ae3566ba4042",
+          "citing_paper_year": 2017,
+          "cited_paper_year": 2011
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "245697948",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "CPC’s IPC classification"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CPC’s IPC classification",
+          "dataset_description": "Used to predict International Patent Classification (IPC) codes for patent documents, focusing on the hierarchical structure of the classification system using neural networks.",
+          "citing_paper_id": "266999133",
+          "cited_paper_id": 245697948,
+          "context_text": "Hoshino et al. [13] investigate IPC prediction using neural networks and CPC’s IPC classification for patent document content.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions the use of CPC’s IPC classification for patent document content, which is a specific, verifiable dataset used in the context of IPC prediction.",
+          "citing_paper_doi": "10.48550/arXiv.2401.06782",
+          "cited_paper_doi": "10.1371/journal.pone.0282361",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9843849ab3043d99cedf190dc976d3719ce66b1c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/5bf23a4c81baf1631b42302306d9287ea45f1386",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "250408264",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "HUPD"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "HUPD",
+          "dataset_description": "Used to ensure compatibility with collected patent documents, focusing on large-scale, well-structured, and multi-purpose patent applications for classification tasks. | Used to evaluate the ability to predict patentability from claim text or abstracts, focusing on the development of a large-scale, well-structured, and multi-purpose corpus of patent applications.",
+          "citing_paper_id": "276250058",
+          "cited_paper_id": 250408264,
+          "context_text": "In the research field of patentablity evaluation, Suz-gun et al. (2024) developed a large-scale patent dataset (HUPD) and one of the proposed task us-ing HUPD is evaluating the ability of predicting patentability from claim text or abstracts.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions a specific dataset, HUPD, which is used for evaluating the ability to predict patentability from claim text or abstracts.",
+          "citing_paper_doi": "10.48550/arXiv.2502.06316",
+          "cited_paper_doi": "10.48550/arXiv.2207.04043",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c7d2c6b926fc2c2971b7c6c440658fe117d41062",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/80d07be8164d20493aa1aee5a52448aaade4e386",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "unknown",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "USPTO patents"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "USPTO patents",
+          "dataset_description": "Used for part-of-speech tagging, focusing on linguistic analysis of patent classification using a specific NLP methodology.",
+          "citing_paper_id": "38122372",
+          "cited_paper_id": null,
+          "context_text": "First, part-of-speech tagging [43] is performed on the USPTO patents and CKIP tagging [31, 44] is performed on the TIPO patents.",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'USPTO patents' and 'TIPO patents', which are specific datasets of patent documents. These are used for part-of-speech tagging, indicating their role in NLP processing for patent classification.",
+          "citing_paper_doi": "10.1177/0165551513494641",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/f39d33359f1dcbc5f5853c2412045611059de48d",
+          "cited_paper_url": null,
+          "citing_paper_year": 2013,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "13514893",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "English WIPO-alpha collection"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "English WIPO-alpha collection",
+          "dataset_description": "Used to evaluate the effectiveness of a patent classification model on a smaller scale, containing 75,250 patent documents.",
+          "citing_paper_id": "15296714",
+          "cited_paper_id": 13514893,
+          "context_text": "However, the effectiveness of their approach is examined on a much smaller collection as they used the English WIPO-alpha collection containing 75,250 patent documents.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions a specific dataset, 'English WIPO-alpha collection', which is used to examine the effectiveness of an approach on a smaller scale.",
+          "citing_paper_doi": "10.1007/s10791-015-9270-2",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6232be9adf4f8cf9ba4be25ad90297c4b2a2a299",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/54abeffb6dd848b4a5b38e296fdc30560c1b2aa8",
+          "citing_paper_year": 2015,
+          "cited_paper_year": 2013
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "182953211",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "BigPatent 2"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "BigPatent 2",
+          "dataset_description": "Used to process 1.3 million patent texts for abstractive and coherent summarization, focusing on generating concise and accurate summaries of patent documents.",
+          "citing_paper_id": "264492677",
+          "cited_paper_id": 182953211,
+          "context_text": "BigPatent dataset: BigPatent 2 dataset is prepared by processing 1.3 million patent texts [43].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'BigPatent 2' as a specific dataset used for processing patent texts. The title confirms it is a dataset for summarization.",
+          "citing_paper_doi": "10.1007/978-3-031-44067-0_24",
+          "cited_paper_doi": "10.18653/v1/P19-1212",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/4daf1b25dde35ddd64084ca8094a9694a2042307",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/40345901fd28cbf65791c34671db6548b1089ed4",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "235262768",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "dataset containing 1.5 million patent claims annotated with patent class 1"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "dataset containing 1.5 million patent claims annotated with patent class 1",
+          "dataset_description": "Used to conduct experiments on patent classification, focusing on the accuracy of classifying patent claims into specific classes using a deep NLP-based hybrid model.",
+          "citing_paper_id": "264492677",
+          "cited_paper_id": 235262768,
+          "context_text": "We conducted experiments on a dataset containing 1.5 million patent claims annotated with patent class 1 [42].",
+          "confidence_score": 0.85,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a dataset with 1.5 million patent claims annotated with patent classes, which is specific and relevant to the research topic.",
+          "citing_paper_doi": "10.1007/978-3-031-44067-0_24",
+          "cited_paper_doi": "10.1016/j.techfore.2024.123536",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/4daf1b25dde35ddd64084ca8094a9694a2042307",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/b2c614c057a72ac28961f803599c84ca5451f9ad",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "15500867",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "a dataset created from patent information"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "a dataset created from patent information",
+          "dataset_description": "Used to train CBoW and GloVe models for text classification, focusing on word representation in patent documents.",
+          "citing_paper_id": "249381854",
+          "cited_paper_id": 15500867,
+          "context_text": "Next, we analyzed the word embedding models for five different word representations including pre-trained Word2Vec, GloVe, and skip-gram models, as well as CBoW and GloVe models that were trained using a dataset created from patent information.",
+          "confidence_score": 0.6,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'a dataset created from patent information' which is domain-qualified and relevant to the topic of patent classification. However, it does not provide a specific name.",
+          "citing_paper_doi": "10.1007/s10489-022-03655-5",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/2ab3b30eeda79150671150130bf8330e6b779e82",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/10f62af29c3fc5e2572baddca559ffbfd6be8787",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "52273103",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "USPTO bulk data"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "USPTO bulk data",
+          "dataset_description": "Used to create a benchmark dataset for patent classification, focusing on the application of convolutional neural networks and word embedding techniques.",
+          "citing_paper_id": "257366455",
+          "cited_paper_id": 52273103,
+          "context_text": "In 2018, Li et al. [7] extracted the data from USPTO bulk data and produced a new benchmark dataset for patent classification.",
+          "confidence_score": 0.8,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a new benchmark dataset for patent classification created from USPTO bulk data. This fits the criteria for a dataset.",
+          "citing_paper_doi": "10.1145/3578741.3578746",
+          "cited_paper_doi": "10.1007/s11192-018-2905-5",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b3aaa4119ab0eda04f4cda7349a34f3631e99a59",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/58413faf1917145147188c30c7c53c025c5ea7af",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "174799315",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "USPTO 2M 2006∼2014"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "USPTO 2M 2006∼2014",
+          "dataset_description": "Used to train and evaluate a patent classification model, focusing on sub-class labels. The dataset contains 2.8 million patents and is designed to improve state-of-the-art performance in patent classification. | Used to train and evaluate a fine-tuned BERT model for patent classification, focusing on a subset of 2M samples to ensure justifiable comparison with state-of-the-art benchmarks. | Used for training and evaluating PatentBERT, focusing on patent classification using a subset of USPTO patents from 2006 to 2014, specifically those with IPC 632 and claim data. | Used for training and evaluating PatentBERT on patent classification tasks, focusing on IPC codes, titles, and abstracts from 2006 to 2014. | Used to train and evaluate BERT-for-Patents, comparing performance against PatentBERT on 2M samples. Investigates the effectiveness of BERT-for-Patents in patent classification tasks. | Used for training and evaluating PatentBERT, focusing on patent classification using the International Patent Classification (IPC) system. The dataset consists of 2 million patents from 2006 to 2014. | Used to evaluate the performance of machine learning models in patent classification, demonstrating robustness and outperforming state-of-the-art methods by 3%.",
+          "citing_paper_id": "257366455",
+          "cited_paper_id": 174799315,
+          "context_text": "91 Top 1 PatentBERT [6] IPC+Title+Abstract USPTO 2M 2006∼2014 2015-A 32.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions 'USPTO 2M 2006∼2014' which appears to be a specific dataset used for patent classification. The context indicates it is used for training and evaluation.",
+          "citing_paper_doi": "10.1145/3578741.3578746",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b3aaa4119ab0eda04f4cda7349a34f3631e99a59",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/dca404a59d66f196f55789e28033eaec85da6a91",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "182953211",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "CITATION-IP 2011"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CITATION-IP 2011",
+          "dataset_description": "Employed for abstractive summarization of patent documents, ensuring coherence and relevance in generated summaries. | Used to train and evaluate summarization models for generating coherent abstracts from patent descriptions, focusing on abstractive summarization techniques. | Used to evaluate NLP models on patent text, focusing on information retrieval and classification tasks. | Utilized for training and evaluating NLP models on a large-scale patent dataset, emphasizing classification and summarization. | Used to compare with HUPD, focusing on abstractive and coherent summarization tasks in patent classification.",
+          "citing_paper_id": "250408264",
+          "cited_paper_id": 182953211,
+          "context_text": "In recent years, there have been efforts to produce NLP datasets of patent text, including CLEF-IP 2011 [2], USPTO-2M [3], and B IG P ATENT [4].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions three specific datasets relevant to NLP and patents: CLEF-IP 2011, USPTO-2M, and BIG PATENT. These are clearly identified as datasets and are relevant to the topic of patent classification.",
+          "citing_paper_doi": "10.48550/arXiv.2207.04043",
+          "cited_paper_doi": "10.18653/v1/P19-1212",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/80d07be8164d20493aa1aee5a52448aaade4e386",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/40345901fd28cbf65791c34671db6548b1089ed4",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "112011152",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "USPTO Patent Examination Research Datasets"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "USPTO Patent Examination Research Datasets",
+          "dataset_description": "Used to obtain filing metadata including acceptance decisions, filing dates, titles, and classification information for patent examination research.",
+          "citing_paper_id": "250408264",
+          "cited_paper_id": 112011152,
+          "context_text": "Filing metadata—including acceptance decisions, ﬁling dates, titles, and classiﬁcation information—were separately obtained from the USPTO Patent Examination Research Datasets [26, 27] in February 2021.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'USPTO Patent Examination Research Datasets' as a source of filing metadata, which is a specific, verifiable dataset.",
+          "citing_paper_doi": "10.48550/arXiv.2207.04043",
+          "cited_paper_doi": "10.2139/SSRN.2702637",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/80d07be8164d20493aa1aee5a52448aaade4e386",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/5d0eb489c255ae78e882b8a99af7d8b9fbf2ad92",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "245343990",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "PatentNet"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "PatentNet",
+          "dataset_description": "Used for multi-label classification of patent documents, focusing on IPC classification using deep learning models. The dataset includes titles and abstracts from USPTO patents (2006-2014) for training and evaluation. | Used for pre-training language models, focusing on patent document classification and enhancing language understanding in technical and legal contexts. | Used for multi-label classification of patent documents, focusing on IPC classification, title, and abstract. Trained and evaluated on 2 million USPTO patents from 2006-2014, with testing on 2015 data. | Used for multi-label classification of patent documents, specifically training and evaluating models on IPC classes, titles, and abstracts from USPTO patents (2006-2014). | Used for multi-label classification of patent documents, focusing on IPC classification, titles, and abstracts from USPTO patents (2006-2014). Trained and evaluated using deep learning models.",
+          "citing_paper_id": "257366455",
+          "cited_paper_id": 245343990,
+          "context_text": "11 Top 1 PatentNet (XLNet) [2] IPC 544+Title+Abstract USPTO 2M 2006∼2014 2015-A 82.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions 'PatentNet' which is a dataset used for patent classification. The context indicates it is used for training and evaluation in the specific domain of patent documents.",
+          "citing_paper_doi": "10.1145/3578741.3578746",
+          "cited_paper_doi": "10.1007/s11192-021-04179-4",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b3aaa4119ab0eda04f4cda7349a34f3631e99a59",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/17aa05693a9d3dcbb0ffc7a05be59ef621c4d0d4",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "235166857",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "WikiBio"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "WikiBio",
+          "dataset_description": "Used for patent classification NLP tasks, specifically for table-to-text generation and question-answering, leveraging its structured data and textual content.",
+          "citing_paper_id": "250408264",
+          "cited_paper_id": 235166857,
+          "context_text": "The WikiBio dataset has been historically used for table-to-text generation [36], but it has been also adopted for question-answering [45].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the WikiBio dataset, which is a specific, verifiable resource used for both table-to-text generation and question-answering tasks.",
+          "citing_paper_doi": "10.48550/arXiv.2207.04043",
+          "cited_paper_doi": "10.18653/v1/2021.findings-acl.110",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/80d07be8164d20493aa1aee5a52448aaade4e386",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/72024eef4198f88130ba3b8823bdbda9168cc493",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "233296858",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "C4"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "C4",
+          "dataset_description": "This dataset 'C4' was mentioned in the citation context but no detailed description was generated.",
+          "citing_paper_id": "250408264",
+          "cited_paper_id": 233296858,
+          "context_text": "In fact, a recent analysis of the C4 dataset [49] found that “patents.google.com” is the single most-frequent source of text in the corpus, as measured by number of tokens.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the C4 dataset, which is a specific, verifiable resource. The dataset is used to analyze the frequency of text sources, particularly 'patents.google.com'.",
+          "citing_paper_doi": "10.48550/arXiv.2207.04043",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/80d07be8164d20493aa1aee5a52448aaade4e386",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/40c3327a6ddb0603b6892344509c7f428ab43d81",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "unknown",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "IFI CLAIMS Patent Services"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "IFI CLAIMS Patent Services",
+          "dataset_description": "Used to access bibliographic and full-text content of millions of US patent documents, supporting comprehensive patent analysis and classification. | Used to provide bibliographic and full-text content for over 90 million patent documents from 17 countries, supporting comprehensive patent research and analysis.",
+          "citing_paper_id": "250408264",
+          "cited_paper_id": null,
+          "context_text": "The collection contains bibliographic information on more than 90 million patent documents from 17 countries, in addition to the full textual content of millions of US patent documents, provided by IFI CLAIMS Patent Services [56].",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions a specific collection of patent documents, which is a clear and verifiable dataset. The dataset is used for providing bibliographic and full-text content for patent documents.",
+          "citing_paper_doi": "10.48550/arXiv.2207.04043",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/80d07be8164d20493aa1aee5a52448aaade4e386",
+          "cited_paper_url": null,
+          "citing_paper_year": 2022,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "43859778",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "699,000 patents"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "699,000 patents",
+          "dataset_description": "Used to train and test patent classification models, focusing on IPC subclass level classification with a 70/30 training/testing data split.",
+          "citing_paper_id": "174799315",
+          "cited_paper_id": 43859778,
+          "context_text": "o traditional text classifiers. Their dataset has 699,000 patents (70/30 as training/testing data split). Their best result 3 achieved 71.02% in micro-F1 score at the IPC subclass level. Lim and Kwon [14] showed 87.2% precision when using titles, abstracts, claims, technical fields and backgrounds of patents. However, no respective recall or F1 value was disclosed. A fair comparison is therefore not f",
+          "confidence_score": 0.85,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a dataset with 699,000 patents used for patent classification, which is directly relevant to the research topic.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1007/978-3-319-49586-6_48",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/dca404a59d66f196f55789e28033eaec85da6a91",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/b56d87b42ae62e830de167b2264f025ab829ef0c",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2016
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "313952",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "EPO corpus"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "EPO corpus",
+          "dataset_description": "Used to evaluate an SVM-based model for patent classification, focusing on the performance of combined handcrafted similarity and semantic features.",
+          "citing_paper_id": "52273103",
+          "cited_paper_id": 313952,
+          "context_text": "For example, the SVM-based model using combined handcrafted similarity and semantic features achieved the best performance (82.1% top1 precision) over the EPO corpus when the full content is used.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'EPO corpus' which is a specific dataset used for evaluating a model's performance in patent classification.",
+          "citing_paper_doi": "10.1007/s11192-018-2905-5",
+          "cited_paper_doi": "10.1145/945546.945547",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/58413faf1917145147188c30c7c53c025c5ea7af",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/643d6bb5d80c833da51fdd941d836be44f27c19b",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2003
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "195710767",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Patent classification dataset (He & Loh, 2007)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Patent classification dataset (He & Loh, 2007)",
+          "dataset_description": "Used to select seven largest classes addressing 20 of the 40 TRIZ Inventive Principles, facilitating automatic patent classification.",
+          "citing_paper_id": "34189742",
+          "cited_paper_id": 195710767,
+          "context_text": "Therefore, from our current dataset (He & Loh, 2007), we take the seven largest classes (Classes 01050615, 073031, 082939, 091011, 14, 262832 and 3536371) which address 20 of the 40 Principles.",
+          "confidence_score": 0.85,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a specific dataset from He & Loh (2007) and describes the selection of seven largest classes for addressing 20 of the 40 TRIZ Inventive Principles.",
+          "citing_paper_doi": "10.1016/j.eswa.2009.07.069",
+          "cited_paper_doi": "10.1016/J.ESWA.2006.10.015",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e304ff100418934fdbee732fd99efe51c1e5bd69",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/7839954c72c32ecf39ab1399872ae9239aa91624",
+          "citing_paper_year": 2010,
+          "cited_paper_year": 2008
+        }
+      ]
+    }
+  ],
+  "citation_count_distribution": {
+    "16322186": 2,
+    "124360271": 2,
+    "199472638": 1,
+    "2871882": 4,
+    "8923541": 1,
+    "12740621": 1,
+    "18069615": 1,
+    "21663443": 5,
+    "22139415": 3,
+    "46891022": 1,
+    "52967399": 4,
+    "53277820": 2,
+    "67464958": 1,
+    "75974701": 1,
+    "132667166": 4,
+    "160025533": 1,
+    "195069387": 2,
+    "195791872": 2,
+    "195792769": 2,
+    "202765253": 1,
+    "203566711": 1,
+    "213012437": 1,
+    "218604766": 2,
+    "220732566": 3,
+    "221299629": 1,
+    "225253208": 2,
+    "229406428": 1,
+    "229678542": 3,
+    "233583623": 5,
+    "233751708": 2,
+    "233856440": 1,
+    "235262768": 3,
+    "235390652": 2,
+    "236776781": 2,
+    "237654988": 2,
+    "238766042": 2,
+    "244525926": 1,
+    "245343990": 5,
+    "246917692": 1,
+    "247292305": 2,
+    "252428534": 1,
+    "252756523": 2,
+    "253167530": 1,
+    "253265366": 1,
+    "256411943": 1,
+    "257295154": 2,
+    "259991612": 1,
+    "263236494": 1,
+    "269449308": 1,
+    "269457191": 1,
+    "269688950": 1,
+    "270845577": 2,
+    "272918346": 1,
+    "273901256": 1,
+    "273901571": 1,
+    "274762766": 1,
+    "10659969": 2,
+    "11743567": 1,
+    "24726740": 1,
+    "49867601": 1,
+    "52056126": 1,
+    "152760429": 1,
+    "157104256": 1,
+    "195345355": 1,
+    "198229805": 1,
+    "211458028": 1,
+    "219792763": 1,
+    "235366550": 1,
+    "24708078": 1,
+    "64850768": 2,
+    "146808575": 1,
+    "250408264": 1,
+    "257291969": 1,
+    "259370554": 1,
+    "259950998": 1,
+    "964287": 1,
+    "3562169": 1,
+    "10182711": 1,
+    "11080756": 1,
+    "125134679": 1,
+    "127986044": 1,
+    "202558505": 2,
+    "211830249": 1,
+    "218971783": 2,
+    "224292244": 1,
+    "265038146": 1,
+    "13756489": 2,
+    "17887406": 1,
+    "49313245": 1,
+    "240420063": 1,
+    "249642071": 1,
+    "259360395": 1,
+    "263648935": 1,
+    "222093274": 1,
+    "259129398": 1,
+    "259224389": 1,
+    "264172366": 1,
+    "270698898": 1,
+    "271213206": 1,
+    "271244753": 1,
+    "14004036": 3,
+    "14279047": 1,
+    "104292864": 1,
+    "207556454": 2,
+    "4961247": 1,
+    "182953211": 3,
+    "213101916": 1,
+    "228893483": 1,
+    "233476134": 1,
+    "237592992": 1,
+    "254616496": 1,
+    "261042683": 1,
+    "266879580": 1,
+    "267034389": 1,
+    "268831213": 1,
+    "272454288": 1,
+    "273784551": 1,
+    "555806": 1,
+    "4568402": 1,
+    "9255185": 1,
+    "12620679": 1,
+    "19233823": 1,
+    "38122372": 1,
+    "49311113": 1,
+    "55222115": 1,
+    "55972320": 1,
+    "108890446": 1,
+    "112136000": 1,
+    "154921757": 1,
+    "155066609": 1,
+    "159005556": 1,
+    "198478902": 1,
+    "222418956": 1,
+    "224900798": 1,
+    "1957433": 2,
+    "2762657": 1,
+    "33742869": 1,
+    "146808476": 1,
+    "198953378": 4,
+    "2407601": 1,
+    "9327892": 1,
+    "13029170": 1,
+    "16447573": 5,
+    "209073823": 1,
+    "216042147": 1,
+    "229680129": 1,
+    "231786331": 1,
+    "232234881": 1,
+    "235455342": 1,
+    "238772900": 1,
+    "253451633": 1,
+    "260840": 1,
+    "1595649": 1,
+    "6473756": 1,
+    "13402262": 1,
+    "15500867": 1,
+    "38468402": 1,
+    "43261268": 3,
+    "58708650": 1,
+    "59316881": 1,
+    "59634627": 1,
+    "165163597": 1,
+    "204091414": 1,
+    "209382386": 1,
+    "209907306": 1,
+    "209949672": 1,
+    "233243979": 1,
+    "1009397": 1,
+    "6628106": 3,
+    "52273103": 3,
+    "174799315": 3,
+    "251496240": 1,
+    "18463704": 2,
+    "67737421": 1,
+    "220884973": 1,
+    "215043": 1,
+    "740063": 1,
+    "3626819": 2,
+    "5782890": 1,
+    "14012633": 3,
+    "35058596": 2,
+    "67426382": 1,
+    "119297355": 1,
+    "158036236": 1,
+    "207847753": 1,
+    "212516914": 1,
+    "218489934": 2,
+    "262553219": 3,
+    "387208": 1,
+    "3051291": 1,
+    "3144218": 1,
+    "3292002": 1,
+    "4533146": 1,
+    "5959482": 6,
+    "6419793": 1,
+    "7697669": 1,
+    "7732372": 1,
+    "8399404": 1,
+    "12289712": 1,
+    "17341970": 1,
+    "69194991": 1,
+    "166228294": 1,
+    "196200412": 1,
+    "215882005": 1,
+    "216043471": 1,
+    "8394887": 1,
+    "9672033": 2,
+    "16136048": 1,
+    "31804187": 1,
+    "40100965": 2,
+    "52284222": 1,
+    "67864300": 1,
+    "207758666": 1,
+    "211532403": 1,
+    "277550631": 2,
+    "43859778": 1,
+    "220953870": 1,
+    "313952": 3,
+    "7449220": 3,
+    "12711052": 4,
+    "23750999": 1,
+    "29338123": 1,
+    "156004541": 1,
+    "1407274": 2,
+    "2125960": 1,
+    "4456086": 3,
+    "12577135": 1,
+    "5134972": 1,
+    "6725897": 1,
+    "8157622": 1,
+    "8486034": 2,
+    "14103933": 1,
+    "14187502": 1,
+    "18841612": 1,
+    "114396490": 1,
+    "154996364": 1,
+    "3641284": 1,
+    "7553535": 1,
+    "1642392": 1,
+    "18451567": 1,
+    "26341880": 1,
+    "29763249": 3,
+    "37424485": 1,
+    "46320871": 1,
+    "22998": 1,
+    "205163": 1,
+    "3397190": 1,
+    "4565108": 1,
+    "5937747": 1,
+    "7365231": 1,
+    "51578296": 2,
+    "67179900": 1,
+    "131988231": 1,
+    "203639485": 2,
+    "221593833": 1,
+    "235386502": 1,
+    "695217": 1,
+    "3116168": 1,
+    "10988962": 4,
+    "14587278": 1,
+    "15533714": 1,
+    "62403967": 1,
+    "64652083": 1,
+    "115288648": 1,
+    "116477453": 1,
+    "212756": 1,
+    "680295": 1,
+    "60713919": 1,
+    "1915014": 1,
+    "195348644": 1,
+    "8419226": 1,
+    "13927959": 1,
+    "17189853": 1,
+    "222322720": 1,
+    "244346093": 1,
+    "245697948": 1,
+    "261685991": 1,
+    "154444149": 1,
+    "205438988": 1,
+    "32800624": 1,
+    "34991896": 1,
+    "37779608": 2,
+    "2600314": 1,
+    "44339554": 1,
+    "52262525": 1,
+    "3648736": 1,
+    "5591459": 1,
+    "5909155": 1,
+    "17028914": 1,
+    "34404946": 1,
+    "214134213": 1,
+    "1479461": 1,
+    "7489485": 1,
+    "16025939": 1,
+    "64641472": 1,
+    "154037572": 1,
+    "215966761": 1,
+    "185413": 3,
+    "497031": 1,
+    "1891311": 1,
+    "3542573": 1,
+    "5156714": 1,
+    "5965390": 1,
+    "13546567": 1,
+    "14311264": 2,
+    "14534907": 1,
+    "14854253": 1,
+    "14972195": 1,
+    "14972283": 1,
+    "16147669": 2,
+    "16644750": 1,
+    "16810209": 2,
+    "18493939": 1,
+    "62218074": 1,
+    "1229321": 1,
+    "3252915": 1,
+    "7612539": 1,
+    "8802092": 2,
+    "10862030": 1,
+    "14753351": 1,
+    "16210722": 1,
+    "16279815": 1,
+    "16740761": 1,
+    "16803425": 1,
+    "18151324": 1,
+    "18337412": 1,
+    "32805873": 1,
+    "42343081": 1,
+    "54116525": 1,
+    "59881598": 1,
+    "62723298": 1,
+    "267853955": 1,
+    "14718266": 1,
+    "18397139": 1,
+    "114388067": 1,
+    "220444944": 1,
+    "254375866": 1,
+    "169268": 1,
+    "1307261": 1,
+    "1385016": 1,
+    "1486807": 1,
+    "2068066": 1,
+    "2119510": 1,
+    "2724227": 1,
+    "3363535": 1,
+    "7185758": 1,
+    "7293536": 1,
+    "10269743": 1,
+    "13183982": 1,
+    "13514893": 1,
+    "13916954": 1,
+    "14123572": 1,
+    "14148682": 1,
+    "14215145": 1,
+    "14443484": 1,
+    "16468576": 1,
+    "17755188": 1,
+    "18345205": 1,
+    "18596979": 1,
+    "20487815": 1,
+    "33391284": 1,
+    "33433994": 1,
+    "62174397": 1,
+    "62191434": 1,
+    "62217932": 1,
+    "62570235": 1,
+    "109342149": 1,
+    "111108875": 1,
+    "120323383": 1,
+    "207226010": 1,
+    "218592387": 2,
+    "522219": 1,
+    "869093": 1,
+    "1238927": 1,
+    "110408470": 1,
+    "112011152": 1,
+    "203626972": 1,
+    "204838007": 1,
+    "211574327": 1,
+    "229955249": 1,
+    "230435736": 1,
+    "233296858": 1,
+    "235166857": 1,
+    "280198324": 1,
+    "21864683": 1,
+    "27204330": 1,
+    "154980469": 1,
+    "12941012": 1,
+    "18295873": 1,
+    "154775533": 1,
+    "155400052": 1,
+    "158586458": 1,
+    "231718841": 1,
+    "237600744": 1,
+    "247996537": 1,
+    "1133021": 1,
+    "7725217": 1,
+    "16041292": 1,
+    "19306379": 1,
+    "207163413": 1,
+    "5262555": 1,
+    "25145605": 1,
+    "195710767": 1,
+    "18465199": 1,
+    "267804819": 1,
+    "17081177": 1
+  },
+  "merged_dataset_groups": [
+    {
+      "display_name": "USPTO-2M",
+      "normalized_name": "uspto2m",
+      "name_variants": [
+        "USPTO-2M"
+      ],
+      "mention_count": 8,
+      "cited_papers_count": 8,
+      "topic_summary": "The USPTO-2M dataset is primarily used for patent classification research, focusing on improving subclass-level accuracy through supervised learning. It is employed to fine-tune models like BERT, XLNet, and RoBERTa for multi-label classification, enhancing language understanding in the patent domain. The dataset supports the evaluation of hierarchical feature extraction, impact of patent sections, and word counts on classification performance. It also serves as a large-scale benchmark for training and evaluating models, including keyword extraction algorithms, and facilitates intellectual property retrieval tasks."
+    },
+    {
+      "display_name": "CLEF-IP",
+      "normalized_name": "clefip",
+      "name_variants": [
+        "CLEF-IP",
+        "CLEF-IP data sets"
+      ],
+      "mention_count": 5,
+      "cited_papers_count": 5,
+      "topic_summary": "The CLEF-IP dataset is used for training and evaluating patent classification models, focusing on the performance and accuracy of NLP techniques in classifying patents from the United States Patent and Trademark Office. It supports linguistic experiments and enhances model robustness through supervised learning, particularly in English and German. The dataset provides large-scale, realistic patent data for developing and evaluating classification systems, enabling researchers to conduct comprehensive evaluations and improve classification accuracy."
+    },
+    {
+      "display_name": "CLEF-IP 2011",
+      "normalized_name": "clefip2011",
+      "name_variants": [
+        "CLEF-IP 2011"
+      ],
+      "mention_count": 3,
+      "cited_papers_count": 2,
+      "topic_summary": "The CLEF-IP 2011 dataset is primarily used for training and evaluating NLP models in the intellectual property domain, focusing on patent classification and information retrieval tasks. It supports research in extracting and encoding text from patent titles and abstracts, as well as abstractive summarization. Studies highlight its limitations in scope and coverage, making it useful for assessing the performance and limitations of patent classification systems."
+    },
+    {
+      "display_name": "Patentsview",
+      "normalized_name": "patentsview",
+      "name_variants": [
+        "Patentsview"
+      ],
+      "mention_count": 3,
+      "cited_papers_count": 3,
+      "topic_summary": "The Patentsview dataset is utilized in research to extract and analyze patent data, particularly abstracts and claims, for training and evaluating machine learning models. It supports the development of classification models using deep learning techniques like CNN, Bi-LSTM, and BiLSTM-ATT-CRF. The dataset also aids in predicting patent maintenance periods and analyzing investor reactions through various machine learning approaches, including ANN and MLP."
+    },
+    {
+      "display_name": "WIPO-alpha",
+      "normalized_name": "wipoalpha",
+      "name_variants": [
+        "WIPO-alpha",
+        "Wipo-Alpha"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The WIPO-alpha dataset is used to evaluate the performance of classifiers in patent categorization, specifically focusing on improving micro-F1 scores through ensemble methods and optimizing neural networks for higher accuracy. This dataset enables researchers to benchmark and refine machine learning models for more effective patent classification."
+    },
+    {
+      "display_name": "OECD quality indicators",
+      "normalized_name": "oecdqualityindicators",
+      "name_variants": [
+        "OECD quality indicators"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The OECD quality indicators dataset is used to evaluate the assessment of patent value using textual data. It provides quality metrics that enhance the evaluation process, focusing on the accuracy and reliability of patent valuation methods. This dataset enables researchers to refine and validate their models by offering standardized quality measures."
+    },
+    {
+      "display_name": "corpus of 5 million patent documents",
+      "normalized_name": "of5millionpatentdocuments",
+      "name_variants": [
+        "corpus of 5 million patent documents"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The corpus of 5 million patent documents is used to train fastText word embeddings, focusing on domain-specific language to improve patent classification accuracy using Bi-GRU models. It is also used to evaluate the precision of early works in patent classification, highlighting the impact of domain-specific word embeddings on model performance. This dataset enables researchers to enhance the accuracy and reliability of patent classification systems through advanced natural language processing techniques."
+    },
+    {
+      "display_name": "Indonesian Patent Database",
+      "normalized_name": "indonesianpatentdatabase",
+      "name_variants": [
+        "Indonesian Patent Database"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The Indonesian Patent Database is used to integrate region-specific innovations with global patent data, enhancing the capture of local innovation trends. It is also employed to improve the comprehensive coverage of patent information by combining global and local databases. This integration supports research focused on understanding and analyzing local innovation dynamics within a broader global context."
+    },
+    {
+      "display_name": "CLEF-IP 2010",
+      "normalized_name": "clefip2010",
+      "name_variants": [
+        "CLEF-IP 2010"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The CLEF-IP 2010 dataset is used to evaluate patent classification performance, focusing on micro-F1 and micro-precision metrics. It involves a subset of 532,264 English abstracts, enabling researchers to assess the accuracy and precision of classification models in the context of patent documents. This dataset facilitates the development and testing of natural language processing techniques tailored for patent classification tasks."
+    },
+    {
+      "display_name": "gold standard data",
+      "normalized_name": "goldstandard",
+      "name_variants": [
+        "gold standard data"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The 'gold standard data' dataset is used in patent classification NLP research to perform UMAP dimensional reduction on CPC class codes. This methodology helps visualize and illustrate potential causes and patterns in patent classification, enabling researchers to better understand the underlying structures and relationships within the data."
+    },
+    {
+      "display_name": "1948 patent documents from United States Patent Classification (USPC) 360/324",
+      "normalized_name": "1948patentdocumentsfromunitedstatespatentclassification360324",
+      "name_variants": [
+        "1948 patent documents from United States Patent Classification (USPC) 360/324"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The dataset of 1948 patent documents from USPC 360/324 is used to train a two-layered feed-forward neural network for patent classification. This approach focuses specifically on documents within the 360/324 classification, enabling researchers to develop and refine machine learning models for accurate patent categorization."
+    },
+    {
+      "display_name": "M-patent dataset",
+      "normalized_name": "mpatent",
+      "name_variants": [
+        "M-patent dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The M-patent dataset is used to train and evaluate neural network models for patent classification in natural language processing (NLP). Researchers apply early stopping techniques to prevent over-fitting during the training process, ensuring the models generalize well to new data. This dataset enables robust model development and evaluation, facilitating advancements in automated patent classification."
+    },
+    {
+      "display_name": "WIPO datasets",
+      "normalized_name": "wipo",
+      "name_variants": [
+        "WIPO datasets"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The WIPO datasets are specifically used for experimentation in patent classification, employing kernel classifier methods that account for the hierarchical structure of patents. These datasets enable researchers to develop and test classification models that accurately categorize patents within complex, multi-level classification systems."
+    },
+    {
+      "display_name": "Cooperative Patent Classification",
+      "normalized_name": "cooperativepatentclassification",
+      "name_variants": [
+        "Cooperative Patent Classification"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Cooperative Patent Classification dataset is used to organize patents into a hierarchical scheme, facilitating multi-label classification in the patent domain. It enhances the hierarchical organization of patents, supporting deep learning-based language understanding and improving the accuracy of classification tasks. This dataset enables researchers to develop and refine models that can effectively categorize patents, thereby enhancing the efficiency and precision of patent management and analysis."
+    },
+    {
+      "display_name": "U.S. Patent Classification (USPC)",
+      "normalized_name": "uspatentclassificationuspc",
+      "name_variants": [
+        "U.S. Patent Classification (USPC)"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The U.S. Patent Classification (USPC) dataset is used for technology class assignments in patent classification, providing a structured and hierarchical system to categorize patents by technological areas. It serves as a global standard, enabling detailed and harmonized classification compared to other systems like IPC. This dataset facilitates research in organizing and analyzing patent data, enhancing the accuracy and consistency of technology categorization."
+    },
+    {
+      "display_name": "CPC’s IPC classification",
+      "normalized_name": "cpcsipcclassification",
+      "name_variants": [
+        "CPC’s IPC classification"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The CPC’s IPC classification dataset is used to predict International Patent Classification (IPC) codes for patent documents. Research focuses on leveraging the hierarchical structure of the classification system using neural networks. This enables more accurate and automated classification of patents, enhancing the efficiency and precision of patent categorization processes."
+    },
+    {
+      "display_name": "HUPD",
+      "normalized_name": "hupd",
+      "name_variants": [
+        "HUPD"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The HUPD dataset is used to support patent classification tasks and to evaluate the prediction of patentability from claim text or abstracts. It is characterized as large-scale, well-structured, and multi-purpose, enabling researchers to develop and test models for classifying and assessing patent applications."
+    },
+    {
+      "display_name": "USPTO patents",
+      "normalized_name": "usptopatents",
+      "name_variants": [
+        "USPTO patents"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The USPTO patents dataset is used for part-of-speech tagging, focusing on linguistic analysis of patent classification. Researchers employ specific NLP methodologies to analyze the linguistic structure of patent texts, enabling detailed examination of terminology and classification systems within patents. This approach aids in understanding and improving the accuracy of patent classification through computational linguistics."
+    },
+    {
+      "display_name": "English WIPO-alpha collection",
+      "normalized_name": "englishwipoalphacollection",
+      "name_variants": [
+        "English WIPO-alpha collection"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The English WIPO-alpha collection is used to evaluate the effectiveness of a patent classification model on a smaller scale, containing 75,250 patent documents. This dataset enables researchers to test and validate their models in a controlled environment, focusing on the accuracy and performance of classification algorithms."
+    },
+    {
+      "display_name": "BigPatent 2",
+      "normalized_name": "bigpatent2",
+      "name_variants": [
+        "BigPatent 2"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The BigPatent 2 dataset is used for abstractive and coherent summarization of patent texts, processing over 1.3 million documents. It focuses on generating concise and accurate summaries, enabling researchers to efficiently extract key information from extensive patent literature. This dataset facilitates natural language processing (NLP) techniques aimed at improving the clarity and brevity of patent document summaries."
+    },
+    {
+      "display_name": "dataset containing 1.5 million patent claims annotated with patent class 1",
+      "normalized_name": "containing15millionpatentclaimsannotatedwithpatentclass1",
+      "name_variants": [
+        "dataset containing 1.5 million patent claims annotated with patent class 1"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The dataset containing 1.5 million patent claims annotated with patent class 1 is used to conduct experiments on patent classification, specifically focusing on the accuracy of classifying patent claims into specific classes. Researchers employ a deep NLP-based hybrid model to enhance classification precision, leveraging the large volume and annotated nature of the dataset to train and validate their models. This approach addresses the research question of improving the accuracy of patent claim classification."
+    },
+    {
+      "display_name": "a dataset created from patent information",
+      "normalized_name": "a",
+      "name_variants": [
+        "a dataset created from patent information"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The dataset created from patent information is used to train Continuous Bag-of-Words (CBoW) and GloVe models for text classification, specifically focusing on enhancing word representation in patent documents. This approach aids in improving the accuracy of text classification tasks within the domain of patent documents, leveraging the unique vocabulary and technical language found in patents."
+    },
+    {
+      "display_name": "USPTO bulk data",
+      "normalized_name": "usptobulk",
+      "name_variants": [
+        "USPTO bulk data"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The USPTO bulk data is used to create a benchmark dataset for patent classification, specifically employing convolutional neural networks and word embedding techniques. This dataset enables researchers to develop and evaluate models for classifying patents, focusing on improving the accuracy and efficiency of automated classification systems."
+    },
+    {
+      "display_name": "USPTO 2M 2006∼2014",
+      "normalized_name": "uspto2m20062014",
+      "name_variants": [
+        "USPTO 2M 2006∼2014"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The USPTO 2M 2006∼2014 dataset is primarily used for training and evaluating machine learning models, particularly BERT-based models, for patent classification. It focuses on sub-class labels and IPC codes, using titles, abstracts, and claim data from 2 million patents. The dataset enables researchers to compare and improve the performance of different models, demonstrating robustness and outperformance over state-of-the-art methods."
+    },
+    {
+      "display_name": "CITATION-IP 2011",
+      "normalized_name": "citationip2011",
+      "name_variants": [
+        "CITATION-IP 2011"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The CITATION-IP 2011 dataset is primarily used for abstractive summarization of patent documents, ensuring coherence and relevance in generated summaries. It is employed to train and evaluate NLP models for generating coherent abstracts from patent descriptions and to assess model performance in information retrieval and classification tasks. The dataset's large scale and focus on patent text make it suitable for comparing summarization techniques and evaluating NLP models in patent-related applications."
+    },
+    {
+      "display_name": "USPTO Patent Examination Research Datasets",
+      "normalized_name": "usptopatentexaminationresearchdatasets",
+      "name_variants": [
+        "USPTO Patent Examination Research Datasets"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The USPTO Patent Examination Research Datasets are utilized to extract filing metadata such as acceptance decisions, filing dates, titles, and classification information. Researchers employ these datasets to conduct empirical analyses focused on patent examination processes. The datasets enable detailed investigations into the temporal and categorical aspects of patent filings, supporting research questions related to examination outcomes and procedural timelines."
+    },
+    {
+      "display_name": "PatentNet",
+      "normalized_name": "patentnet",
+      "name_variants": [
+        "PatentNet"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "PatentNet is primarily used for multi-label classification of patent documents, focusing on IPC classification, titles, and abstracts from USPTO patents (2006-2014). It is employed to train and evaluate deep learning models for enhancing language understanding in technical and legal contexts, with testing often conducted on 2015 data. The dataset supports pre-training language models and improving classification accuracy in patent document analysis."
+    },
+    {
+      "display_name": "WikiBio",
+      "normalized_name": "wikibio",
+      "name_variants": [
+        "WikiBio"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The WikiBio dataset is used for patent classification NLP tasks, focusing on table-to-text generation and question-answering. It leverages the dataset's structured data and textual content to enhance these tasks, enabling researchers to develop and evaluate models that can effectively convert tabular data into coherent text and answer questions accurately."
+    },
+    {
+      "display_name": "C4",
+      "normalized_name": "c4",
+      "name_variants": [
+        "C4"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The dataset 'C4' is mentioned in the citation context but lacks detailed descriptions of its usage, methodology, research questions, or specific characteristics. Therefore, there is insufficient evidence to provide a comprehensive synthesis of how this dataset is actually used in research."
+    },
+    {
+      "display_name": "IFI CLAIMS Patent Services",
+      "normalized_name": "ificlaimspatentservices",
+      "name_variants": [
+        "IFI CLAIMS Patent Services"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The IFI CLAIMS Patent Services dataset is used to access and analyze bibliographic and full-text content from millions of US and international patent documents. It supports comprehensive patent research and analysis, enabling researchers to conduct detailed studies on patent trends, technological developments, and intellectual property landscapes. The dataset's extensive coverage of over 90 million documents from 17 countries facilitates robust and diverse research methodologies, enhancing the accuracy and depth of patent-related studies."
+    },
+    {
+      "display_name": "699,000 patents",
+      "normalized_name": "699000patents",
+      "name_variants": [
+        "699,000 patents"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The '699,000 patents' dataset is used to train and test patent classification models, specifically focusing on IPC subclass level classification. Researchers employ a 70/30 training/testing data split to evaluate model performance. This dataset enables the development and validation of natural language processing techniques for patent classification, enhancing the accuracy and efficiency of categorizing patents into specific subclasses."
+    },
+    {
+      "display_name": "EPO corpus",
+      "normalized_name": "epo",
+      "name_variants": [
+        "EPO corpus"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The EPO corpus is used to evaluate SVM-based models for patent classification, specifically focusing on the performance of combined handcrafted similarity and semantic features. This dataset enables researchers to assess the effectiveness of these feature combinations in classifying patents, contributing to the development of more accurate and robust classification systems."
+    },
+    {
+      "display_name": "Patent classification dataset (He & Loh, 2007)",
+      "normalized_name": "patentclassification",
+      "name_variants": [
+        "Patent classification dataset (He & Loh, 2007)"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Patent classification dataset (He & Loh, 2007) is used to facilitate automatic patent classification by selecting the seven largest classes that address 20 of the 40 TRIZ Inventive Principles. This selection process aids in enhancing the accuracy and efficiency of patent classification systems, leveraging the dataset's structured class distribution and relevance to TRIZ principles."
+    }
+  ]
+}

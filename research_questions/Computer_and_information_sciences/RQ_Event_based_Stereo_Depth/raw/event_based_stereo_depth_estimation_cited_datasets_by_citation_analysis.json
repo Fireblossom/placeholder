@@ -1,0 +1,3250 @@
+{
+  "summary": {
+    "total_unique_datasets": 37,
+    "total_dataset_mentions": 82,
+    "unique_dataset_names": 37,
+    "extraction_successful": 175,
+    "extraction_failed": 1476,
+    "unique_contexts_processed": 1317,
+    "total_citation_instances": 1651,
+    "total_processing_time": 76.94846320152283
+  },
+  "datasets_sorted_by_citation_count": [
+    {
+      "cited_paper_id": "250127779",
+      "citation_count": 0,
+      "total_dataset_mentions": 15,
+      "unique_datasets": [
+        "MVSEC"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to compare the proposed method with previous event-only and event-image fusion methods, focusing on performance metrics in event-based stereo depth estimation.",
+          "citing_paper_id": "274611240",
+          "cited_paper_id": 253513043,
+          "context_text": "Table 1 presents a comparison of our proposed method with previous event-only methods [1, 9, 29, 35] and event-image fusion methods [6,7,22] on the MVSEC dataset.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the MVSEC dataset, which is a specific dataset used for evaluating event-based stereo depth estimation methods.",
+          "citing_paper_doi": "10.1007/978-3-031-73464-9_12",
+          "cited_paper_doi": "10.1007/978-3-031-19824-3_28",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/f65e532bfd38d63fd902f20d78b7198eb1620612",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3a522614e9d3ce79f8ecc06981a445c5e3482c0d",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2022
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to normalize ground truth images for event-based stereo depth estimation, focusing on 3D perception with a maximum LiDAR range of 100m. | Used to train and evaluate ALED for event-based stereo depth estimation, providing a benchmark for comparison with other approaches in the literature. | Used for low-resolution camera testing, but its ground truth construction using LiDAR introduces errors for moving objects, affecting depth estimation accuracy.",
+          "citing_paper_id": "257232560",
+          "cited_paper_id": 3416874,
+          "context_text": "On the MVSEC Dataset In order to be able to compare our results with the other approaches in the literature, we also train and evaluate ALED on the MVSEC dataset [43].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the MVSEC dataset, which is a specific, verifiable dataset used for training and evaluation in the context of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.48550/arXiv.2302.14444",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/76b04bb80a02a1c67b3428d0ee81d5e4b4376bf0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to evaluate and compare the performance of the proposed method against previous approaches in event-based stereo depth estimation.",
+          "citing_paper_id": "223957202",
+          "cited_paper_id": 56475917,
+          "context_text": "In this section, we present qualitative and quantitative results and compare them with previous methods [40] on the MVSEC dataset.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the MVSEC dataset, which is a specific dataset used for event-based vision research, including depth estimation.",
+          "citing_paper_doi": "10.1109/3DV50981.2020.00063",
+          "cited_paper_doi": "10.1109/CVPR.2019.00108",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/679927ae340dbf5415adf98ea39c88f2e4fdae64",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e2d75694a7a1b6ee6d6f30885bfd1d8466ba105e",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to evaluate multi-sensor SLAM techniques, specifically comparing event-based and image-based methods for depth estimation. | Used to evaluate multi-sensor SLAM performance, providing a versatile benchmark for event-centric methods. | Used to select a specific sequence from the dataset for experiments in the indoor flying room, focusing on 3D perception with event cameras. | Used to evaluate the ESVIO method for event-based stereo depth estimation, focusing on 3D perception tasks with event cameras. | Used to compare event-based and image-based methods for stereo depth estimation, focusing on 3D perception tasks. | Used to compare event-based and image-based stereo depth estimation methods, focusing on 3D perception accuracy and robustness.",
+          "citing_paper_id": "255125395",
+          "cited_paper_id": 3416874,
+          "context_text": "What’s more, as can be seen from the video record of the evaluation using our ESVIO (take the school-scooter 3 in Vector and indoor flying 1 4 in MVSEC [7] as examples).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions 'MVSEC' which is a dataset used for 3D perception with event cameras. The context indicates it is used for evaluating the ESVIO method.",
+          "citing_paper_doi": "10.1109/LRA.2023.3269950",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/4cbfb14893349755e865525156e190882cfe5306",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "The dataset is used for event-based stereo depth estimation, providing synchronized data from stereo event cameras, standard cameras, RGB-D sensors, LiDAR, and IMU. | Used to evaluate multi-sensor SLAM techniques, specifically comparing event-based and image-based methods for depth estimation. | Used to evaluate multi-sensor SLAM performance, providing a versatile benchmark for event-centric methods. | Used to compare event-based and image-based methods for stereo depth estimation, focusing on 3D perception tasks. | Used to compare event-based and image-based stereo depth estimation methods, focusing on 3D perception accuracy and robustness. | Used to evaluate event-based stereo depth estimation methods, providing synchronized data from stereo event cameras, standard cameras, RGB-D sensors, LiDAR, and IMU.",
+          "citing_paper_id": "255125395",
+          "cited_paper_id": 250127779,
+          "context_text": "In Section IV-B, we compare our methods with other event-based and image-based methods on two publicly available datasets: MVSEC [23] and VECtor [24].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions two specific datasets, MVSEC and VECtor, which are relevant to the research topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/LRA.2023.3269950",
+          "cited_paper_doi": "10.1109/LRA.2022.3186770",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/4cbfb14893349755e865525156e190882cfe5306",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/7a36007c80a655cb487e3096a09dab20ca2f2bb6",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2022
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to report the percentage of outliers in depth estimation, focusing on error metrics for event-based stereo depth estimation. | Used to evaluate self-supervised learning algorithms for optical flow estimation in event-based cameras, focusing on the performance and accuracy of the proposed method.",
+          "citing_paper_id": "226298400",
+          "cited_paper_id": 3396150,
+          "context_text": "[27] released the MVSEC dataset [25] and proposed self-supervised learning algorithm to estimate optical flow.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions the MVSEC dataset, which is a specific, verifiable dataset used in the context of event-based cameras and optical flow estimation.",
+          "citing_paper_doi": "10.1109/IROS45743.2020.9341224",
+          "cited_paper_doi": "10.15607/RSS.2018.XIV.062",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/34eda595d7ff948deea496da6fb89e7dfa23231c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/769ee0718f473e826f243812006011cf837a29db",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to evaluate the proposed method for event-based stereo depth estimation, focusing on 3D perception tasks with event camera data. | Used to evaluate the proposed method for event-based stereo depth estimation, providing additional validation with diverse event camera data. | Used to train, validate, and test the proposed unsupervised event stereo method, focusing on 3D perception tasks using dynamic and event-based camera data. | Used to train, validate, and test the proposed unsupervised event stereo method, focusing on 3D perception tasks using event camera data.",
+          "citing_paper_id": "250374739",
+          "cited_paper_id": 3416874,
+          "context_text": "The proposed method has been evaluated using the publicly available multi-vehicle stereo event camera (MVSEC) dataset [22] and DSEC dataset [60].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific datasets, MVSEC and DSEC, which are used for evaluating the proposed method in the context of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/TCSVT.2022.3189480",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/07d1ac4049afa1ff05ea9a2f3f4c4cfd0741ce28",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to train and validate a frame-based model for stereo depth estimation, focusing on intensity images (APS) to achieve optimal performance.",
+          "citing_paper_id": "253513043",
+          "cited_paper_id": 4252896,
+          "context_text": "Therefore, we train the frame-based model [12,6] using intensity images (APS) from the MVSEC dataset and select the models with the best performance in the validation until convergence.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the MVSEC dataset, which is a specific dataset used for training and validating a frame-based model for stereo depth estimation.",
+          "citing_paper_doi": "10.1007/978-3-031-19824-3_28",
+          "cited_paper_doi": "10.1109/CVPR.2018.00567",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3a522614e9d3ce79f8ecc06981a445c5e3482c0d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/316b1b9d96149e7bb3d9d6afc0295881c6123cc8",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to compare results of event-based stereo depth estimation with frame-based and monocular event-based methods, focusing on performance metrics and consistency.",
+          "citing_paper_id": "246656358",
+          "cited_paper_id": 206596513,
+          "context_text": "The results from the MVSEC dataset are compared with frame-based state-of-the-art methods [61,62], and with another monocular event-based method [58].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions the MVSEC dataset, which is a specific, verifiable dataset used for comparing results with other methods.",
+          "citing_paper_doi": "10.3390/s22031201",
+          "cited_paper_doi": "10.1109/CVPR.2017.699",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e359c5ff23266a5f6c6409c7076ce55245c76206",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/4463dc4a32b948f0230f3b782cbfecaf1c9e5b1d",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2016
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to provide camera velocities and ground truth optical flow for sequences, supporting self-supervised optical flow estimation for event-based cameras.",
+          "citing_paper_id": "4412139",
+          "cited_paper_id": 3396150,
+          "context_text": "We used the camera velocities provided in the dataset from [21], which were generated by linear interpolation of the lidar odometry poses provided from MVSEC, and are provided in addition to ground truth optical flow for the sequences in the dataset.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions using camera velocities from a dataset, which includes ground truth optical flow for sequences. The dataset is associated with MVSEC, which is a known event-based vision dataset.",
+          "citing_paper_doi": "10.1007/978-3-030-01231-1_27",
+          "cited_paper_doi": "10.15607/RSS.2018.XIV.062",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c8f17bf12b034b28b4ed0c1cbb6904d36a9e41f0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/769ee0718f473e826f243812006011cf837a29db",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to evaluate event-based stereo depth estimation methods, leveraging its rich sensor setup including event cameras and stereo cameras with IMUs.",
+          "citing_paper_id": "250127779",
+          "cited_paper_id": 3416874,
+          "context_text": "MVSEC [13] is considered as the ﬁrst modern cross-modal dataset given its rich sensor setup of a pair of DAVIS m346B sensors (346 × 260, events and APS frames, six-axis built-in IMU, about 10cm baseline), a VI-Sensor that includes a stereo camera (about 10cm baseline) and an in-built nine-axis IMU,…",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions MVSEC as a dataset with a rich sensor setup, including event cameras and stereo cameras, which is directly relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/LRA.2022.3186770",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/7a36007c80a655cb487e3096a09dab20ca2f2bb6",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to highlight limitations in event-based stereo algorithms, specifically the low resolution of the DAVIS346 cameras, impacting 3D perception accuracy. | Used to evaluate event-based stereo depth estimation methods in driving scenarios, providing a unique dataset with stereo event cameras. | Used for 3D perception tasks, specifically comparing LIDAR sensor data with event camera data to enhance depth estimation. | Used to evaluate event-based stereo depth estimation methods, providing event camera data for 3D perception tasks. | Referenced for baseline comparison, providing context for the sensor setup and resolution improvements in the new dataset. | Used to provide a stereo camera setup for 3D perception, specifically for event-based stereo depth estimation, enhancing the evaluation of algorithms in dynamic environments. | Used to train stereo methods for 3D perception, focusing on the generalization of these methods to event-based cameras. The dataset highlights the need for retraining to achieve acceptable performance. | Used to highlight limitations in camera resolution and baseline for 3D perception tasks, specifically addressing these issues in the current research. | Used to compare with the new dataset, focusing on event camera data for 3D perception tasks, highlighting differences in resolution and sensor type.",
+          "citing_paper_id": "232170230",
+          "cited_paper_id": 3416874,
+          "context_text": "To the best of our knowledge, MVSEC [2] is the only dataset with a stereo event camera in driving scenarios.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions MVSEC as the only dataset with a stereo event camera in driving scenarios, which is directly relevant to the research topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/LRA.2021.3068942",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to evaluate the method on optical flow estimation for event-based cameras, providing sequences for benchmarking against prior works. | Used to evaluate the accuracy of the proposed tile-based method against state-of-the-art methods, including supervised-learning approaches, in event-based stereo depth estimation.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": 3396150,
+          "context_text": "Datasets: First, we evaluate our method on sequences from the MVSEC dataset [4], [34], which is the de facto standard dataset used by prior works to benchmark optical ﬂow.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The MVSEC dataset is explicitly mentioned and used for evaluating the method on optical flow estimation for event-based cameras.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": "10.15607/RSS.2018.XIV.062",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/769ee0718f473e826f243812006011cf837a29db",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to evaluate the method on optical flow estimation for event-based cameras, providing sequences for benchmarking against prior works.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": null,
+          "context_text": "Datasets: First, we evaluate our method on sequences from the MVSEC dataset [4], [34], which is the de facto standard dataset used by prior works to benchmark optical ﬂow.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The MVSEC dataset is explicitly mentioned and used for evaluating the method on optical flow estimation for event-based cameras.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": null,
+          "citing_paper_year": 2024,
+          "cited_paper_year": null
+        },
+        {
+          "dataset_name": "MVSEC",
+          "dataset_description": "Used to evaluate the model's performance in 3D perception tasks, focusing on stereo event camera data. | Used for preprocessing and splitting in event-based stereo depth estimation, focusing on indoor flying scenarios with event cameras. | Used to evaluate event-based stereo matching methods, focusing on criteria such as accuracy and efficiency in 3D perception tasks. | Used for preprocessing and splitting in event-based stereo depth estimation, providing a multivehicle stereo event camera dataset for 3D perception. | Used to assess the model's effectiveness in depth estimation, specifically with dynamic and static scenes captured by event cameras. | Used to evaluate event-based stereo matching methods, focusing on 3D perception tasks with event camera data. | Used to conduct experiments on event-based stereo depth estimation, leveraging depth information from LIDAR and event streams from two event cameras with 20 Hz intensity images. | Used for streaming experiments in dense disparity estimation, focusing on 3D perception with event cameras.",
+          "citing_paper_id": "250602271",
+          "cited_paper_id": 3416874,
+          "context_text": "To our best knowledge, our models are the first to perform streaming experiments for dense disparity estimation on the MVSEC dataset.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions the MVSEC dataset, which is a specific dataset used for 3D perception with event cameras. The context indicates it is used for dense disparity estimation in streaming experiments.",
+          "citing_paper_doi": "10.1109/CVPR52688.2022.00848",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3155407163c4fbbafeaa963b1742dd4710b09375",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "3416874",
+      "citation_count": 0,
+      "total_dataset_mentions": 7,
+      "unique_datasets": [
+        "DSEC"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DSEC",
+          "dataset_description": "Used to evaluate dense optical flow from event cameras, providing ground truth flow for validation in event-based stereo depth estimation. | Used to train and evaluate DNN methods for event-based stereo depth estimation, focusing on forward driving motion scenarios.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": 239049376,
+          "context_text": "Notice that both DNN methods [44], [59] train and evaluate on the DSEC dataset, which is dominantly forward driving motion.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the DSEC dataset, which is used for training and evaluating DNN methods focused on event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": "10.1109/3DV53792.2021.00030",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/49cc433d754e0c1bbc00e6d4bb11a1e894210482",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2021
+        },
+        {
+          "dataset_name": "DSEC",
+          "dataset_description": "Used for quantitative evaluation of stereo depth estimation methods, providing ground truth depth for driving scenarios to assess 3D reconstruction accuracy. | Used to evaluate event-based stereo depth estimation methods in driving scenarios, providing high-resolution and high-dynamic range data. | Used to test event-based stereo depth estimation methods in driving scenarios, addressing the limitations of small stereo baselines in other datasets. | Used to evaluate the proposed method on driving scenarios, focusing on event camera data for driving scenarios. | Used to test sensor resolutions in event-based stereo depth estimation, focusing on 320x240, 640x480, and 1280x960 pixel resolutions. | Used to evaluate event-based stereo depth estimation methods at 346x260 resolution, focusing on dynamic scenes and high temporal resolution. | Used to assess the benefits of stereo in event-based depth estimation, emphasizing faster convergence and higher accuracy in various indoor and outdoor environments. | Used to evaluate event-based stereo depth estimation methods at higher resolutions, focusing on indoor and outdoor environments. | Used to evaluate stereo methods in driving scenarios, focusing on event-based camera data to improve depth estimation accuracy. | Used to compare the performance of the proposed method with ESVO, focusing on stereo event camera data for driving scenarios. | Used to evaluate stereo depth estimation methods in driving scenarios, providing event camera data for algorithm testing and validation. | Used to evaluate the method on high-resolution stereo event camera data for driving scenarios, focusing on performance and accuracy in depth estimation. | Used for calibrating event-based cameras in various indoor and outdoor environments, focusing on converting events to frames for calibration. | Used to evaluate stereo event camera performance in driving scenarios, highlighting improvements in accuracy and outlier rejection compared to monocular methods. | Used for calibrating event-based cameras in driving scenarios, specifically for event-based stereo depth estimation by converting events to frames. | Used to compare ground truth depth sparsity, focusing on stereo event camera data for driving scenarios. | Used to compare ground truth depth sparsity with MVSEC, focusing on stereo event camera data for driving scenarios. | Used to demonstrate the advantages of stereo over monocular methods in event-based depth estimation, focusing on aspects such as accuracy and convergence speed. | Used to evaluate the proposed method on driving sequences with a 60 cm baseline, focusing on stereo depth estimation using event cameras. | Used to evaluate the performance of the proposed method against ESVO, emphasizing the robustness across different spatial resolutions. | Used to evaluate the method on high-resolution visual-inertial odometry data, focusing on performance and sensitivity to camera spatial resolution. | Used to evaluate the proposed method's performance with ground truth depth, focusing on event-based stereo depth estimation. | Used for calibrating event-based cameras in event-based stereo depth estimation, focusing on converting events to frames for calibration. | Used for quantitative assessment of 3D reconstruction methods, providing ground truth depth for evaluating event-based stereo depth estimation algorithms. | Used to evaluate stereo depth estimation algorithms in driving scenarios, providing event-based data from a Prophesee Gen3 sensor. | Used to test sensor resolutions in event-based stereo depth estimation for driving scenarios, focusing on 320x240, 640x480, and 1280x960 pixel resolutions. | Used to record sequences with event cameras on a car driving through Zurich’s surroundings, focusing on stereo depth estimation in dynamic environments.",
+          "citing_paper_id": "250918780",
+          "cited_paper_id": 232170230,
+          "context_text": "Then, we evaluate on higher resolution data: driving dataset DSEC (Section 4.5), 1Mpixel VIO dataset TUMVIE (Section 4.6), and analyze the sensitivity with respect to the camera’s spatial resolution (Section 4.7).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions two specific datasets, DSEC and TUMVIE, which are used for evaluating the performance of the method on higher resolution data and analyzing sensitivity to camera spatial resolution.",
+          "citing_paper_doi": "10.1002/aisy.202200221",
+          "cited_paper_doi": "10.1109/LRA.2021.3068942",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b1b6e212485aefae11dbfd87abe28fd646eb85da",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        },
+        {
+          "dataset_name": "DSEC",
+          "dataset_description": "Used for urban and suburban driving scenarios with 11 classes, focusing on event-based stereo depth estimation. | Used to evaluate E-RAFT's performance in stereo depth estimation for driving scenarios, providing event camera data for benchmarking. | Used for indoor and outdoor helmet and handheld scenarios with grayscale images, focusing on event-based visual-inertial odometry. | Used for indoor and outdoor helmet and cart scenarios, focusing on multi-sensor SLAM and event-based depth estimation. | Used to provide ground-truth pose and depth with corresponding events for driving scenarios, enabling evaluation of event-based stereo depth estimation methods. | Used for car and motorcycle urban scenarios with grayscale images, focusing on event-based visual odometry and SLAM. | Used to obtain flow evaluation metrics for driving scenarios, specifically the percentage of groundtruth pixels with optical flow magnitude error > N. | Used for forest and urban quadroped scenarios with 11 classes, focusing on event-based stereo depth estimation and 3D instance segmentation. | Used for urban driving scenarios with semantic labels, focusing on event-based stereo depth estimation and scene understanding. | Used for indoor hand-held experiments with grayscale images, focusing on event-based stereo depth estimation.",
+          "citing_paper_id": "259380779",
+          "cited_paper_id": 232170230,
+          "context_text": "E-RAFT demonstrated state-of-the-art performance on the DSEC [9] dataset.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "DSEC is explicitly mentioned as a dataset used to evaluate E-RAFT's performance in driving scenarios.",
+          "citing_paper_doi": "10.1109/CVPRW59228.2023.00419",
+          "cited_paper_doi": "10.1109/LRA.2021.3068942",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6abfefca29a9df4115c9d50b244a2f24523a8502",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2021
+        },
+        {
+          "dataset_name": "DSEC",
+          "dataset_description": "Used to evaluate event-based stereo depth estimation methods, providing synchronized event and intensity data for 3D perception tasks.",
+          "citing_paper_id": "237142365",
+          "cited_paper_id": 3416874,
+          "context_text": "[12] as well as the recent dataset DSEC by Gehrig et al.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'DSEC' which is a specific dataset name. The cited paper title confirms it is a dataset for 3D perception, relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/IROS51168.2021.9636728",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a6f7dc28116139475384eb9771c41d1470a493cb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "DSEC",
+          "dataset_description": "Used to evaluate event-based stereo depth estimation methods in driving scenarios, focusing on the challenges posed by forward motion and sparse event generation at the image center. | Used to provide stereo event camera data for driving scenarios, focusing on depth estimation and event-based vision algorithms in dynamic environments. | Used to evaluate the performance of event-based stereo depth estimation methods, focusing on tracking performance in driving scenarios without ground truth 6-DoF poses.",
+          "citing_paper_id": "255125395",
+          "cited_paper_id": 232170230,
+          "context_text": "[28] M. Gehrig, W. Aarents, D. Gehrig, and D. Scaramuzza, “DSEC: A stereo event camera dataset for driving scenarios,” IEEE Robot.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation clearly mentions 'DSEC', which is a specific dataset for stereo event camera data in driving scenarios.",
+          "citing_paper_doi": "10.1109/LRA.2023.3269950",
+          "cited_paper_doi": "10.1109/LRA.2021.3068942",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/4cbfb14893349755e865525156e190882cfe5306",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        },
+        {
+          "dataset_name": "DSEC",
+          "dataset_description": "Used to quantitatively compare the performance of the PASMNet and the event-based method, focusing on stereo depth estimation accuracy using event camera data. | Used to compare performance between a state-of-the-art intensity frame-based unsupervised method and an event-based unsupervised method in challenging stereo depth estimation scenarios. | Used to evaluate the performance of the proposed event-based stereo depth estimation method under challenging lighting conditions, focusing on accuracy and robustness.",
+          "citing_paper_id": "250374739",
+          "cited_paper_id": 221761595,
+          "context_text": "Furthermore, we have performed an additional comparison experiment between a state-of-the-art intensity frame-based unsupervised method, PASMNet [11] and our event-based unsupervised method on challenging scenarios from the DSEC dataset [60].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the DSEC dataset, which is used for comparing performance between an intensity frame-based method and an event-based method in challenging scenarios.",
+          "citing_paper_doi": "10.1109/TCSVT.2022.3189480",
+          "cited_paper_doi": "10.1109/TPAMI.2020.3026899",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/07d1ac4049afa1ff05ea9a2f3f4c4cfd0741ce28",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/50557623b7b5908c892b0e8f54a520b6f9d3e65f",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2020
+        },
+        {
+          "dataset_name": "DSEC",
+          "dataset_description": "Used to provide stereo event camera data for driving scenarios, focusing on depth estimation without LiDAR and IMU data.",
+          "citing_paper_id": "250127779",
+          "cited_paper_id": 232170230,
+          "context_text": "Similar to the MVSEC sequences, DSEC [16] uses two stereo cameras but omits the LiDAR and the IMU.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "DSEC is mentioned as a dataset used for driving scenarios with stereo event cameras, similar to MVSEC but without LiDAR and IMU.",
+          "citing_paper_doi": "10.1109/LRA.2022.3186770",
+          "cited_paper_doi": "10.1109/LRA.2021.3068942",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/7a36007c80a655cb487e3096a09dab20ca2f2bb6",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "9865213",
+      "citation_count": 0,
+      "total_dataset_mentions": 6,
+      "unique_datasets": [
+        "Multivehicle Stereo Event Camera Dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Multivehicle Stereo Event Camera Dataset",
+          "dataset_description": "Used to evaluate the proposed method for event-based stereo depth estimation, providing sequences for 3D perception tasks. | Used to evaluate stereo depth estimation methods, focusing on sequences captured with a stereo event camera mounted on a drone. | Used to evaluate stereo depth estimation methods, focusing on synthetic sequences generated by a simulator. | Used to create stereo observations from a real stereo event-camera sequence, focusing on 3D perception and event-based stereo depth estimation.",
+          "citing_paper_id": "49877954",
+          "cited_paper_id": 3416874,
+          "context_text": "To evaluate our method, we use sequences from publicly available simulators [36] and datasets [34], and we also collect our own sequences using a stereo event-camera rig (Fig.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the use of sequences from publicly available datasets, and the cited paper title confirms the use of a specific dataset.",
+          "citing_paper_doi": "10.1007/978-3-030-01246-5_15",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/94ebd1f21703350ba3f3683cce935b364c1d7bb3",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Multivehicle Stereo Event Camera Dataset",
+          "dataset_description": "Used to evaluate event-based algorithms in indoor flying environments, specifically for visual odometry and SLAM. | Used to test event-based stereo depth estimation in complex indoor flying scenarios, emphasizing robustness and accuracy. | Used to evaluate stereo depth estimation methods, focusing on synthetic sequences generated by a simulator. | Used to evaluate stereo depth estimation methods, focusing on sequences captured with a stereo event camera mounted on a drone. | Used to evaluate the proposed method for event-based stereo depth estimation, focusing on pose estimation, visual odometry, and SLAM. | Used to simulate event-based data for indoor flying scenarios, focusing on pose estimation and visual odometry.",
+          "citing_paper_id": "49877954",
+          "cited_paper_id": 9865213,
+          "context_text": "The evaluation is performed on six sequences, including a synthetic sequence from the simulator [36], three sequences collected by ourselves (hand-held) and two sequences from [34] (with a stereo event camera mounted on a drone).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions specific sequences used for evaluation, including a synthetic sequence from a simulator and sequences from a cited paper. These are likely datasets or data sources.",
+          "citing_paper_doi": "10.1007/978-3-030-01246-5_15",
+          "cited_paper_doi": "10.1177/0278364917691115",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/94ebd1f21703350ba3f3683cce935b364c1d7bb3",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/8da267f7dec1cedc59f9c9aa7c4e1f88e3dcc62b",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2016
+        },
+        {
+          "dataset_name": "Multivehicle Stereo Event Camera Dataset",
+          "dataset_description": "Used to introduce LiDAR and stereo DAVIS event camera for 3D perception tasks, specifically depth estimation and SLAM. | Utilized for multi-robot, multi-sensor, and multi-modal data fusion, specifically to improve 3D perception in dynamic environments. | Used to enhance 3D dynamic scene motion perception with event cameras, focusing on distance sensor integration and multi-vehicle scenarios. | Utilized for improving 3D perception in dynamic scenes using multi-robot, multi-sensor data, focusing on event-based stereo depth estimation. | Used to enhance 3D dynamic scene perception with event cameras, focusing on stereo vision and LiDAR integration.",
+          "citing_paper_id": "271892156",
+          "cited_paper_id": 3416874,
+          "context_text": "Stereo event-frame multimodal datasets [12], [13], [14], [15] improve 3D dynamic scene motion perception using the distance sensors.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Stereo event-frame multimodal datasets' and cites specific papers. Based on the titles, two datasets are clearly identified and relevant to the topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.48550/arXiv.2408.08500",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9b0e8ae207ee0e3debe7fa402954343c32fbadeb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Multivehicle Stereo Event Camera Dataset",
+          "dataset_description": "Utilized for multi-robot, multi-sensor, and multi-modal data fusion, specifically to improve 3D perception in dynamic environments. | Used to enhance 3D dynamic scene motion perception with event cameras, focusing on distance sensor integration and multi-vehicle scenarios. | Utilized for improving 3D perception in dynamic scenes using multi-robot, multi-sensor data, focusing on event-based stereo depth estimation. | Used to enhance 3D dynamic scene perception with event cameras, focusing on stereo vision and LiDAR integration. | Utilized for multi-robot, multi-sensor, multi-environment event data, focusing on high-resolution stereo matching in driving scenarios. | Used for fine-grained stereo matching in driving scenarios with event cameras, enhancing resolution and detail.",
+          "citing_paper_id": "271892156",
+          "cited_paper_id": 259380779,
+          "context_text": "Stereo event-frame multimodal datasets [12], [13], [14], [15] improve 3D dynamic scene motion perception using the distance sensors.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Stereo event-frame multimodal datasets' and cites specific papers. Based on the titles, two datasets are clearly identified and relevant to the topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.48550/arXiv.2408.08500",
+          "cited_paper_doi": "10.1109/CVPRW59228.2023.00419",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9b0e8ae207ee0e3debe7fa402954343c32fbadeb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/6abfefca29a9df4115c9d50b244a2f24523a8502",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2023
+        },
+        {
+          "dataset_name": "Multivehicle Stereo Event Camera Dataset",
+          "dataset_description": "This dataset 'Multivehicle Stereo Event Camera Dataset' was mentioned in the citation context but no detailed description was generated.",
+          "citing_paper_id": "226308033",
+          "cited_paper_id": 3416874,
+          "context_text": "Yet, some event-based datasets for stereo vision have been recently released (Andreopoulos et al., 2018; Zhu et al., 2018).",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'event-based datasets for stereo vision' and cites two papers, one of which introduces a specific dataset.",
+          "citing_paper_doi": "10.3389/fnbot.2020.568283",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e977010980c6c80042c8b9ac0b8ad4d138a11e7e",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Multivehicle Stereo Event Camera Dataset",
+          "dataset_description": "This dataset 'Multivehicle Stereo Event Camera Dataset' was mentioned in the citation context but no detailed description was generated.",
+          "citing_paper_id": "226308033",
+          "cited_paper_id": 46937991,
+          "context_text": "Yet, some event-based datasets for stereo vision have been recently released (Andreopoulos et al., 2018; Zhu et al., 2018).",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'event-based datasets for stereo vision' and cites two papers, one of which introduces a specific dataset.",
+          "citing_paper_doi": "10.3389/fnbot.2020.568283",
+          "cited_paper_doi": "10.1109/CVPR.2018.00786",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e977010980c6c80042c8b9ac0b8ad4d138a11e7e",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/92b078d24bdfb68d5f2006df883962caabd1e37c",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "4412139",
+      "citation_count": 0,
+      "total_dataset_mentions": 6,
+      "unique_datasets": [
+        "Indoor Flying dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Indoor Flying dataset",
+          "dataset_description": "Used to train and evaluate event-based stereo depth estimation methods, focusing on indoor flying scenarios with event cameras. | Used to provide precise depth information from Lidar sensors, event streams from event cameras, and intensity images for event-based stereo depth estimation. | Used to evaluate the proposed method for event-based stereo depth estimation, focusing on performance metrics and robustness in dynamic environments. | A collection of event-based datasets, including the Indoor Flying dataset, used for training and evaluating event-based vision algorithms. | Used to evaluate the deep event stereo network, focusing on stereo depth estimation performance with event-based cameras.",
+          "citing_paper_id": "235306612",
+          "cited_paper_id": 3396150,
+          "context_text": "We use the Indoor Flying dataset from the MVSEC and divide them into three split, following (Tulyakov et al. 2019; Zhu, Chen, and Daniilidis 2018).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the 'Indoor Flying dataset' from the 'MVSEC'. This dataset is used for event-based stereo depth estimation, which is directly relevant to the research topic.",
+          "citing_paper_doi": "10.1609/aaai.v35i2.16171",
+          "cited_paper_doi": "10.15607/RSS.2018.XIV.062",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/2db03d59e5825f2a5d00bab95bb515fb05280b8f",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/769ee0718f473e826f243812006011cf837a29db",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Indoor Flying dataset",
+          "dataset_description": "A collection of event-based datasets, including the Indoor Flying dataset, used for training and evaluating event-based vision algorithms. | Used to train and evaluate event-based stereo depth estimation methods, focusing on indoor flying scenarios with event cameras.",
+          "citing_paper_id": "235306612",
+          "cited_paper_id": 262638843,
+          "context_text": "We use the Indoor Flying dataset from the MVSEC and divide them into three split, following (Tulyakov et al. 2019; Zhu, Chen, and Daniilidis 2018).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the 'Indoor Flying dataset' from the 'MVSEC'. This dataset is used for event-based stereo depth estimation, which is directly relevant to the research topic.",
+          "citing_paper_doi": "10.1609/aaai.v35i2.16171",
+          "cited_paper_doi": "10.1109/ICCV.2019.00161",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/2db03d59e5825f2a5d00bab95bb515fb05280b8f",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e3e4d8f5936bf3a679004e31cc2e90ff636ec4eb",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2019
+        },
+        {
+          "dataset_name": "Indoor Flying dataset",
+          "dataset_description": "Used to evaluate event-based stereo depth estimation methods, focusing on performance with sparse ground truth and following a specific evaluation protocol.",
+          "citing_paper_id": "262638843",
+          "cited_paper_id": 3396150,
+          "context_text": "Results on the Indoor Flying dataset using sparse ground truth, following the protocol from [66] described in §3.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions the 'Indoor Flying dataset' which is a specific dataset used for evaluation. The context indicates it is used with sparse ground truth and follows a specific protocol.",
+          "citing_paper_doi": "10.1109/ICCV.2019.00161",
+          "cited_paper_doi": "10.15607/RSS.2018.XIV.062",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e3e4d8f5936bf3a679004e31cc2e90ff636ec4eb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/769ee0718f473e826f243812006011cf837a29db",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Indoor Flying dataset",
+          "dataset_description": "Used for event-based stereo depth estimation, capturing drone flights in a room with various objects, partitioned into three splits for training and evaluation.",
+          "citing_paper_id": "253513043",
+          "cited_paper_id": 235306612,
+          "context_text": "Following [22,29,2], we also use the Indoor Flying dataset from MVSEC, which is captured from a drone flying in a room with various objects, and partition them into three splits.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'Indoor Flying dataset from MVSEC', which is a specific dataset used for event-based stereo depth estimation. The dataset is described as being captured from a drone flying in a room with various objects and is partitioned into three splits.",
+          "citing_paper_doi": "10.1007/978-3-031-19824-3_28",
+          "cited_paper_doi": "10.1609/aaai.v35i2.16171",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3a522614e9d3ce79f8ecc06981a445c5e3482c0d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/2db03d59e5825f2a5d00bab95bb515fb05280b8f",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        },
+        {
+          "dataset_name": "Indoor Flying dataset",
+          "dataset_description": "Used for event-based stereo depth estimation, capturing drone flights in a room with various objects, partitioned into three splits for training and evaluation.",
+          "citing_paper_id": "253513043",
+          "cited_paper_id": 262638843,
+          "context_text": "Following [22,29,2], we also use the Indoor Flying dataset from MVSEC, which is captured from a drone flying in a room with various objects, and partition them into three splits.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'Indoor Flying dataset from MVSEC', which is a specific dataset used for event-based stereo depth estimation. The dataset is described as being captured from a drone flying in a room with various objects and is partitioned into three splits.",
+          "citing_paper_doi": "10.1007/978-3-031-19824-3_28",
+          "cited_paper_doi": "10.1109/ICCV.2019.00161",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3a522614e9d3ce79f8ecc06981a445c5e3482c0d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e3e4d8f5936bf3a679004e31cc2e90ff636ec4eb",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2019
+        },
+        {
+          "dataset_name": "Indoor Flying dataset",
+          "dataset_description": "Used for preprocessing and splitting in event-based stereo depth estimation, focusing on indoor flying scenarios with event cameras. | Used for preprocessing and splitting in event-based stereo depth estimation, providing a multivehicle stereo event camera dataset for 3D perception.",
+          "citing_paper_id": "250602271",
+          "cited_paper_id": 4412139,
+          "context_text": "We split and preprocess the Indoor Flying dataset from the MVSEC using the same setting as [2, 51, 62].",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the 'Indoor Flying dataset' from the 'MVSEC'. The cited papers confirm that MVSEC is a dataset, and the context indicates it is used for preprocessing and splitting.",
+          "citing_paper_doi": "10.1109/CVPR52688.2022.00848",
+          "cited_paper_doi": "10.1007/978-3-030-01231-1_27",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3155407163c4fbbafeaa963b1742dd4710b09375",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/c8f17bf12b034b28b4ed0c1cbb6904d36a9e41f0",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "12986049",
+      "citation_count": 0,
+      "total_dataset_mentions": 4,
+      "unique_datasets": [
+        "Middlebury"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Middlebury",
+          "dataset_description": "Used to quantitatively compare the proposed method with related methods using various metrics, focusing on performance evaluation in stereo depth estimation.",
+          "citing_paper_id": "1408596",
+          "cited_paper_id": 185541,
+          "context_text": "The test dataset is generated with structure light sensors and masked the corresponding reference (left) event map from DVS. EDS[7] FCVF [18] We adopt various metrics from Middlebury [20] to quantitatively compare our method to related methods [7, 18, 19], as shown in Table 1.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Middlebury' as a source of metrics for quantitative comparison. No other specific datasets are mentioned.",
+          "citing_paper_doi": "10.1109/ICIP.2016.7532523",
+          "cited_paper_doi": "10.1109/CVPR.2015.7298644",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/abcac70545ec8cdb149d20edd8388a0b9dfc6865",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/99ebd0e74e058e7a7f25f0071a1fb8458ea41fc8",
+          "citing_paper_year": 2016,
+          "cited_paper_year": 2015
+        },
+        {
+          "dataset_name": "Middlebury",
+          "dataset_description": "Used to quantitatively compare the proposed method with related methods using various metrics, focusing on performance evaluation in stereo depth estimation.",
+          "citing_paper_id": "1408596",
+          "cited_paper_id": 1680724,
+          "context_text": "The test dataset is generated with structure light sensors and masked the corresponding reference (left) event map from DVS. EDS[7] FCVF [18] We adopt various metrics from Middlebury [20] to quantitatively compare our method to related methods [7, 18, 19], as shown in Table 1.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Middlebury' as a source of metrics for quantitative comparison. No other specific datasets are mentioned.",
+          "citing_paper_doi": "10.1109/ICIP.2016.7532523",
+          "cited_paper_doi": "10.1109/CVPR.2011.5995372",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/abcac70545ec8cdb149d20edd8388a0b9dfc6865",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f908d2fb9cfcaff17030a912e4811fb02aaeec03",
+          "citing_paper_year": 2016,
+          "cited_paper_year": 2011
+        },
+        {
+          "dataset_name": "Middlebury",
+          "dataset_description": "Used to quantitatively compare the proposed method with related methods using various metrics, focusing on performance evaluation in stereo depth estimation.",
+          "citing_paper_id": "1408596",
+          "cited_paper_id": 5535646,
+          "context_text": "The test dataset is generated with structure light sensors and masked the corresponding reference (left) event map from DVS. EDS[7] FCVF [18] We adopt various metrics from Middlebury [20] to quantitatively compare our method to related methods [7, 18, 19], as shown in Table 1.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Middlebury' as a source of metrics for quantitative comparison. No other specific datasets are mentioned.",
+          "citing_paper_doi": "10.1109/ICIP.2016.7532523",
+          "cited_paper_doi": "10.1007/978-3-642-19315-6_3",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/abcac70545ec8cdb149d20edd8388a0b9dfc6865",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1c97127f828705328bceb6c5a50e2b1aefbb28ff",
+          "citing_paper_year": 2016,
+          "cited_paper_year": 2010
+        },
+        {
+          "dataset_name": "Middlebury",
+          "dataset_description": "Used to evaluate stereo vision algorithms, providing ground truth disparity maps for benchmarking performance in depth estimation. | Utilized for evaluating stereo vision and scene flow algorithms in automotive settings, offering real-world driving scenarios with ground truth data.",
+          "citing_paper_id": "22158024",
+          "cited_paper_id": 12986049,
+          "context_text": "Traditional frame-based stereo vision systems continue to steadily mature, in part thanks to publicly available datasets, such as the Middlebury (Scharstein and Szeliski, 2002) and KITTI (Menze and Geiger, 2015) benchmarks.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions two well-known datasets, Middlebury and KITTI, which are used for stereo vision and scene flow estimation. These datasets are relevant to the topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.3389/fnins.2017.00535",
+          "cited_paper_doi": "10.1109/CVPR.2015.7298925",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/1ad5533aaea179d63a485bfc172adf46c52f2a7f",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/edf455c3b5b8d1c6337c72e39940125036354d03",
+          "citing_paper_year": 2017,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "3416874",
+      "citation_count": 0,
+      "total_dataset_mentions": 3,
+      "unique_datasets": [
+        "Multi Vehicle Stereo Event Camera (MVSEC)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Multi Vehicle Stereo Event Camera (MVSEC)",
+          "dataset_description": "Used to evaluate the accuracy and smoothness of trajectory estimates in event-based stereo depth estimation, comparing performance against state-of-the-art methods. | Used to evaluate the presented pipeline for event-based stereo depth estimation, comparing performance against the ESVO pipeline.",
+          "citing_paper_id": "260164484",
+          "cited_paper_id": 220870707,
+          "context_text": "It is evaluated on the publicly available Multi Vehicle Stereo Event Camera (MVSEC) dataset [11], where it obtains a more accurate and smoother trajectory estimate than the state-of-theart Event-based Stereo Visual Odometry (ESVO) [9].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions the MVSEC dataset, which is used for evaluating the accuracy and smoothness of trajectory estimates in event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/LRA.2023.3311374",
+          "cited_paper_doi": "10.1109/TRO.2021.3062252",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a6dc0e1466b8d6d2eda3dac364b948327c1886dd",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f268549c1859995ec2114525bf86dd9153eb9bca",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2020
+        },
+        {
+          "dataset_name": "Multi Vehicle Stereo Event Camera (MVSEC)",
+          "dataset_description": "Used to evaluate the algorithm for event-based stereo depth estimation, focusing on 3D perception tasks with event camera data. | Used to evaluate event-based stereo depth estimation methods, focusing on reducing disparity error without computationally expensive smoothness regularizations.",
+          "citing_paper_id": "4412139",
+          "cited_paper_id": 3416874,
+          "context_text": "We evaluated our algorithm on the Multi Vehicle Stereo Event Camera (MVSEC) dataset [20].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation clearly mentions the use of the MVSEC dataset for evaluating the algorithm, which is directly relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1007/978-3-030-01231-1_27",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c8f17bf12b034b28b4ed0c1cbb6904d36a9e41f0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Multi Vehicle Stereo Event Camera (MVSEC)",
+          "dataset_description": "Used to train and test a network for event-based stereo depth estimation, focusing on 3D perception tasks using event camera data.",
+          "citing_paper_id": "238198645",
+          "cited_paper_id": 3416874,
+          "context_text": "We trained and tested our network on the Multi Vehicle Stereo Event Camera (MVSEC) dataset (Zhu et al. 2018b).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The MVSEC dataset is explicitly mentioned and used for training and testing a network for event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/ACCESS.2022.3226484",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6647478a96207c3b422c948a6002b174521b081c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "253064894",
+      "citation_count": 0,
+      "total_dataset_mentions": 3,
+      "unique_datasets": [
+        "KITTI"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "KITTI",
+          "dataset_description": "Used for training and evaluating stereo depth estimation algorithms, providing real-world driving scenarios with synchronized and calibrated stereo images. | Used for training and evaluating indoor depth estimation, providing RGB-D images and corresponding depth maps for indoor scenes.",
+          "citing_paper_id": "223957202",
+          "cited_paper_id": 545361,
+          "context_text": "State-of-the-art approaches are usually trained and evaluated in common datasets such as KITTI [9], Make3D [3] and NYUv2 [20].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions three datasets: KITTI, Make3D, and NYUv2. These are specific datasets used for training and evaluation in the field of computer vision and robotics.",
+          "citing_paper_doi": "10.1109/3DV50981.2020.00063",
+          "cited_paper_doi": "10.1007/978-3-642-33715-4_54",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/679927ae340dbf5415adf98ea39c88f2e4fdae64",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/c1994ba5946456fc70948c549daf62363f13fa2d",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2012
+        },
+        {
+          "dataset_name": "KITTI",
+          "dataset_description": "Used to train MonoDepth for stereo depth estimation, comparing its performance against MegaDepth trained on the MD dataset. Focuses on evaluating generalizability and accuracy in depth estimation tasks. | Used for training and evaluating stereo depth estimation algorithms, providing real-world driving scenarios with synchronized and calibrated stereo images. | Used to compare the performance of event-based stereo depth estimation methods against state-of-the-art image-based methods, focusing on accuracy and robustness in real-world scenarios. | Used for training and evaluating indoor depth estimation, providing RGB-D images and corresponding depth maps for indoor scenes.",
+          "citing_paper_id": "223957202",
+          "cited_paper_id": 9455111,
+          "context_text": "State-of-the-art approaches are usually trained and evaluated in common datasets such as KITTI [9], Make3D [3] and NYUv2 [20].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions three datasets: KITTI, Make3D, and NYUv2. These are specific datasets used for training and evaluation in the field of computer vision and robotics.",
+          "citing_paper_doi": "10.1109/3DV50981.2020.00063",
+          "cited_paper_doi": "10.1177/0278364913491297",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/679927ae340dbf5415adf98ea39c88f2e4fdae64",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/79b949d9b35c3f51dd20fb5c746cc81fc87147eb",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2013
+        },
+        {
+          "dataset_name": "KITTI",
+          "dataset_description": "Used for training and evaluating stereo depth estimation algorithms, providing real-world driving scenarios with synchronized and calibrated stereo images. | Used for training and evaluating indoor depth estimation, providing RGB-D images and corresponding depth maps for indoor scenes.",
+          "citing_paper_id": "223957202",
+          "cited_paper_id": 253064894,
+          "context_text": "State-of-the-art approaches are usually trained and evaluated in common datasets such as KITTI [9], Make3D [3] and NYUv2 [20].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions three datasets: KITTI, Make3D, and NYUv2. These are specific datasets used for training and evaluation in the field of computer vision and robotics.",
+          "citing_paper_doi": "10.1109/3DV50981.2020.00063",
+          "cited_paper_doi": "10.1109/TPAMI.2008.132",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/679927ae340dbf5415adf98ea39c88f2e4fdae64",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/41bcea1bec0f0b0e9e2cb4894bf6bfda091a4eae",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2009
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "396580",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "DDD17"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DDD17",
+          "dataset_description": "Used to provide a large dataset of a DAVIS 346B sensor mounted in a car, capturing 12 hours of driving data for end-to-end learning of driving-related tasks.",
+          "citing_paper_id": "3416874",
+          "cited_paper_id": 396580,
+          "context_text": "[5] provide a large dataset of a DAVIS 346B mounted behind the windshield of a car, with 12 hours of driving, intended for end to end learning of various driving related tasks.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions a specific dataset with a clear name and purpose, which is relevant to the topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/LRA.2018.2800793",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e9496ccf44f6ebca4f01c31a012bdab7cac4a65c",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2017
+        },
+        {
+          "dataset_name": "DDD17",
+          "dataset_description": "Used to collect driving data from a monochrome DAVIS346 camera, featuring various vehicle control data for event-based stereo depth estimation.",
+          "citing_paper_id": "232170230",
+          "cited_paper_id": 396580,
+          "context_text": "DDD17 [35] and DDD20 [36] are datasets comprising many hours of driving data from a monochrome DAVIS346 camera featuring various vehicle control data.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific datasets, DDD17 and DDD20, which are used for driving data collected from a monochrome DAVIS346 camera. These datasets are clearly identified and described.",
+          "citing_paper_doi": "10.1109/LRA.2021.3068942",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e9496ccf44f6ebca4f01c31a012bdab7cac4a65c",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "248572428",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "EVIMO2"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "EVIMO2",
+          "dataset_description": "Used for calibrating event-based cameras in various indoor and outdoor environments, focusing on converting events to frames for calibration. | Used to test the method on sequences recorded with a trinocular event-camera rig, focusing on evaluating the stereo depth estimation performance with event-based cameras. | Used for calibrating event-based cameras in event-based stereo depth estimation, focusing on converting events to frames for calibration. | Used for calibrating event-based cameras in driving scenarios, specifically for event-based stereo depth estimation by converting events to frames. | Used to establish multi-camera (trinocular) depth estimation during high-speed motion, addressing event-based stereo depth estimation and focusing on handling frame blur. | Used to provide event-based visual data for stereo depth estimation, focusing on trinocular configurations and sensor fusion.",
+          "citing_paper_id": "250918780",
+          "cited_paper_id": null,
+          "context_text": "The datasets whose cameras output only events (EVIMO2, DSEC and TUM-VIE), are calibrated by converting events to frames and calibrating the latter (e.g., using [62]).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions three specific datasets: EVIMO2, DSEC, and TUM-VIE. These datasets are used for event-based stereo depth estimation, specifically for calibrating cameras that output only events.",
+          "citing_paper_doi": "10.1002/aisy.202200221",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b1b6e212485aefae11dbfd87abe28fd646eb85da",
+          "cited_paper_url": null,
+          "citing_paper_year": 2022,
+          "cited_paper_year": null
+        },
+        {
+          "dataset_name": "EVIMO2",
+          "dataset_description": "Used to evaluate event-based stereo depth estimation, specifically focusing on motion segmentation, optical flow, and structure from motion in indoor scenes with monocular or stereo algorithms.",
+          "citing_paper_id": "250918780",
+          "cited_paper_id": 248572428,
+          "context_text": "1 on the SFM sequence 03 00 from the EVIMO2 dataset [68].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions the EVIMO2 dataset, which is a specific, verifiable resource used for evaluating event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1002/aisy.202200221",
+          "cited_paper_doi": "10.48550/arXiv.2205.03467",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b1b6e212485aefae11dbfd87abe28fd646eb85da",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ea782b404c221b69ad79485e0150954d0fb3b5d5",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "3416874",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "Multi Vehicle Stereo Event Camera Dataset (MVSEC)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Multi Vehicle Stereo Event Camera Dataset (MVSEC)",
+          "dataset_description": "Used to evaluate stereo depth estimation methods using event cameras, focusing on 3D perception in dynamic environments.",
+          "citing_paper_id": "262638843",
+          "cited_paper_id": 3416874,
+          "context_text": "We use the Multi Vehicle Stereo Event Camera Dataset (MVSEC) [65] which is available online [31].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context explicitly mentions the 'Multi Vehicle Stereo Event Camera Dataset (MVSEC)', which is a specific dataset used for 3D perception with event cameras. The dataset is clearly identified and relevant to the research topic.",
+          "citing_paper_doi": "10.1109/ICCV.2019.00161",
+          "cited_paper_doi": "10.1109/LRA.2018.2800793",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e3e4d8f5936bf3a679004e31cc2e90ff636ec4eb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Multi Vehicle Stereo Event Camera Dataset (MVSEC)",
+          "dataset_description": "Used to evaluate stereo depth estimation methods using event cameras, focusing on 3D perception in dynamic environments.",
+          "citing_paper_id": "262638843",
+          "cited_paper_id": null,
+          "context_text": "We use the Multi Vehicle Stereo Event Camera Dataset (MVSEC) [65] which is available online [31].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context explicitly mentions the 'Multi Vehicle Stereo Event Camera Dataset (MVSEC)', which is a specific dataset used for 3D perception with event cameras. The dataset is clearly identified and relevant to the research topic.",
+          "citing_paper_doi": "10.1109/ICCV.2019.00161",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e3e4d8f5936bf3a679004e31cc2e90ff636ec4eb",
+          "cited_paper_url": null,
+          "citing_paper_year": 2019,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "250127779",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "VECtor sequences"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "VECtor sequences",
+          "dataset_description": "Used to evaluate multi-sensor SLAM systems, focusing on event-centric data for accurate localization and mapping. | Used to evaluate multi-sensor SLAM systems, providing diverse sequences for testing robustness in various environments.",
+          "citing_paper_id": "259075396",
+          "cited_paper_id": 220713377,
+          "context_text": "Method VECtor sequences [8] TUM-VIE sequences [9] Mean Mean corridors corridors units units school school mocap mocap mocap mocap mocap VECtor TUM-VIE dolly walk dolly scooter dolly scooter 1d-trans 3d-trans 6dof desk desk2 large-scale small-scale ORB-SLAM3 (SVIO) [15] 0.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'VECtor sequences' and 'TUM-VIE sequences', which are specific datasets used for evaluating multi-sensor SLAM systems. These datasets are relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/TIV.2024.3412595",
+          "cited_paper_doi": "10.1109/TRO.2021.3075644",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bf3d9296d00db60c9b40960b2c8e8aa1a45b6be5",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/77d7e439b3368875199a1327515a3ba212f0a359",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2020
+        },
+        {
+          "dataset_name": "VECtor sequences",
+          "dataset_description": "Used to evaluate the algorithm's performance in multi-sensor SLAM, focusing on event-centric data and providing a versatile benchmark for testing. | Used to evaluate multi-sensor SLAM systems, focusing on event-centric data for accurate localization and mapping. | Used to evaluate the algorithm on event-based stereo depth estimation, focusing on multi-sensor SLAM performance and limitations. | Used to compare DH-PTAM with other RGB image-based and event-based/-aided methods, leveraging its high-quality ground truth values and sensor calibration parameters. | Used to assess the algorithm's capabilities in event-based stereo depth estimation, offering a benchmark with real-world scenarios and challenging conditions. | Used to compare DHPTAM with other RGB image-based and event-based/-aided methods, leveraging its high-quality ground truth values and sensor calibration parameters. | Used to evaluate multi-sensor SLAM systems, providing diverse sequences for testing robustness in various environments.",
+          "citing_paper_id": "259075396",
+          "cited_paper_id": 250127779,
+          "context_text": "Method VECtor sequences [8] TUM-VIE sequences [9] Mean Mean corridors corridors units units school school mocap mocap mocap mocap mocap VECtor TUM-VIE dolly walk dolly scooter dolly scooter 1d-trans 3d-trans 6dof desk desk2 large-scale small-scale ORB-SLAM3 (SVIO) [15] 0.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'VECtor sequences' and 'TUM-VIE sequences', which are specific datasets used for evaluating multi-sensor SLAM systems. These datasets are relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/TIV.2024.3412595",
+          "cited_paper_doi": "10.1109/LRA.2022.3186770",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bf3d9296d00db60c9b40960b2c8e8aa1a45b6be5",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/7a36007c80a655cb487e3096a09dab20ca2f2bb6",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "206594275",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "Scene Flow"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Scene Flow",
+          "dataset_description": "Used to evaluate disparity, optical flow, and scene flow estimation methods, providing synthetic data with ground truth annotations for training and testing. | Used to evaluate stereo depth estimation methods, providing real-world driving scenarios with ground truth depth maps and stereo image pairs.",
+          "citing_paper_id": "253513043",
+          "cited_paper_id": 12986049,
+          "context_text": "They outperform traditional methods by a large margin on public benchmarks ( e . g ., Scene Flow [20] and KITTI [21]).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions 'Scene Flow' and 'KITTI' as public benchmarks where the methods outperform traditional approaches. These are known datasets in the field of computer vision and robotics, particularly relevant for stereo depth estimation.",
+          "citing_paper_doi": "10.1007/978-3-031-19824-3_28",
+          "cited_paper_doi": "10.1109/CVPR.2015.7298925",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3a522614e9d3ce79f8ecc06981a445c5e3482c0d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/edf455c3b5b8d1c6337c72e39940125036354d03",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2015
+        },
+        {
+          "dataset_name": "Scene Flow",
+          "dataset_description": "Used to evaluate disparity, optical flow, and scene flow estimation methods, providing synthetic data with ground truth annotations for training and testing. | Used to evaluate stereo depth estimation methods, providing real-world driving scenarios with ground truth depth maps and stereo image pairs.",
+          "citing_paper_id": "253513043",
+          "cited_paper_id": 206594275,
+          "context_text": "They outperform traditional methods by a large margin on public benchmarks ( e . g ., Scene Flow [20] and KITTI [21]).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions 'Scene Flow' and 'KITTI' as public benchmarks where the methods outperform traditional approaches. These are known datasets in the field of computer vision and robotics, particularly relevant for stereo depth estimation.",
+          "citing_paper_doi": "10.1007/978-3-031-19824-3_28",
+          "cited_paper_doi": "10.1109/CVPR.2016.438",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3a522614e9d3ce79f8ecc06981a445c5e3482c0d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1ced31e02234bc3d1092ffb2c7442ffbd51cb309",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "3993392",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "ADD"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "ADD",
+          "dataset_description": "Used for event-based object detection, focusing on 304x240 resolution events to evaluate detection accuracy. | Used for automotive detection with Gen1 event cameras, focusing on large-scale event-based detection at 304 × 240 resolution. | Used for event-based object detection, focusing on 1280x720 resolution events to evaluate detection accuracy.",
+          "citing_paper_id": "271892156",
+          "cited_paper_id": 3993392,
+          "context_text": "For example, N-CARS [5] and ADD [6] datasets took Gen1 event camera with 304 × 240 resolution to classify and detect objects.",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific datasets, N-CARS and ADD, which are used for object classification and detection with event cameras. These datasets are directly relevant to the topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.48550/arXiv.2408.08500",
+          "cited_paper_doi": "10.1109/CVPR.2018.00186",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9b0e8ae207ee0e3debe7fa402954343c32fbadeb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a60f20adc4fc9f363465de327dc2f3f1ab7b624c",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "ADD",
+          "dataset_description": "Used for automotive detection with Gen1 event cameras, focusing on large-scale event-based detection at 304 × 240 resolution. | Used for event-based object detection, focusing on 1280x720 resolution events to evaluate detection accuracy.",
+          "citing_paper_id": "271892156",
+          "cited_paper_id": 210860813,
+          "context_text": "For example, N-CARS [5] and ADD [6] datasets took Gen1 event camera with 304 × 240 resolution to classify and detect objects.",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific datasets, N-CARS and ADD, which are used for object classification and detection with event cameras. These datasets are directly relevant to the topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.48550/arXiv.2408.08500",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9b0e8ae207ee0e3debe7fa402954343c32fbadeb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/171407328f4120d3d433405587dac9883fb5836b",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "24007071",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "DAVIS346 (MVSEC)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DAVIS346 (MVSEC)",
+          "dataset_description": "Used to evaluate event-based stereo depth estimation methods in driving scenarios, providing high-resolution and high-dynamic range data. | Used to generate grayscale frames for overlaying semi-dense depth maps and confidence maps, focusing on event-based stereo depth estimation with high temporal resolution. | Used to illustrate the appearance of scenes with grayscale frames, providing visual context for event-based stereo depth estimation. | Used to evaluate event-based stereo depth estimation methods at 346x260 resolution, focusing on dynamic scenes and high temporal resolution. | Used for calibration of intrinsic and extrinsic parameters in event-based stereo depth estimation, leveraging both frame-based and event-based sensors on the same pixel array. | Used to evaluate event-based stereo depth estimation methods at higher resolutions, focusing on indoor and outdoor environments.",
+          "citing_paper_id": "250918780",
+          "cited_paper_id": 1747923,
+          "context_text": "So far, results on datasets from three different resolutions have been presented: DAVIS346 (MVSEC), Prophesee Gen3 (DSEC) and Prophesee Gen4 (TUM-VIE).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions three specific datasets used for event-based stereo depth estimation at different resolutions.",
+          "citing_paper_doi": "10.1002/aisy.202200221",
+          "cited_paper_doi": "10.3389/fnins.2013.00275",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b1b6e212485aefae11dbfd87abe28fd646eb85da",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/4fd007b1d9648b3e4ba31a9b13e994e053c886ed",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2014
+        },
+        {
+          "dataset_name": "DAVIS346 (MVSEC)",
+          "dataset_description": "Used to evaluate event-based stereo depth estimation methods in driving scenarios, providing high-resolution and high-dynamic range data. | Used to generate grayscale frames for overlaying semi-dense depth maps and confidence maps, focusing on event-based stereo depth estimation with high temporal resolution. | Used to illustrate the appearance of scenes with grayscale frames, providing visual context for event-based stereo depth estimation. | Used to evaluate event-based stereo depth estimation methods at 346x260 resolution, focusing on dynamic scenes and high temporal resolution. | Used for calibration of intrinsic and extrinsic parameters in event-based stereo depth estimation, leveraging both frame-based and event-based sensors on the same pixel array. | Used to evaluate event-based stereo depth estimation methods at higher resolutions, focusing on indoor and outdoor environments.",
+          "citing_paper_id": "250918780",
+          "cited_paper_id": 24007071,
+          "context_text": "So far, results on datasets from three different resolutions have been presented: DAVIS346 (MVSEC), Prophesee Gen3 (DSEC) and Prophesee Gen4 (TUM-VIE).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions three specific datasets used for event-based stereo depth estimation at different resolutions.",
+          "citing_paper_doi": "10.1002/aisy.202200221",
+          "cited_paper_doi": "10.1109/JSSC.2014.2342715",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b1b6e212485aefae11dbfd87abe28fd646eb85da",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3ea7120d92e18b41e4b74038806198f924169de1",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "226298400",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "outdoor_day2"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "outdoor_day2",
+          "dataset_description": "Used to train a supervised-learning method for event-based stereo depth estimation, focusing on real-world outdoor scenarios.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": 1082643,
+          "context_text": "…evaluations, we provide exhaustive comparisons across the existing methods to date: a model-based method where the pose information is given (EMVS) [23], a supervised-learning method [61] trained on real data (outdoor_day2, denoted “SL (R)”) or in simulation (“SL (S)”), and two…",
+          "confidence_score": 0.8,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions 'outdoor_day2' as a dataset used for training a supervised-learning method. However, the primary focus is on comparing methods rather than the dataset itself.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": "10.1007/s11263-017-1050-6",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/0d50b1e804c33a28718edbff78314d651b9c7205",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "outdoor_day2",
+          "dataset_description": "Used to train a supervised-learning method for event-based stereo depth estimation, focusing on real-world outdoor scenarios.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": 226298400,
+          "context_text": "…exhaustive comparisons across the existing methods to date: a model-based method where the pose information is given (EMVS) [23], a supervised-learning method [61] trained on real data (outdoor_day2, denoted “SL (R)”) or in simulation (“SL (S)”), and two unsupervised-learning methods [27], [57].",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions 'outdoor_day2' as a dataset used for training a supervised-learning method. No other specific datasets are mentioned.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": "10.1109/IROS45743.2020.9341224",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/34eda595d7ff948deea496da6fb89e7dfa23231c",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "250127779",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "OVC 3b M3ED"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "OVC 3b M3ED",
+          "dataset_description": "Used for urban and suburban driving scenarios with 11 classes, focusing on event-based stereo depth estimation. | Used to provide smooth pole-mounted trajectories in a fixed indoor environment, supporting research in multi-sensor SLAM and event-based stereo depth estimation. | Used for indoor and outdoor helmet and handheld scenarios with grayscale images, focusing on event-based visual-inertial odometry. | Used for indoor and outdoor helmet and cart scenarios, focusing on multi-sensor SLAM and event-based depth estimation. | Used to provide head-mounted ego-centric motion data in a fixed indoor environment, supporting research in event-based stereo depth estimation. | Used for car and motorcycle urban scenarios with grayscale images, focusing on event-based visual odometry and SLAM. | Used for forest and urban quadroped scenarios with 11 classes, focusing on event-based stereo depth estimation and 3D instance segmentation. | Used for urban driving scenarios with semantic labels, focusing on event-based stereo depth estimation and scene understanding. | Used for indoor hand-held experiments with grayscale images, focusing on event-based stereo depth estimation.",
+          "citing_paper_id": "259380779",
+          "cited_paper_id": 250127779,
+          "context_text": "Dataset Platform Terrain Event Cameras LiDAR CIS Cameras Semantic Labels The Event Camera Slider Urban Inivation DVS 240C N/A DVS APS Pixel N/A Dataset [19] Hand Held Indoor 240x180 240x180 Grayscale MVSEC [29] Car + Motorcycle Urban Inivation DVS 346 Velodyne VLP-16 Vi-Sensor N/A Quadrotor Indoor Flight 346x260 752x480 Grayscale KITTI 360 [15] Car Urban N/A Velodyne HDL-64E YES 37 Classes DSEC [9] Car Urban and Suburban Prophesee Gen 3 Velodyne VLP-16 FLIR Backfly S 11 Classes 640x480 1440x1080 RGB VECtor [8] Helmet + Cart Indoor Prophesee Gen 3 Ouster OS0-128 FLIR Grasshopper3 N/A 640x480 1224 × 1024 Grayscale TUM-VIE [14] Helmet + handheld Indoor and Outdoor Prophesee Gen 4 N/A IDS Camera uEye N/A 1280x720 1224 × 1024 Grayscale Car Forest and Urban OVC 3b M3ED Quadroped Forest and Urban Prophesee Gen 4 Ouster OS1-64U 1280x800 11 Classes UAV Forest and Urban 1280x720 RGB + Grayscale 3D Instances",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context lists several datasets used for event-based stereo depth estimation, including specific details about their content and usage.",
+          "citing_paper_doi": "10.1109/CVPRW59228.2023.00419",
+          "cited_paper_doi": "10.1109/LRA.2022.3186770",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6abfefca29a9df4115c9d50b244a2f24523a8502",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/7a36007c80a655cb487e3096a09dab20ca2f2bb6",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "109416659",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "DAVISm346b"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DAVISm346b",
+          "dataset_description": "Used to provide event streams from synchronized and calibrated sensors, including long indoor and outdoor sequences with various illuminations and speeds, depth images, and pose data at up to 100Hz.",
+          "citing_paper_id": "3416874",
+          "cited_paper_id": 109416659,
+          "context_text": "In comparison, this dataset provides event streams from two synchronized and calibrated Dynamic Vision and Active Pixel Sensors (DAVISm346b), with long indoor and outdoor sequences in a variety of illuminations and speeds, along with accurate depth images and pose at up to 100Hz, generated from a lidar system rigidly mounted on top of the cameras, as in Fig 1, along with motion capture and GPS.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context describes a specific dataset with detailed characteristics, including event streams, depth images, and pose data from synchronized sensors.",
+          "citing_paper_doi": "10.1109/LRA.2018.2800793",
+          "cited_paper_doi": "10.1109/ICRA.2014.6906892",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/f1e92f09209c7f50e05599c7551520ca129a6de4",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3621da85dcc82868dd5ce435ede1742d864dd168",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "229211559",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "EMSGC"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "EMSGC",
+          "dataset_description": "Used to record sequences with a DAVIS346 camera for event-based motion segmentation, focusing on spatio-temporal graph cuts methodology.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": 229211559,
+          "context_text": "The sequences in EMSGC [21] are recorded with a hand-held DAVIS346 camera ( 346 × 260 pixels).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions the EMSGC dataset, which is used for recording sequences with a DAVIS346 camera. This dataset is relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": "10.1109/TNNLS.2021.3124580",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/96402113689bdc359c8350d9cd246edcdc2f1d60",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "257505349",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "MVSEC indoor seqs."
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "MVSEC indoor seqs.",
+          "dataset_description": "Used to evaluate the generalizability of event-based optical flow methods, specifically testing performance on indoor sequences beyond driving data.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": 257505349,
+          "context_text": "As a result, these learning-based methods may overﬁt to the driving data (i.e., tend to predict forward motion) and fail to produce good results in other motions and datasets [55] (e.g., see E-RAFT rows on the MVSEC indoor seqs. in Table I).",
+          "confidence_score": 0.85,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions 'MVSEC indoor seqs.' which is likely a dataset used for evaluating event-based optical flow estimation methods. The context suggests that the dataset is used to test the generalizability of the methods beyond driving data.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": "10.1109/IROS55552.2023.10341802",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e47fa1a1d2a08f3152ffa725f5f6d24da8b9b5c8",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2023
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "5550767",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "DENSE"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DENSE",
+          "dataset_description": "Used for validating models trained on CARLA Towns 01 to 05, assessing performance on unseen but similar urban environments. | Used to provide event-based stereo depth estimation data, including events, intensity frames, semantic labels, and depth maps, recorded in the CARLA simulator. | Used for testing the final model, evaluating its performance in a completely new urban environment.",
+          "citing_paper_id": "223957202",
+          "cited_paper_id": 5550767,
+          "context_text": "We release DENSE, a dataset recorded in CARLA, which comprises events, intensity frames, semantic labels, and depth maps.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "DENSE is identified as a dataset containing events, intensity frames, semantic labels, and depth maps, recorded in CARLA. CARLA itself is a simulator, not a dataset.",
+          "citing_paper_doi": "10.1109/3DV50981.2020.00063",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/679927ae340dbf5415adf98ea39c88f2e4fdae64",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ebf0615fc4d98cf1dbe527c79146ce1e50dce9af",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "195859047",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Middlebury database"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Middlebury database",
+          "dataset_description": "Used to evaluate the performance of the stereo correspondence algorithm, focusing on dense two-frame stereo matching accuracy and robustness.",
+          "citing_paper_id": "185541",
+          "cited_paper_id": 195859047,
+          "context_text": "This method is a top performer in the Middlebury database [26].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions the 'Middlebury database' which is a well-known dataset in the field of stereo vision. It is used to evaluate the performance of the method discussed.",
+          "citing_paper_doi": "10.1109/CVPR.2015.7298644",
+          "cited_paper_doi": "10.1023/A:1014573219977",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/99ebd0e74e058e7a7f25f0071a1fb8458ea41fc8",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/d2f78c2b2b325d72f359d4c797c9aab6a8e60942",
+          "citing_paper_year": 2015,
+          "cited_paper_year": 2001
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "49877954",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Stereo DAVIS sequences"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Stereo DAVIS sequences",
+          "dataset_description": "Used to evaluate stereo depth estimation with event-based and frame-based sensors sharing the same photoreceptor pixel array, focusing on alignment and reconstruction accuracy.",
+          "citing_paper_id": "259075396",
+          "cited_paper_id": 49877954,
+          "context_text": "Stereo DAVIS sequences evaluation from [29] with δPh align = [0, 0] ⊤ since both sensors (event-based and frame-based) share the same photoreceptor pixel array.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions 'Stereo DAVIS sequences' which appears to be a specific dataset used for evaluation in the context of stereo event cameras. No other datasets are mentioned.",
+          "citing_paper_doi": "10.1109/TIV.2024.3412595",
+          "cited_paper_doi": "10.1007/978-3-030-01246-5_15",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bf3d9296d00db60c9b40960b2c8e8aa1a45b6be5",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/94ebd1f21703350ba3f3683cce935b364c1d7bb3",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "6628106",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "SLED"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "SLED",
+          "dataset_description": "Used for training a model with the Adam optimizer, focusing on event-based stereo depth estimation with specific hyperparameters and training duration.",
+          "citing_paper_id": "257232560",
+          "cited_paper_id": 6628106,
+          "context_text": "On the SLED Dataset For training on the SLED dataset, we use the Adam optimizer [18] with a learning rate of 10 − 4 and a batch size of 4, and train for a total of 50 epochs.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the SLED dataset, which is used for training a model with specific parameters. The dataset is clearly identified and used in the research.",
+          "citing_paper_doi": "10.48550/arXiv.2302.14444",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/76b04bb80a02a1c67b3428d0ee81d5e4b4376bf0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "189998802",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "MegaDepth"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "MegaDepth",
+          "dataset_description": "Used to evaluate stereo depth estimation methods, specifically comparing performance with event camera reconstructed frames. The dataset provides dense depth maps for training and evaluation.",
+          "citing_paper_id": "223957202",
+          "cited_paper_id": 189998802,
+          "context_text": "MegaDepth + refers to MegaDepth [18] using E2VID [27] reconstructed frames and Ours # refers to our method trained using S ∗ → ( S + R ) .",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'MegaDepth' and 'E2VID', but only MegaDepth is referred to as a dataset. E2VID is likely a method or tool.",
+          "citing_paper_doi": "10.1109/3DV50981.2020.00063",
+          "cited_paper_doi": "10.1109/TPAMI.2019.2963386",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/679927ae340dbf5415adf98ea39c88f2e4fdae64",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/630c9e9594ae79f82bea1c55ed7eb6db52f0e47f",
+          "citing_paper_year": 2020,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "17272393",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "A Dataset for Visual Navigation with Neuromorphic Methods"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "A Dataset for Visual Navigation with Neuromorphic Methods",
+          "dataset_description": "Used to evaluate visual navigation tasks, focusing on neuromorphic methods and their application in dynamic environments.",
+          "citing_paper_id": "237142365",
+          "cited_paper_id": 17272393,
+          "context_text": "[5] provide a dataset which focuses on evaluation of visual navigation tasks.",
+          "confidence_score": 0.8,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a dataset focused on visual navigation tasks, which is relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/IROS51168.2021.9636728",
+          "cited_paper_doi": "10.3389/fnins.2016.00049",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a6f7dc28116139475384eb9771c41d1470a493cb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a4d51f8bcabfcd9e69dee25eef470411f3794e87",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2016
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "220870707",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "ESVO (Stereo Events)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "ESVO (Stereo Events)",
+          "dataset_description": "Used to evaluate event-based stereo visual odometry, focusing on stereo depth estimation using event cameras. The dataset provides synchronized stereo events for testing and validation.",
+          "citing_paper_id": "259075396",
+          "cited_paper_id": 220870707,
+          "context_text": "470 ESVO (Stereo Events) [29] × × × × 13.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions 'ESVO (Stereo Events)', which appears to be a dataset or a specific resource used for event-based stereo visual odometry. The context suggests it is used for evaluation or experimentation.",
+          "citing_paper_doi": "10.1109/TIV.2024.3412595",
+          "cited_paper_doi": "10.1109/TRO.2021.3062252",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bf3d9296d00db60c9b40960b2c8e8aa1a45b6be5",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f268549c1859995ec2114525bf86dd9153eb9bca",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "221081555",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "ViViD"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "ViViD",
+          "dataset_description": "Used to evaluate visual navigation algorithms under poor illumination conditions, focusing on the robustness of event-based stereo depth estimation systems.",
+          "citing_paper_id": "237142365",
+          "cited_paper_id": 221081555,
+          "context_text": "[11] present the dataset ViViD, which contains sequences for visual navigation in poor illumination conditions.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a specific dataset, ViViD, which is used for visual navigation in poor illumination conditions. This is relevant to event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/IROS51168.2021.9636728",
+          "cited_paper_doi": "10.48550/arXiv.2204.06183",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a6f7dc28116139475384eb9771c41d1470a493cb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/68d83f65d25e84915cfb994a554dc5522bfc642c",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "244476938",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "TUM-VIE"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "TUM-VIE",
+          "dataset_description": "Used to evaluate the proposed events-frames fusion method, demonstrating its ability to maintain and track features in bright and dimmed scenes where grayscale-only frames may fail.",
+          "citing_paper_id": "259075396",
+          "cited_paper_id": 244476938,
+          "context_text": "Experiments on mocap-desk2 TUM-VIE dataset that show the capability of the proposed events-frames fusion method to maintain and track features in bight and dimmed scenes where grayscale-only frames may fail.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the TUM-VIE dataset, which is a specific dataset used for evaluating event-based vision algorithms. The dataset is used to demonstrate the effectiveness of the proposed method in maintaining and tracking features under varying lighting conditions.",
+          "citing_paper_doi": "10.1109/TIV.2024.3412595",
+          "cited_paper_doi": "10.1109/ICCV48922.2021.01249",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bf3d9296d00db60c9b40960b2c8e8aa1a45b6be5",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1ffe79aee86915792bd56b2893d462d04887da09",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "9455111",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "TUM-RGBD"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "TUM-RGBD",
+          "dataset_description": "Used for testing event-based stereo depth estimation in challenging environments, featuring indoor and outdoor flight sequences. | Used for benchmarking event-based stereo depth estimation, offering real-world driving scenarios with stereo camera data. | Used for evaluating event-based stereo depth estimation algorithms, providing synchronized RGB-D data for indoor scenes.",
+          "citing_paper_id": "250127779",
+          "cited_paper_id": 9455111,
+          "context_text": "Popular examples are given by the TUM-RGBD [5], KITTI [6], and EuRoC [7] datasets.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions three datasets by name, all of which are commonly used in robotics and computer vision research, particularly for stereo depth estimation.",
+          "citing_paper_doi": "10.1109/LRA.2022.3186770",
+          "cited_paper_doi": "10.1177/0278364913491297",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/7a36007c80a655cb487e3096a09dab20ca2f2bb6",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/79b949d9b35c3f51dd20fb5c746cc81fc87147eb",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2013
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "11191105",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "D-eDVS"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "D-eDVS",
+          "dataset_description": "Used for diverse motion capture (partial) with a 1280x720 resolution sensor, evaluating event-based stereo depth estimation in a variety of settings. | Used for drone total station with spline tracking using a 346x260 resolution sensor, testing event-based stereo depth estimation in aerial applications. | Used for hand-held motion capture with LOAM using a 240x180 resolution sensor, evaluating event-based stereo depth estimation in handheld scenarios. | Used for driving with RTK GPS using a 640x480 resolution sensor, testing event-based stereo depth estimation in high-precision driving applications. | Used for driving with LOAM and GPS using a 640x480 resolution sensor, assessing event-based stereo depth estimation in driving scenarios. | Used for mobile robot LiDAR SLAM with a 240x180 resolution, focusing on event-based stereo depth estimation in agricultural robotics. | Used for hand-held motion capture with a 128x128 resolution sensor, focusing on event-based stereo depth estimation. | Used for diverse motion capture and cartographer applications with a 346x260 resolution sensor, assessing event-based stereo depth estimation in various environments. | Used for mobile robot odometry with a 240x180 resolution sensor, evaluating event-based stereo depth estimation in robotic navigation.",
+          "citing_paper_id": "250127779",
+          "cited_paper_id": 11191105,
+          "context_text": "D-eDVS [11] 128×128 6 6 4 6 6 Hand-held MoCap 6 evbench [12] 240×180 6 6 4 6 6 Mobile Robot Odometer 6 MVSEC [13] 346×260 4 4 6 16 6/9 Diverse MoCap + Cartographer 4 UZH-FPV [3] 346×260 6 4 6 6 6 Drone Total Station w/ spline 4 ViViD [14] 240×180 6 6 4 16 9 Hand-held MoCap + LOAM 4 ViViD++ [15] 640×480 6 6 6 64 9 Driving LOAM w/ GPS 4 DSEC [16] 640×480 4 4 6 16 6 Driving RTK GPS 4 AGRI-EBV [17] 240×180 6 4 4 16 6 Mobile Robot LiDAR SLAM 4 TUM-VIE [18] 1280×720 4 4 6 6 6 Diverse MoCap (partial) 4",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation span lists several datasets used for event-based stereo depth estimation, including D-eDVS, evbench, MVSEC, UZH-FPV, ViViD, ViViD++, DSEC, AGRI-EBV, and TUM-VIE. These datasets are described with specific characteristics such as resolution, number of cameras, and application scenarios.",
+          "citing_paper_doi": "10.1109/LRA.2022.3186770",
+          "cited_paper_doi": "10.1109/ICRA.2014.6906882",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/7a36007c80a655cb487e3096a09dab20ca2f2bb6",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/d7e293687b47f24943ced291a01cb08b60588189",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "221808419",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Brisbane-Event-VPR"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Brisbane-Event-VPR",
+          "dataset_description": "Used for dynamic scene understanding, specifically for place recognition in autonomous driving under challenging lighting conditions, maximizing feature similarity between event and frame data.",
+          "citing_paper_id": "271892156",
+          "cited_paper_id": 221808419,
+          "context_text": "Brisbane-Event-VPR dataset [11] maximizes the similarity between features extracted from event and frame data for dynamic scene understanding, such as place recognition for autonomous driving in challenging lighting conditions.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The Brisbane-Event-VPR dataset is explicitly mentioned and used for dynamic scene understanding, particularly for place recognition in autonomous driving under challenging lighting conditions.",
+          "citing_paper_doi": "10.48550/arXiv.2408.08500",
+          "cited_paper_doi": "10.1109/LRA.2020.3025505",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9b0e8ae207ee0e3debe7fa402954343c32fbadeb",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3270f9d8ef79799baf8b3f757a3b2923c25c2b78",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "24007071",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "DAVIS"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DAVIS",
+          "dataset_description": "Used to capture event-based data for stereo depth estimation, focusing on high-resolution events with time stamps, image coordinates, and polarity information.",
+          "citing_paper_id": "65040501",
+          "cited_paper_id": 24007071,
+          "context_text": "In this work, DAVIS is used, which is an extension of the dynamic vision sensor (DVS)(7) with higher resolution (240 180) and an additional frame-based intensity readout (not used in this work).(8) Each event is presented with a quadruplet eðt; x; y; pÞ; t is the time stamp, ðx; yÞ is the image coordinates, and p means polarity (ON/OFF) which indicates the luminance increase (ON) or decrease (OFF).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "DAVIS is mentioned as a specific dataset used in the research, with details about its structure and usage in the context of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1177/1729881417752759",
+          "cited_paper_doi": "10.1109/JSSC.2014.2342715",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/92a4a7ea5491fea2bc1abe1750f0d6dfe2d13ffd",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3ea7120d92e18b41e4b74038806198f924169de1",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "9865213",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "DVS APS Pixel"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DVS APS Pixel",
+          "dataset_description": "Used for urban and suburban driving scenarios with 11 classes, focusing on event-based stereo depth estimation. | Used for indoor and outdoor helmet and handheld scenarios with grayscale images, focusing on event-based visual-inertial odometry. | Used for indoor and outdoor helmet and cart scenarios, focusing on multi-sensor SLAM and event-based depth estimation. | Used for car and motorcycle urban scenarios with grayscale images, focusing on event-based visual odometry and SLAM. | Used for forest and urban quadroped scenarios with 11 classes, focusing on event-based stereo depth estimation and 3D instance segmentation. | Used for urban driving scenarios with semantic labels, focusing on event-based stereo depth estimation and scene understanding. | Used for indoor hand-held experiments with grayscale images, focusing on event-based stereo depth estimation.",
+          "citing_paper_id": "259380779",
+          "cited_paper_id": 9865213,
+          "context_text": "Dataset Platform Terrain Event Cameras LiDAR CIS Cameras Semantic Labels The Event Camera Slider Urban Inivation DVS 240C N/A DVS APS Pixel N/A Dataset [19] Hand Held Indoor 240x180 240x180 Grayscale MVSEC [29] Car + Motorcycle Urban Inivation DVS 346 Velodyne VLP-16 Vi-Sensor N/A Quadrotor Indoor Flight 346x260 752x480 Grayscale KITTI 360 [15] Car Urban N/A Velodyne HDL-64E YES 37 Classes DSEC [9] Car Urban and Suburban Prophesee Gen 3 Velodyne VLP-16 FLIR Backfly S 11 Classes 640x480 1440x1080 RGB VECtor [8] Helmet + Cart Indoor Prophesee Gen 3 Ouster OS0-128 FLIR Grasshopper3 N/A 640x480 1224 × 1024 Grayscale TUM-VIE [14] Helmet + handheld Indoor and Outdoor Prophesee Gen 4 N/A IDS Camera uEye N/A 1280x720 1224 × 1024 Grayscale Car Forest and Urban OVC 3b M3ED Quadroped Forest and Urban Prophesee Gen 4 Ouster OS1-64U 1280x800 11 Classes UAV Forest and Urban 1280x720 RGB + Grayscale 3D Instances",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context lists several datasets used for event-based stereo depth estimation, including specific details about their content and usage.",
+          "citing_paper_doi": "10.1109/CVPRW59228.2023.00419",
+          "cited_paper_doi": "10.1177/0278364917691115",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/6abfefca29a9df4115c9d50b244a2f24523a8502",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/8da267f7dec1cedc59f9c9aa7c4e1f88e3dcc62b",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2016
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "145990403",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "DrivingStereo"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "DrivingStereo",
+          "dataset_description": "Specialized for stereo depth estimation, offering synchronized stereo image pairs and ground truth depth maps for accurate depth perception.",
+          "citing_paper_id": "232170230",
+          "cited_paper_id": 145990403,
+          "context_text": "Oxford RobotCar [27] and KAIST Urban [28] target localization and mapping, while DDAD [29] and DrivingStereo [6] are specialized for monocular or stereo depth estimation respectively.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions specific datasets used for localization, mapping, and depth estimation. These datasets are clearly identified and their usage is described.",
+          "citing_paper_doi": "10.1109/LRA.2021.3068942",
+          "cited_paper_doi": "10.1177/0278364919843996",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/08682f0517cdd61b233c1614c48b6865805015a7",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "206429195",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "KITTI depth"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "KITTI depth",
+          "dataset_description": "Used to implement a filtering method for generating disparity maps from rectified image pairs, focusing on sparsity invariant techniques.",
+          "citing_paper_id": "232170230",
+          "cited_paper_id": 206429195,
+          "context_text": "To address this issue we implement a filtering method similar to those employed by the KITTI depth [46] and DrivingStereo dataset [6]: Accumulate a local Lidar pointcloud for each view Generate a disparity map from the rectified image pair using SGM [42] which is not affected by moving objects.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific datasets, KITTI depth and DrivingStereo, which are used for implementing a filtering method for generating disparity maps.",
+          "citing_paper_doi": "10.1109/LRA.2021.3068942",
+          "cited_paper_doi": "10.1109/3DV.2017.00012",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/90c80317fa68784a3fe4fc3136bb188895b09fa4",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "206594095",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "SYNTHIA"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "SYNTHIA",
+          "dataset_description": "Used to provide synthetic environments with perfect ground truth for training and evaluation, enhancing the robustness of event-based stereo depth estimation algorithms.",
+          "citing_paper_id": "232170230",
+          "cited_paper_id": 206594095,
+          "context_text": "Instead of capturing real-world data, Synthia [30] and [31] provide perfect ground truth in synthetic environments.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "Synthia is identified as a dataset providing synthetic images for semantic segmentation, which can be relevant for event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/LRA.2021.3068942",
+          "cited_paper_doi": "10.1109/CVPR.2016.352",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/ceab4559736c6ba710191b12ed7f6123b2f85131",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/9358d2ae944cfbdcb4b48e2e0c5f7ad97118b74e",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2016
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "9865213",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "ECD dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "ECD dataset",
+          "dataset_description": "Used for depth and ego-motion estimation in real-world scenarios, specifically for the slider_depth sequence. The dataset supports research into event-based methods for visual odometry and SLAM. | Used to evaluate the time-aware warp method, focusing on event-based data for pose estimation, visual odometry, and SLAM. | Used to evaluate the performance of time-aware warp methods, focusing on improving intensity-weighted events (IWEs) and frame-wise loss (FWL) in event-based stereo depth estimation. | Used for depth and ego-motion estimation in the simulation_3planes sequence, focusing on event-based data for pose estimation, visual odometry, and SLAM. | Used for depth and ego-motion estimation, specifically evaluating performance on the slider_depth sequence. The dataset supports research in event-based stereo depth estimation. | Used to demonstrate occlusion handling in event-based stereo depth estimation, focusing on the accuracy of depth maps under partial occlusions. | Used to evaluate stereo depth estimation methods, specifically focusing on the garage door scene to assess the sharpness of intensity-weighted events.",
+          "citing_paper_id": "269525186",
+          "cited_paper_id": 9865213,
+          "context_text": "Depth and Ego-motion estimation for the slider_depth sequence (real data) from the ECD dataset [63].",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions the 'ECD dataset' which is a specific dataset used for depth and ego-motion estimation. The dataset is relevant to the topic of event-based stereo depth estimation.",
+          "citing_paper_doi": "10.1109/TPAMI.2024.3396116",
+          "cited_paper_doi": "10.1177/0278364917691115",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/bc678ee3bca3fdf32492b01e78d408d1daa3290b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/8da267f7dec1cedc59f9c9aa7c4e1f88e3dcc62b",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2016
+        }
+      ]
+    }
+  ],
+  "citation_count_distribution": {
+    "4252896": 5,
+    "56475917": 5,
+    "232170230": 5,
+    "244707609": 2,
+    "254564733": 1,
+    "262638843": 4,
+    "1082643": 3,
+    "3608458": 2,
+    "4412139": 4,
+    "4597042": 2,
+    "4833834": 3,
+    "6079544": 4,
+    "6724907": 2,
+    "7083033": 1,
+    "7224209": 1,
+    "10712214": 5,
+    "11177597": 2,
+    "12047627": 2,
+    "16588072": 3,
+    "17272393": 1,
+    "17693733": 4,
+    "19091270": 2,
+    "25268038": 4,
+    "27059477": 2,
+    "34855834": 4,
+    "44969055": 1,
+    "46937991": 1,
+    "49864158": 3,
+    "49877954": 3,
+    "73729084": 2,
+    "84182058": 1,
+    "119309624": 2,
+    "157060825": 4,
+    "167210006": 1,
+    "205698386": 2,
+    "238198645": 1,
+    "244306440": 3,
+    "246656358": 1,
+    "248227281": 2,
+    "248572428": 2,
+    "250127779": 2,
+    "250607506": 1,
+    "250699235": 2,
+    "250918780": 3,
+    "252476994": 1,
+    "253651036": 3,
+    "254531210": 1,
+    "255125395": 1,
+    "257019827": 1,
+    "258213006": 1,
+    "259075396": 1,
+    "260293142": 1,
+    "263339606": 1,
+    "265257632": 1,
+    "265479838": 1,
+    "267212137": 1,
+    "269137093": 1,
+    "269614135": 1,
+    "270068050": 1,
+    "271892156": 1,
+    "274611240": 1,
+    "276652376": 1,
+    "13756489": 3,
+    "22889967": 1,
+    "50773155": 1,
+    "102352684": 2,
+    "118684904": 8,
+    "195859047": 3,
+    "206770307": 2,
+    "216036364": 4,
+    "220314130": 2,
+    "226293853": 1,
+    "234788196": 1,
+    "246026914": 1,
+    "247109597": 1,
+    "247143537": 1,
+    "247213634": 1,
+    "248304816": 1,
+    "249980412": 3,
+    "253121300": 1,
+    "267740607": 1,
+    "271736313": 1,
+    "1686141": 1,
+    "6258804": 1,
+    "7495827": 1,
+    "8385399": 1,
+    "8702465": 1,
+    "12986049": 2,
+    "21317717": 3,
+    "24007071": 6,
+    "9642065": 1,
+    "215799961": 2,
+    "237142365": 1,
+    "244920800": 1,
+    "1151030": 1,
+    "2121536": 2,
+    "3396150": 2,
+    "10280488": 2,
+    "10716717": 1,
+    "11008141": 3,
+    "12552176": 1,
+    "17407641": 1,
+    "26169625": 1,
+    "56366093": 1,
+    "57573786": 1,
+    "189998802": 3,
+    "214667893": 2,
+    "219037720": 1,
+    "239049376": 2,
+    "244709323": 1,
+    "250602271": 1,
+    "257505349": 2,
+    "257631432": 1,
+    "269525186": 1,
+    "6178869": 1,
+    "26324573": 5,
+    "65040501": 2,
+    "186689463": 1,
+    "206594738": 1,
+    "212837417": 1,
+    "251765050": 1,
+    "18161107": 1,
+    "37664826": 1,
+    "1408596": 2,
+    "1680724": 2,
+    "3719281": 4,
+    "7151414": 4,
+    "59222403": 1,
+    "121601380": 2,
+    "131774014": 1,
+    "145916256": 1,
+    "202565789": 1,
+    "220545977": 1,
+    "221846159": 1,
+    "226291858": 1,
+    "226292034": 1,
+    "2497402": 3,
+    "3416874": 6,
+    "13373696": 3,
+    "14072069": 1,
+    "14878668": 1,
+    "226308033": 1,
+    "4712004": 1,
+    "29158639": 1,
+    "53073405": 1,
+    "53749928": 1,
+    "212675709": 2,
+    "232478376": 1,
+    "245300947": 1,
+    "253513043": 1,
+    "6539071": 1,
+    "49554392": 1,
+    "198229801": 1,
+    "219303641": 1,
+    "226298400": 2,
+    "250374739": 2,
+    "147709": 1,
+    "2070927": 1,
+    "15357188": 4,
+    "23913692": 1,
+    "209202615": 1,
+    "3494469": 1,
+    "22296005": 1,
+    "23276048": 1,
+    "261497446": 1,
+    "1846045": 1,
+    "1864608": 1,
+    "2610586": 1,
+    "9208584": 1,
+    "18164747": 1,
+    "21874346": 1,
+    "6324125": 2,
+    "12212153": 1,
+    "24236495": 3,
+    "44623261": 2,
+    "115151433": 2,
+    "277804": 1,
+    "396580": 1,
+    "7884141": 1,
+    "12339854": 1,
+    "15778738": 1,
+    "18612391": 1,
+    "109416659": 1,
+    "120110206": 1,
+    "204780933": 1,
+    "3892441": 1,
+    "10817557": 2,
+    "15002233": 1,
+    "18327083": 2,
+    "38870956": 1,
+    "53107219": 1,
+    "214743146": 1,
+    "4572038": 2,
+    "4694685": 1,
+    "6195748": 1,
+    "81981856": 1,
+    "86423050": 1,
+    "102496818": 1,
+    "207935891": 1,
+    "212414806": 1,
+    "223957202": 2,
+    "226976144": 2,
+    "235359262": 1,
+    "241440878": 1,
+    "14193490": 1,
+    "20954901": 1,
+    "54115081": 1,
+    "207761262": 2,
+    "222208633": 1,
+    "235306612": 1,
+    "246834559": 1,
+    "247593948": 1,
+    "236574": 1,
+    "355163": 1,
+    "3738244": 3,
+    "3845250": 2,
+    "9729856": 3,
+    "9865213": 1,
+    "11977588": 2,
+    "13360027": 1,
+    "16219282": 1,
+    "16638035": 1,
+    "52283776": 1,
+    "119096559": 1,
+    "229211559": 2,
+    "250408092": 1,
+    "254591426": 1,
+    "257637142": 1,
+    "267945091": 1,
+    "268379520": 1,
+    "3299195": 2,
+    "206775501": 1,
+    "259380779": 2,
+    "260164484": 1,
+    "266335686": 1,
+    "38030033": 1,
+    "91183976": 1,
+    "140309863": 1,
+    "231951439": 1,
+    "837271": 1,
+    "1143169": 1,
+    "12475678": 1,
+    "14925984": 1,
+    "16284071": 1,
+    "27987704": 1,
+    "65172180": 1,
+    "195496021": 1,
+    "220870707": 1,
+    "221112528": 1,
+    "221670108": 1,
+    "235794981": 2,
+    "185541": 2,
+    "605892": 1,
+    "814743": 1,
+    "1226657": 1,
+    "2792722": 1,
+    "3993392": 1,
+    "15373627": 1,
+    "18123440": 1,
+    "20873334": 1,
+    "22158024": 1,
+    "30913835": 3,
+    "197634653": 1,
+    "203162947": 1,
+    "206596513": 2,
+    "208098355": 1,
+    "50775406": 1,
+    "220713377": 1,
+    "458430": 1,
+    "8688550": 1,
+    "11395394": 2,
+    "232152677": 1,
+    "485828": 1,
+    "1234009": 1,
+    "1561703": 1,
+    "1753085": 1,
+    "52814827": 1,
+    "119297695": 1,
+    "119304432": 2,
+    "196016124": 1,
+    "203593170": 1,
+    "211126617": 1,
+    "211258776": 1,
+    "213704910": 1,
+    "214605597": 1,
+    "222319014": 1,
+    "231759393": 1,
+    "235078812": 1,
+    "247675601": 1,
+    "6913648": 1,
+    "8415966": 1,
+    "8920227": 1,
+    "11759366": 1,
+    "12248226": 1,
+    "14542261": 1,
+    "14915763": 1,
+    "15077875": 1,
+    "16160208": 1,
+    "21539113": 1,
+    "22330500": 1,
+    "35157264": 1,
+    "45560068": 1,
+    "33388297": 1,
+    "53419489": 1,
+    "206428176": 1,
+    "206767633": 1,
+    "239050401": 1,
+    "244729216": 1,
+    "4766599": 2,
+    "23102425": 1,
+    "210886473": 1,
+    "220978548": 1,
+    "235651771": 1,
+    "236469482": 1,
+    "246285530": 1,
+    "251040986": 1,
+    "251765179": 1,
+    "257232560": 1,
+    "257632404": 1,
+    "264886560": 1,
+    "55750": 1,
+    "703552": 2,
+    "786967": 1,
+    "2430892": 1,
+    "2658860": 1,
+    "3871029": 1,
+    "5880703": 1,
+    "6262684": 1,
+    "6628106": 1,
+    "31762881": 1,
+    "53082511": 1,
+    "159040912": 1,
+    "196183868": 1,
+    "208828341": 1,
+    "225072923": 1,
+    "226254259": 1,
+    "232104918": 1,
+    "233204703": 1,
+    "247596980": 1,
+    "253080413": 1,
+    "257407018": 1,
+    "257495841": 1,
+    "258187423": 1,
+    "260779095": 1,
+    "261031728": 1,
+    "262083814": 1,
+    "269983050": 1,
+    "3328976": 1,
+    "19160323": 1,
+    "20619009": 1,
+    "4459013": 1,
+    "12128172": 1,
+    "13697803": 1,
+    "17839778": 1,
+    "202782364": 1,
+    "202786778": 1,
+    "211731854": 1,
+    "220713296": 1,
+    "235719472": 1,
+    "244499996": 1,
+    "250644220": 1,
+    "251903532": 1,
+    "253553798": 1,
+    "253761147": 1,
+    "254612876": 1,
+    "255749379": 1
+  },
+  "merged_dataset_groups": [
+    {
+      "display_name": "MVSEC",
+      "normalized_name": "mvsec",
+      "name_variants": [
+        "MVSEC"
+      ],
+      "mention_count": 15,
+      "cited_papers_count": 8,
+      "topic_summary": "The MVSEC dataset is primarily used for evaluating and comparing event-based stereo depth estimation methods, focusing on 3D perception tasks. It provides synchronized data from stereo event cameras, standard cameras, RGB-D sensors, LiDAR, and IMU, enabling researchers to assess performance metrics, accuracy, and robustness. The dataset supports training, validation, and testing of both supervised and unsupervised models, and is also used for multi-sensor SLAM techniques and self-supervised optical flow estimation."
+    },
+    {
+      "display_name": "DSEC",
+      "normalized_name": "dsec",
+      "name_variants": [
+        "DSEC"
+      ],
+      "mention_count": 7,
+      "cited_papers_count": 4,
+      "topic_summary": "The DSEC dataset is primarily used for evaluating and training event-based stereo depth estimation methods, particularly in driving scenarios. It provides ground truth depth and flow data, enabling researchers to assess 3D reconstruction accuracy and optical flow performance. The dataset supports various resolutions and dynamic scenes, facilitating comparisons between different methods and sensor configurations. It also aids in calibrating event-based cameras and demonstrating the advantages of stereo over monocular approaches in terms of accuracy and convergence speed."
+    },
+    {
+      "display_name": "Multivehicle Stereo Event Camera Dataset",
+      "normalized_name": "multivehiclestereoeventcameradataset",
+      "name_variants": [
+        "Multivehicle Stereo Event Camera Dataset"
+      ],
+      "mention_count": 6,
+      "cited_papers_count": 4,
+      "topic_summary": "The Multivehicle Stereo Event Camera Dataset is primarily used to evaluate and enhance event-based stereo depth estimation methods, particularly in 3D perception tasks. It supports research in visual odometry, SLAM, and pose estimation, often in complex indoor flying and driving scenarios. The dataset includes real and synthetic sequences from stereo event cameras, facilitating robustness and accuracy testing. It also integrates LiDAR and multi-robot, multi-sensor data for improved dynamic scene perception and fine-grained stereo matching."
+    },
+    {
+      "display_name": "Indoor Flying dataset",
+      "normalized_name": "indoorflying",
+      "name_variants": [
+        "Indoor Flying dataset",
+        "Indoor Flying dataset from MVSEC"
+      ],
+      "mention_count": 6,
+      "cited_papers_count": 4,
+      "topic_summary": "The Indoor Flying dataset is primarily used for training and evaluating event-based stereo depth estimation methods, particularly in indoor flying scenarios involving event cameras. It provides precise depth information from Lidar sensors, event streams, and intensity images, enabling researchers to assess performance metrics, robustness in dynamic environments, and stereo depth estimation with sparse ground truth. The dataset is partitioned into training and evaluation splits, facilitating the development and testing of event-based vision algorithms and deep event stereo networks."
+    },
+    {
+      "display_name": "Middlebury",
+      "normalized_name": "middlebury",
+      "name_variants": [
+        "Middlebury"
+      ],
+      "mention_count": 4,
+      "cited_papers_count": 4,
+      "topic_summary": "The Middlebury dataset is primarily used for evaluating stereo vision algorithms, including depth estimation and scene flow, particularly in automotive settings. It provides ground truth disparity maps and real-world driving scenarios, enabling researchers to quantitatively compare and benchmark the performance of their methods against existing techniques using various metrics."
+    },
+    {
+      "display_name": "Multi Vehicle Stereo Event Camera (MVSEC)",
+      "normalized_name": "multivehiclestereoeventcameramvsec",
+      "name_variants": [
+        "Multi Vehicle Stereo Event Camera (MVSEC)"
+      ],
+      "mention_count": 3,
+      "cited_papers_count": 2,
+      "topic_summary": "The Multi Vehicle Stereo Event Camera (MVSEC) dataset is primarily used to evaluate and compare the performance of event-based stereo depth estimation algorithms. Researchers use it to assess accuracy, smoothness, and disparity error reduction in 3D perception tasks with event camera data. The dataset supports training and testing of networks and pipelines, enabling advancements in computationally efficient and high-performance event-based stereo depth estimation methods."
+    },
+    {
+      "display_name": "KITTI",
+      "normalized_name": "kitti",
+      "name_variants": [
+        "KITTI"
+      ],
+      "mention_count": 3,
+      "cited_papers_count": 3,
+      "topic_summary": "The KITTI dataset is primarily used for training and evaluating stereo depth estimation algorithms, particularly in real-world driving scenarios with synchronized and calibrated stereo images. It also supports indoor depth estimation by providing RGB-D images and corresponding depth maps. Researchers use it to compare the performance and robustness of various depth estimation methods, including event-based and image-based approaches, focusing on accuracy and generalizability."
+    },
+    {
+      "display_name": "DDD17",
+      "normalized_name": "ddd17",
+      "name_variants": [
+        "DDD17"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 1,
+      "topic_summary": "The DDD17 dataset is used primarily for end-to-end learning of driving-related tasks and event-based stereo depth estimation. It provides extensive driving data captured by a DAVIS 346B sensor, including 12 hours of driving footage and vehicle control data. This dataset enables researchers to develop and test algorithms for real-time driving applications, leveraging the unique event-based data from the DAVIS346 camera."
+    },
+    {
+      "display_name": "EVIMO2",
+      "normalized_name": "evimo2",
+      "name_variants": [
+        "EVIMO2"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The EVIMO2 dataset is primarily used for calibrating event-based cameras in various environments, including indoor, outdoor, and driving scenarios. It focuses on converting events to frames for calibration and testing stereo depth estimation methods. The dataset supports research in event-based stereo depth estimation, particularly in trinocular configurations, addressing issues like frame blur and high-speed motion. It also evaluates motion segmentation, optical flow, and structure from motion in indoor scenes using monocular or stereo algorithms."
+    },
+    {
+      "display_name": "Multi Vehicle Stereo Event Camera Dataset (MVSEC)",
+      "normalized_name": "multivehiclestereoeventcameradatasetmvsec",
+      "name_variants": [
+        "Multi Vehicle Stereo Event Camera Dataset (MVSEC)"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The MVSEC dataset is used to evaluate stereo depth estimation methods using event cameras, particularly focusing on 3D perception in dynamic environments. Researchers employ this dataset to assess the performance of algorithms in real-world scenarios, leveraging its event-based data to enhance understanding of dynamic scenes. This enables the development and refinement of robust stereo depth estimation techniques."
+    },
+    {
+      "display_name": "VECtor sequences",
+      "normalized_name": "vectorsequences",
+      "name_variants": [
+        "VECtor sequences"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The VECtor sequences dataset is primarily used to evaluate multi-sensor SLAM systems, focusing on event-centric data for accurate localization and mapping. It provides diverse sequences and high-quality ground truth values, enabling researchers to test robustness in various environments and compare performance with RGB image-based and event-based/-aided methods. The dataset supports research in multi-sensor SLAM and event-based stereo depth estimation, offering real-world scenarios and challenging conditions."
+    },
+    {
+      "display_name": "Scene Flow",
+      "normalized_name": "sceneflow",
+      "name_variants": [
+        "Scene Flow"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The Scene Flow dataset is used to evaluate and train disparity, optical flow, and scene flow estimation methods, as well as stereo depth estimation techniques. It provides both synthetic data with ground truth annotations and real-world driving scenarios with ground truth depth maps and stereo image pairs. This enables researchers to test the accuracy and robustness of their algorithms in controlled and realistic environments."
+    },
+    {
+      "display_name": "ADD",
+      "normalized_name": "add",
+      "name_variants": [
+        "ADD"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The ADD dataset is primarily used for event-based object detection, particularly in automotive contexts. It employs Gen1 event cameras and evaluates detection accuracy at resolutions of 304x240 and 1280x720. The dataset supports large-scale detection tasks, enabling researchers to assess the performance of event-based systems in real-world scenarios."
+    },
+    {
+      "display_name": "DAVIS346 (MVSEC)",
+      "normalized_name": "davis346mvsec",
+      "name_variants": [
+        "DAVIS346 (MVSEC)"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The DAVIS346 (MVSEC) dataset is primarily used to evaluate event-based stereo depth estimation methods, particularly in driving scenarios and dynamic environments. It provides high-resolution, high-dynamic range data and supports the generation of grayscale frames for overlaying depth and confidence maps. The dataset facilitates the calibration of intrinsic and extrinsic parameters, integrating frame-based and event-based sensors. Its high temporal resolution and suitability for both indoor and outdoor settings enable robust evaluation and improvement of event-based stereo depth estimation techniques."
+    },
+    {
+      "display_name": "outdoor_day2",
+      "normalized_name": "outdoorday2",
+      "name_variants": [
+        "outdoor_day2"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The 'outdoor_day2' dataset is used to train supervised-learning methods for event-based stereo depth estimation, specifically focusing on real-world outdoor scenarios. This dataset enables researchers to develop and refine algorithms that can accurately estimate depth from event-based cameras in complex, dynamic outdoor environments."
+    },
+    {
+      "display_name": "OVC 3b M3ED",
+      "normalized_name": "ovc3bm3ed",
+      "name_variants": [
+        "OVC 3b M3ED"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The OVC 3b M3ED dataset is primarily used for event-based stereo depth estimation, with applications spanning urban and suburban driving, indoor and outdoor helmet and handheld scenarios, and forest and urban quadroped environments. It supports multi-sensor SLAM, event-based visual-inertial odometry, and 3D instance segmentation. The dataset includes grayscale images and semantic labels, enabling research in scene understanding and smooth trajectory generation."
+    },
+    {
+      "display_name": "DAVISm346b",
+      "normalized_name": "davism346b",
+      "name_variants": [
+        "DAVISm346b"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The DAVISm346b dataset is used to provide event streams from synchronized and calibrated sensors, featuring long indoor and outdoor sequences with diverse illumination and speed conditions. It includes depth images and pose data at up to 100Hz, enabling researchers to study dynamic environments and sensor performance under varying conditions. This dataset supports the development and evaluation of algorithms for real-time depth estimation and sensor fusion."
+    },
+    {
+      "display_name": "EMSGC",
+      "normalized_name": "emsgc",
+      "name_variants": [
+        "EMSGC"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The EMSGC dataset is used for event-based motion segmentation, specifically employing spatio-temporal graph cuts methodology. It records sequences with a DAVIS346 camera, enabling researchers to analyze and segment motion events in a high temporal resolution. This dataset facilitates the development and evaluation of algorithms for real-time motion analysis in dynamic environments."
+    },
+    {
+      "display_name": "MVSEC indoor seqs.",
+      "normalized_name": "mvsecindoorseqs",
+      "name_variants": [
+        "MVSEC indoor seqs."
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The MVSEC indoor seqs. dataset is used to evaluate the generalizability of event-based optical flow methods, particularly focusing on indoor sequences. It tests the performance of these methods beyond driving scenarios, providing a benchmark for assessing their robustness and adaptability in diverse environments. This dataset enables researchers to validate and refine algorithms designed for event-based vision systems."
+    },
+    {
+      "display_name": "DENSE",
+      "normalized_name": "dense",
+      "name_variants": [
+        "DENSE"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The DENSE dataset is used for validating and testing models trained on CARLA Towns 01 to 05, particularly in assessing their performance in unseen but similar urban environments. It provides event-based stereo depth estimation data, including events, intensity frames, semantic labels, and depth maps, all recorded in the CARLA simulator. This dataset enables researchers to evaluate model robustness and generalization capabilities in new urban settings."
+    },
+    {
+      "display_name": "Middlebury database",
+      "normalized_name": "middleburydatabase",
+      "name_variants": [
+        "Middlebury database"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Middlebury database is used to evaluate the performance of stereo correspondence algorithms, specifically focusing on dense two-frame stereo matching accuracy and robustness. Researchers employ this dataset to assess the effectiveness of their algorithms in generating precise depth maps, leveraging its standardized benchmarks and ground truth data. This enables rigorous comparison and validation of different stereo matching techniques."
+    },
+    {
+      "display_name": "Stereo DAVIS sequences",
+      "normalized_name": "stereodavissequences",
+      "name_variants": [
+        "Stereo DAVIS sequences"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Stereo DAVIS sequences dataset is used to evaluate stereo depth estimation by integrating data from event-based and frame-based sensors that share the same photoreceptor pixel array. Research focuses on assessing alignment and reconstruction accuracy, enabling comparisons between different sensor modalities in depth estimation tasks."
+    },
+    {
+      "display_name": "SLED",
+      "normalized_name": "sled",
+      "name_variants": [
+        "SLED"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The SLED dataset is used for training models focused on event-based stereo depth estimation. Researchers employ the Adam optimizer with specific hyperparameters and a defined training duration to develop these models. This dataset enables the advancement of techniques in event-based stereo vision, enhancing the accuracy and efficiency of depth estimation in dynamic environments."
+    },
+    {
+      "display_name": "MegaDepth",
+      "normalized_name": "megadepth",
+      "name_variants": [
+        "MegaDepth"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The MegaDepth dataset is used to evaluate stereo depth estimation methods, particularly in comparing the performance of traditional cameras with event camera reconstructed frames. It provides dense depth maps essential for both training and evaluation, enabling researchers to assess the accuracy and efficiency of different depth estimation techniques."
+    },
+    {
+      "display_name": "A Dataset for Visual Navigation with Neuromorphic Methods",
+      "normalized_name": "adatasetforvisualnavigationwithneuromorphicmethods",
+      "name_variants": [
+        "A Dataset for Visual Navigation with Neuromorphic Methods"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The dataset 'A Dataset for Visual Navigation with Neuromorphic Methods' is used to evaluate visual navigation tasks, particularly focusing on neuromorphic methods in dynamic environments. It enables researchers to assess the performance and robustness of neuromorphic algorithms in real-world navigation scenarios, providing a benchmark for comparing different approaches. The dataset's emphasis on dynamic conditions supports the development and testing of advanced visual navigation systems."
+    },
+    {
+      "display_name": "ESVO (Stereo Events)",
+      "normalized_name": "esvostereoevents",
+      "name_variants": [
+        "ESVO (Stereo Events)"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The ESVO (Stereo Events) dataset is used to evaluate event-based stereo visual odometry, specifically focusing on stereo depth estimation with event cameras. It provides synchronized stereo events, enabling researchers to test and validate algorithms for accurate depth estimation in dynamic environments. This dataset supports the development and assessment of real-time, low-latency depth perception systems."
+    },
+    {
+      "display_name": "ViViD",
+      "normalized_name": "vivid",
+      "name_variants": [
+        "ViViD"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The ViViD dataset is used to evaluate the performance of visual navigation algorithms, particularly focusing on the robustness of event-based stereo depth estimation systems under poor illumination conditions. This dataset enables researchers to test and improve algorithms' reliability in challenging lighting environments, ensuring they can function effectively in real-world scenarios."
+    },
+    {
+      "display_name": "TUM-VIE",
+      "normalized_name": "tumvie",
+      "name_variants": [
+        "TUM-VIE"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The TUM-VIE dataset is used to evaluate methods for fusing event-based and frame-based data, particularly in the context of maintaining and tracking features in varying lighting conditions. It demonstrates the effectiveness of the proposed fusion technique in scenarios where grayscale frames alone may fail, such as in bright or dim environments. This dataset enables researchers to test and validate their algorithms under challenging illumination conditions, ensuring robust performance across different lighting scenarios."
+    },
+    {
+      "display_name": "TUM-RGBD",
+      "normalized_name": "tumrgbd",
+      "name_variants": [
+        "TUM-RGBD"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The TUM-RGBD dataset is primarily used for testing and benchmarking event-based stereo depth estimation algorithms. It features synchronized RGB-D data from indoor and outdoor environments, including flight sequences and real-world driving scenarios. Researchers use this dataset to evaluate the performance of event-based stereo depth estimation methods in challenging conditions, leveraging its diverse and realistic data to assess algorithm robustness and accuracy."
+    },
+    {
+      "display_name": "D-eDVS",
+      "normalized_name": "dedvs",
+      "name_variants": [
+        "D-eDVS"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The D-eDVS dataset is used for evaluating event-based stereo depth estimation across various applications and environments. It supports research in drone spline tracking, hand-held motion capture, driving with RTK GPS and LOAM, mobile robot LiDAR SLAM, and robotic odometry. The dataset features different sensor resolutions (128x128 to 1280x720), enabling researchers to test algorithms in diverse settings such as aerial, handheld, driving, and agricultural robotics scenarios. This variability allows for comprehensive assessment of event-based stereo depth estimation techniques under different conditions and resolutions."
+    },
+    {
+      "display_name": "Brisbane-Event-VPR",
+      "normalized_name": "brisbaneeventvpr",
+      "name_variants": [
+        "Brisbane-Event-VPR"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Brisbane-Event-VPR dataset is used for dynamic scene understanding, particularly in place recognition for autonomous driving under challenging lighting conditions. Researchers employ the dataset to maximize feature similarity between event and frame data, enhancing the robustness of place recognition systems. This approach addresses the need for reliable navigation in varying environmental conditions."
+    },
+    {
+      "display_name": "DAVIS",
+      "normalized_name": "davis",
+      "name_variants": [
+        "DAVIS"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The DAVIS dataset is used for capturing event-based data to facilitate stereo depth estimation. It focuses on high-resolution events that include time stamps, image coordinates, and polarity information. This dataset enables researchers to analyze and process dynamic visual scenes with high temporal precision, enhancing the accuracy of depth estimation in real-time applications."
+    },
+    {
+      "display_name": "DVS APS Pixel",
+      "normalized_name": "dvsapspixel",
+      "name_variants": [
+        "DVS APS Pixel"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The DVS APS Pixel dataset is primarily used for event-based stereo depth estimation, visual-inertial odometry, and SLAM in various environments, including urban, suburban, indoor, and forest settings. It supports research in event-based visual odometry, 3D instance segmentation, and scene understanding, often utilizing grayscale images and semantic labels. The dataset's versatility across different scenarios and its focus on event-based processing enable advanced research in real-time perception and navigation systems."
+    },
+    {
+      "display_name": "DrivingStereo",
+      "normalized_name": "drivingstereo",
+      "name_variants": [
+        "DrivingStereo"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The DrivingStereo dataset is specialized for stereo depth estimation, providing synchronized stereo image pairs and ground truth depth maps. Researchers use this dataset to develop and evaluate algorithms for accurate depth perception. The dataset's synchronized images and precise depth maps enable robust testing and validation of stereo depth estimation techniques, enhancing the accuracy and reliability of depth perception systems."
+    },
+    {
+      "display_name": "KITTI depth",
+      "normalized_name": "kittidepth",
+      "name_variants": [
+        "KITTI depth"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The KITTI depth dataset is used to implement filtering methods for generating disparity maps from rectified image pairs, with a focus on sparsity invariant techniques. This approach addresses the challenge of producing accurate depth estimations in sparse data environments, leveraging the dataset's rectified image pairs to enhance the robustness and reliability of disparity mapping algorithms."
+    },
+    {
+      "display_name": "SYNTHIA",
+      "normalized_name": "synthia",
+      "name_variants": [
+        "SYNTHIA"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The SYNTHIA dataset is used to provide synthetic environments with perfect ground truth for training and evaluating event-based stereo depth estimation algorithms. This enhances the robustness of these algorithms by offering controlled, high-quality data that accurately simulates real-world conditions. The dataset's perfect ground truth is a critical feature that enables researchers to rigorously test and improve the performance of their models."
+    },
+    {
+      "display_name": "ECD dataset",
+      "normalized_name": "ecd",
+      "name_variants": [
+        "ECD dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The ECD dataset is primarily used for depth and ego-motion estimation in both real-world and simulated scenarios, focusing on event-based methods for visual odometry and SLAM. It evaluates time-aware warp methods, intensity-weighted events (IWEs), and frame-wise loss (FWL) to improve pose estimation and stereo depth accuracy, particularly in handling occlusions and assessing depth map sharpness. The dataset supports research by providing sequences like slider_depth and simulation_3planes, enabling detailed performance evaluations in event-based stereo depth estimation."
+    }
+  ]
+}

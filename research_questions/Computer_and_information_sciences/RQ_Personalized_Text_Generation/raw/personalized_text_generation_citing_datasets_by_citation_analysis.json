@@ -1,0 +1,4174 @@
+{
+  "summary": {
+    "total_unique_datasets": 57,
+    "total_dataset_mentions": 74,
+    "unique_dataset_names": 57,
+    "extraction_successful": 155,
+    "extraction_failed": 2788,
+    "unique_contexts_processed": 2218,
+    "total_citation_instances": 2943,
+    "total_processing_time": 132.86774897575378
+  },
+  "datasets_sorted_by_citation_count": [
+    {
+      "cited_paper_id": "52167799",
+      "citation_count": 0,
+      "total_dataset_mentions": 6,
+      "unique_datasets": [
+        "PERSONA-CHAT"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "PERSONA-CHAT",
+          "dataset_description": "Used to extract personalized characteristics from users' posts, enhancing the ability to generate personalized dialogues and product descriptions. | Used to build a profile-based dialogue dataset, where personalized characteristics are extracted from users' social posts to conduct dialogues with personalized traits. | Used to train personalized dialogue agents, focusing on incorporating user profiles into conversations to enhance personalization.",
+          "citing_paper_id": "202539583",
+          "cited_paper_id": 52167799,
+          "context_text": "xtracted from the Ubuntu chat logs PERSONA CHAT [151] Personalized dataset A personalized dialogue dataset where two parts of every conversation are given a group of profile information Humeau et al. [92] Personalized dataset A profile-based dialogue dataset; Extracting personalized characteristics from users’ posts in REDDIT TaoDescribe [18] Personalized dataset A personalized product description dat",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions specific personalized dialogue datasets, which are relevant to the topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.18653/v1/D18-1298",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e324d92c005ccdec0ce04dfb9941dd99ded21920",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/dde89e64a7f375b90e1cc594142940f4161e1592",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "PERSONA-CHAT",
+          "dataset_description": "Used to generate conversation topics and train models (BOB, CLV, LMEDR) by providing personas as input, ensuring a fair comparison in personalized dialogue generation.",
+          "citing_paper_id": "264590708",
+          "cited_paper_id": 258823272,
+          "context_text": "To ensure a fair comparison, we randomly select personas from the Per-sonaChat dataset (Zhang et al., 2018) as conversation topics when generating our data, and feed the topics as personas input to BOB, CLV and LMEDR during training.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the use of the PersonaChat dataset for generating conversation topics and training models. The dataset is clearly identified and used in a specific research context.",
+          "citing_paper_doi": "10.48550/arXiv.2310.18342",
+          "cited_paper_doi": "10.48550/arXiv.2305.11482",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/19883b754a0e4fc1c43e6c76d55bef4c2196231d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/6dd3c9f05b319693cb30f700e2f1f128cded7c6f",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2023
+        },
+        {
+          "dataset_name": "PERSONA-CHAT",
+          "dataset_description": "Used to generate conversation topics and train models (BOB, CLV, LMEDR) by providing personas as input, ensuring a fair comparison in personalized dialogue generation.",
+          "citing_paper_id": "264590708",
+          "cited_paper_id": null,
+          "context_text": "To ensure a fair comparison, we randomly select personas from the Per-sonaChat dataset (Zhang et al., 2018) as conversation topics when generating our data, and feed the topics as personas input to BOB, CLV and LMEDR during training.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the use of the PersonaChat dataset for generating conversation topics and training models. The dataset is clearly identified and used in a specific research context.",
+          "citing_paper_doi": "10.48550/arXiv.2310.18342",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/19883b754a0e4fc1c43e6c76d55bef4c2196231d",
+          "cited_paper_url": null,
+          "citing_paper_year": 2023,
+          "cited_paper_year": null
+        },
+        {
+          "dataset_name": "PERSONA-CHAT",
+          "dataset_description": "Used to develop and evaluate personalized dialogue systems, focusing on incorporating user profiles into conversational interactions. | Used to train personalized dialogue agents, focusing on incorporating profile information into conversations to enhance personalization and engagement. | Used to train and evaluate personalized dialogue agents, focusing on incorporating personal information into conversations to enhance user engagement and interaction.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 6869582,
+          "context_text": "PERSONA CHAT [151] Personalized dataset A personalized dialogue dataset where two parts of every conversation are given a group of profile information",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'PERSONA CHAT' as a personalized dialogue dataset, which is relevant to the topic of personalized text generation.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": "10.18653/v1/P18-1205",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/6c7046195f64cccac1ed3275d88d77655534b5a4",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "PERSONA-CHAT",
+          "dataset_description": "Used to train dialogue systems for generating casual and diverse conversations, focusing on the variety of topics and user interactions. | Used to train dialogue systems for generating short, informal conversations, focusing on the dynamic and fast-paced nature of social media interactions. | Used to train dialogue systems for generating personalized and engaging conversations, focusing on user-specific contexts and preferences. | Used to train dialogue systems for generating personalized responses, focusing on incorporating persona information into conversations.",
+          "citing_paper_id": "234757004",
+          "cited_paper_id": 3147007,
+          "context_text": "There are also several dialog datasets that focus on chit-chat scenarios, such as PERSONA-CHAT dataset (Zhang et al., 2018), Reddit dataset (Al-Rfou et al., 2016), Twitter dataset (Li et al., 2016b) and PersonalDialog dataset (Zheng et al., 2020).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions specific dialog datasets that are used for chit-chat scenarios, which are directly relevant to personalized text generation.",
+          "citing_paper_doi": "10.18653/V1/2021.NAACL-MAIN.157",
+          "cited_paper_doi": "10.18653/v1/D16-1127",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a27ef1cae80d9a72734868b7a5d4e5092452dc31",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1298dae5751fb06184f6b067d1503bde8037bdb7",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2016
+        },
+        {
+          "dataset_name": "PERSONA-CHAT",
+          "dataset_description": "Used to train dialogue systems for generating casual and diverse conversations, focusing on the variety of topics and user interactions. | Used to train dialogue systems for generating short, informal conversations, focusing on the dynamic and fast-paced nature of social media interactions. | Used to train dialogue systems for generating personalized and engaging conversations, focusing on user-specific contexts and preferences. | Used to train dialogue systems for generating personalized responses, focusing on incorporating persona information into conversations.",
+          "citing_paper_id": "234757004",
+          "cited_paper_id": 7287895,
+          "context_text": "There are also several dialog datasets that focus on chit-chat scenarios, such as PERSONA-CHAT dataset (Zhang et al., 2018), Reddit dataset (Al-Rfou et al., 2016), Twitter dataset (Li et al., 2016b) and PersonalDialog dataset (Zheng et al., 2020).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions specific dialog datasets that are used for chit-chat scenarios, which are directly relevant to personalized text generation.",
+          "citing_paper_doi": "10.18653/V1/2021.NAACL-MAIN.157",
+          "cited_paper_doi": "10.18653/v1/N16-1014",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a27ef1cae80d9a72734868b7a5d4e5092452dc31",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/651e5bcc14f14605a879303e97572a27ea8c7956",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "13530374",
+      "citation_count": 0,
+      "total_dataset_mentions": 5,
+      "unique_datasets": [
+        "WEATHERGOV"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "WEATHERGOV",
+          "dataset_description": "Used to generate basketball game summaries from box scores, focusing on natural language generation from structured data. | Used to generate sports commentaries from game data, testing grounded language acquisition in a sports context. | Used to generate personalized restaurant reviews, focusing on evaluating the effectiveness of neural models in generating coherent and contextually appropriate text. | Used to generate biographical texts from Wikipedia infoboxes, focusing on text generation in the biography domain. | Used to generate weather reports from structured data, focusing on semantic correspondences with less supervision.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 238873,
+          "context_text": "Several studies focused on a specific topic and schema such as WEATHERGOV (Liang et al., 2009) and ROBOCUP (Chen and Mooney, 2008), Rotowire (Wiseman et al., 2017), Wikibio (Lebret et al., 2016, Biographies), E2E (Novikova et al., 2016, Restau-rants).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions several datasets that are used for text generation tasks, which align with the research topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.3115/1687878.1687893",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/b3051b3e18eee9c498a2e94d0811d1a3551e64e4",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2009
+        },
+        {
+          "dataset_name": "WEATHERGOV",
+          "dataset_description": "Used to generate basketball game summaries from box scores, focusing on natural language generation from structured data. | Used to generate sports commentaries from game data, testing grounded language acquisition in a sports context. | Used to generate personalized restaurant reviews, focusing on evaluating the effectiveness of neural models in generating coherent and contextually appropriate text. | Used to generate biographical texts from Wikipedia infoboxes, focusing on text generation in the biography domain. | Used to generate weather reports from structured data, focusing on semantic correspondences with less supervision.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 1238927,
+          "context_text": "Several studies focused on a specific topic and schema such as WEATHERGOV (Liang et al., 2009) and ROBOCUP (Chen and Mooney, 2008), Rotowire (Wiseman et al., 2017), Wikibio (Lebret et al., 2016, Biographies), E2E (Novikova et al., 2016, Restau-rants).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions several datasets that are used for text generation tasks, which align with the research topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.18653/v1/D16-1128",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/604764133befe7a0aaa692919545846197e6e065",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2016
+        },
+        {
+          "dataset_name": "WEATHERGOV",
+          "dataset_description": "Used to generate basketball game summaries from box scores, focusing on natural language generation from structured data. | Used to generate sports commentaries from game data, testing grounded language acquisition in a sports context. | Used to generate personalized restaurant reviews, focusing on evaluating the effectiveness of neural models in generating coherent and contextually appropriate text. | Used to generate biographical texts from Wikipedia infoboxes, focusing on text generation in the biography domain. | Used to generate weather reports from structured data, focusing on semantic correspondences with less supervision.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 2488088,
+          "context_text": "Several studies focused on a specific topic and schema such as WEATHERGOV (Liang et al., 2009) and ROBOCUP (Chen and Mooney, 2008), Rotowire (Wiseman et al., 2017), Wikibio (Lebret et al., 2016, Biographies), E2E (Novikova et al., 2016, Restau-rants).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions several datasets that are used for text generation tasks, which align with the research topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1145/1390156.1390173",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/0008076a1968d9fb590c9013ab27b824849a4e80",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2008
+        },
+        {
+          "dataset_name": "WEATHERGOV",
+          "dataset_description": "Used to generate basketball game summaries from box scores, focusing on natural language generation from structured data. | Used to generate sports commentaries from game data, testing grounded language acquisition in a sports context. | Used to generate personalized restaurant reviews, focusing on evaluating the effectiveness of neural models in generating coherent and contextually appropriate text. | Used to generate biographical texts from Wikipedia infoboxes, focusing on text generation in the biography domain. | Used to generate weather reports from structured data, focusing on semantic correspondences with less supervision.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 13530374,
+          "context_text": "Several studies focused on a specific topic and schema such as WEATHERGOV (Liang et al., 2009) and ROBOCUP (Chen and Mooney, 2008), Rotowire (Wiseman et al., 2017), Wikibio (Lebret et al., 2016, Biographies), E2E (Novikova et al., 2016, Restau-rants).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions several datasets that are used for text generation tasks, which align with the research topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.18653/v1/W16-6644",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/bbba1704b3253134c5edf9c9e6c9816ff88c8f7e",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2016
+        },
+        {
+          "dataset_name": "WEATHERGOV",
+          "dataset_description": "Used to generate basketball game summaries from box scores, focusing on natural language generation from structured data. | Used to generate sports commentaries from game data, testing grounded language acquisition in a sports context. | Used to generate personalized restaurant reviews, focusing on evaluating the effectiveness of neural models in generating coherent and contextually appropriate text. | Used to generate biographical texts from Wikipedia infoboxes, focusing on text generation in the biography domain. | Used to generate weather reports from structured data, focusing on semantic correspondences with less supervision.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 23892230,
+          "context_text": "Several studies focused on a specific topic and schema such as WEATHERGOV (Liang et al., 2009) and ROBOCUP (Chen and Mooney, 2008), Rotowire (Wiseman et al., 2017), Wikibio (Lebret et al., 2016, Biographies), E2E (Novikova et al., 2016, Restau-rants).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions several datasets that are used for text generation tasks, which align with the research topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.18653/v1/D17-1239",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/13395213d47f78672ab4e81573f2b0fa0cfc8c6d",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "256416408",
+      "citation_count": 0,
+      "total_dataset_mentions": 3,
+      "unique_datasets": [
+        "NBDESCRIB"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "NBDESCRIB",
+          "dataset_description": "Used to generate personalized descriptions, focusing on decomposing evidence and questions for table-based reasoning, enhancing the accuracy and relevance of generated text.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 256416408,
+          "context_text": "…et al., 2021; Richardson et al., 2017; An et al., 2022; Liu et al., 2021; Khan and Uddin, 2022; Koehn and Knowles, 2017; Pasupat and Liang, 2015; Ye et al., 2023; Zhang et al., 2024; Guo et al., 2024) only focuses Figure 1: An example in our proposed NBDESCRIB dataset, which targets generating…",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'NBDESCRIB dataset' as a specific dataset used for generating descriptions, which aligns with the topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1145/3539618.3591708",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/5988806996e8d12f5d4aa911960d842cf7be0c24",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2023
+        },
+        {
+          "dataset_name": "NBDESCRIB",
+          "dataset_description": "Used to generate high-fidelity and personalized text, focusing on controlled table-to-text generation with scientific reasoning.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 266162524,
+          "context_text": "…An et al., 2022; Liu et al., 2021; Khan and Uddin, 2022; Koehn and Knowles, 2017; Pasupat and Liang, 2015; Ye et al., 2023; Zhang et al., 2024; Guo et al., 2024) only focuses Figure 1: An example in our proposed NBDESCRIB dataset, which targets generating high-fidelity and personalized…",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions 'NBDESCRIB dataset' as a specific dataset used for generating high-fidelity and personalized text. The context indicates that this dataset is used in the research for personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1109/ICASSP48485.2024.10446479",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/c891b52d1162d3dd72199117ccd9d22a12416cb8",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2023
+        },
+        {
+          "dataset_name": "NBDESCRIB",
+          "dataset_description": "Used to generate high-fidelity descriptions, focusing on personalized text generation. The dataset is designed to support the creation of detailed and accurate textual content.",
+          "citing_paper_id": "280026233",
+          "cited_paper_id": 268032490,
+          "context_text": "…Richardson et al., 2017; An et al., 2022; Liu et al., 2021; Khan and Uddin, 2022; Koehn and Knowles, 2017; Pasupat and Liang, 2015; Ye et al., 2023; Zhang et al., 2024; Guo et al., 2024) only focuses Figure 1: An example in our proposed NBDESCRIB dataset, which targets generating high-fidelity and…",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'NBDESCRIB dataset' as a specific dataset used for generating high-fidelity descriptions. The dataset is clearly named and appears to be relevant to the topic of personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.48550/arXiv.2402.16667",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/09f90a7fe63eaff68292ad463838c4ba13ea104c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1b6c8bc0f5675c6398d56fdb86d574d48b3f91d",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2024
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "252917726",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "LAION-5B"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "LAION-5B",
+          "dataset_description": "This dataset 'LAION-5B' was mentioned in the citation context but no detailed description was generated.",
+          "citing_paper_id": "268723822",
+          "cited_paper_id": 252917726,
+          "context_text": "Similar to [23], we employ clip-retrieval [2] to select 200 samples from LAION-5B [42] dataset as regularization images.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the LAION-5B dataset, which is a specific, verifiable resource. It is used to select samples for regularization images in the research.",
+          "citing_paper_doi": "10.1109/CVPR52733.2024.00456",
+          "cited_paper_doi": "10.48550/arXiv.2210.08402",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/cf10aeb580dfa2f9a28cec063a9cce02c0a9d64b",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2022
+        },
+        {
+          "dataset_name": "LAION-5B",
+          "dataset_description": "Used to sample easy-negative examples for training, ensuring consistency across different concepts in the personalized text generation model.",
+          "citing_paper_id": "278171225",
+          "cited_paper_id": 252917726,
+          "context_text": "Additionally, we randomly sample 100 easy-negative examples from LAION-5B [58], which remain consistent across all concepts.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "LAION-5B is a specific, large-scale dataset used for training image-text models, and it is explicitly mentioned as a source of negative examples.",
+          "citing_paper_doi": "10.48550/arXiv.2504.20998",
+          "cited_paper_doi": "10.48550/arXiv.2210.08402",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/0bc9d30796352b6633401a1af36d27772b1cdfe2",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "258298303",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "LAMP"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "LAMP",
+          "dataset_description": "Used to validate the effectiveness of CFRAG in personalizing large language models, focusing on performance improvements through personalization techniques.",
+          "citing_paper_id": "277627895",
+          "cited_paper_id": 258298303,
+          "context_text": "• Experimental results on the Language Model Personalization (LaMP) [32] benchmark validate the effectiveness of CFRAG.",
+          "confidence_score": 0.6,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions 'Language Model Personalization (LaMP)' as a benchmark, which is primarily used for score comparison. However, since it is referred to as a benchmark and not just a leaderboard, it may contain specific, downloadable datasets. The context does not provide enough detail to confirm this, so the confidence is lowered.",
+          "citing_paper_doi": "10.48550/arXiv.2504.05731",
+          "cited_paper_doi": "10.48550/arXiv.2304.11406",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/57d3d4f8ba3b9fb9c265ed41b364136c98160be3",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/17170575aa8b4fa4e3eef5d366ada706a94dd836",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2023
+        },
+        {
+          "dataset_name": "LAMP",
+          "dataset_description": "Used to evaluate personalized long-form text generation tasks, extending the scope of LAMP to longer texts, providing structured data for benchmarking. | Used to evaluate personalized text generation tasks, including tweet generation, movie reviewing, e-mail, and social media post writing, providing structured data for benchmarking.",
+          "citing_paper_id": "276249973",
+          "cited_paper_id": 271218187,
+          "context_text": "The introduction of the Language Model Personalization Benchmark (LAMP) (Salemi et al., 2024) and, subsequently, its long-form version Long-LAMP (Kumar et al., 2024) provided actionable benchmarks for several tasks, including tweet generation, movie reviewing, e-mail and social media post writing.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific benchmarks, LAMP and Long-LAMP, which are used for evaluating personalized text generation tasks. These are considered datasets as they provide structured data for benchmarking.",
+          "citing_paper_doi": "10.48550/arXiv.2502.06560",
+          "cited_paper_doi": "10.48550/arXiv.2407.11016",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/ccd09ec1703990795c7e28a5449d63be2d3f70e1",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/b618998f9f3634331c8762342bbf110b74ad3fc0",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2024
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "13690180",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "Stanford Politeness Corpus (SPC)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Stanford Politeness Corpus (SPC)",
+          "dataset_description": "Used to analyze formal language style, specifically examining stylistic elements in text to improve formality in generated responses. | Used to analyze formal language style, specifically examining stylistic variations in written communication. | Used to generate and evaluate polite conversational responses, focusing on the impact of synthetic data on model performance. | Used to study politeness in dialogue, focusing on linguistic markers and their impact on perceived politeness in text-based communication. | Used to study politeness in dialogue, focusing on linguistic markers of politeness in various contexts. | Used to generate polite conversational data, focusing on improving the quality and naturalness of machine-generated polite dialogues.",
+          "citing_paper_id": "264590708",
+          "cited_paper_id": 13690180,
+          "context_text": "Other datasets, such as the Stanford Politeness Corpus (SPC) (Niu and Bansal, 2018), the TCFC dataset (Wu et al., 2020) for formal language style, and the synthetic polite conversational data by Mukherjee et al.(Mukherjee et al., 2023), do exist but have limitations such as noise, low-resource…",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions three datasets: SPC, TCFC, and synthetic polite conversational data. These are specific datasets used for studying politeness and formal language styles, which are relevant to personalized text generation.",
+          "citing_paper_doi": "10.48550/arXiv.2310.18342",
+          "cited_paper_doi": "10.1162/tacl_a_00027",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/19883b754a0e4fc1c43e6c76d55bef4c2196231d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f1cba8a5a73c8151c2f5cb6edd5bc6a7c03e80fa",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "Stanford Politeness Corpus (SPC)",
+          "dataset_description": "Used to analyze formal language style, specifically examining stylistic elements in text to improve formality in generated responses. | Used to train models for formal language style transfer, addressing limitations such as noise and low-resource stylization. | Used to generate polite conversational data, highlighting issues with data quality when compared to other methods. | Used to study politeness in dialogue, focusing on linguistic markers and their impact on perceived politeness in text-based communication. | Used to generate polite conversational data, focusing on improving the quality and naturalness of machine-generated polite dialogues.",
+          "citing_paper_id": "264590708",
+          "cited_paper_id": 258378197,
+          "context_text": "Other datasets, such as the Stanford Politeness Corpus (SPC) (Niu and Bansal, 2018), the TCFC dataset (Wu et al., 2020) for formal language style, and the synthetic polite conversational data by Mukherjee et al.(Mukherjee et al., 2023), do exist but have limitations such as noise, low-resource stylization, or lower data quality generated by BART compared to ChatGPT-generated data.",
+          "confidence_score": 0.85,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions three datasets: SPC, TCFC, and synthetic polite conversational data. These are specific datasets used in the field of text generation, particularly for politeness and formal language styles.",
+          "citing_paper_doi": "10.48550/arXiv.2310.18342",
+          "cited_paper_doi": "10.18653/v1/2023.eacl-srw.9",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/19883b754a0e4fc1c43e6c76d55bef4c2196231d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/b378a4c7d69442912ead0b9d9488db251b383ac0",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2023
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "102352475",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "LibriTTS"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "LibriTTS",
+          "dataset_description": "Used to train StyleSpeech and Meta-StyleSpeech models, focusing on multi-speaker English speech synthesis. The dataset provides a rich corpus for developing personalized text-to-speech systems.",
+          "citing_paper_id": "235359041",
+          "cited_paper_id": 52986403,
+          "context_text": "Datasets We train StyleSpeech and Meta-StyleSpeech on LibriTTS dataset (Zen et al., 2019), which is a multi-speaker English corpus derived from LibriSpeech (Panay-otov et al., 2015).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the LibriTTS dataset, which is a multi-speaker English corpus derived from LibriSpeech. It is used for training StyleSpeech and Meta-StyleSpeech models.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/155a3210bbc715b04a455b2d396f9fbb585540aa",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3321263fd0b2be6011f20d7b74b8ae801741eb21",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        },
+        {
+          "dataset_name": "LibriTTS",
+          "dataset_description": "Used to train StyleSpeech and Meta-StyleSpeech models, focusing on multi-speaker English speech synthesis. The dataset provides a rich corpus for developing personalized text-to-speech systems.",
+          "citing_paper_id": "235359041",
+          "cited_paper_id": 102352475,
+          "context_text": "Datasets We train StyleSpeech and Meta-StyleSpeech on LibriTTS dataset (Zen et al., 2019), which is a multi-speaker English corpus derived from LibriSpeech (Panay-otov et al., 2015).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the LibriTTS dataset, which is a multi-speaker English corpus derived from LibriSpeech. It is used for training StyleSpeech and Meta-StyleSpeech models.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.21437/interspeech.2019-2441",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/155a3210bbc715b04a455b2d396f9fbb585540aa",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/2789b6c84ba1422746246685001accba5563e7c1",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "252846393",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "README"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "README",
+          "dataset_description": "Used to train models to convert complex medical jargon into patient-friendly language, focusing on seen settings and leveraging extensive pairs of jargon and lay definitions.",
+          "citing_paper_id": "279994613",
+          "cited_paper_id": 252846393,
+          "context_text": "The README dataset 15 contains extensive pairs of medical jargon 48 and their corresponding lay definitions, making it ideal for training models to convert complex medical jargon into patient-friendly language in seen settings.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the README dataset, which is a specific, verifiable dataset containing pairs of medical jargon and lay definitions. It is used for training models to convert medical jargon into patient-friendly language.",
+          "citing_paper_doi": "10.1101/2025.07.09.25331239",
+          "cited_paper_doi": "10.48550/arXiv.2210.05875",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/567f93b61d83c499d142724568622393ab6ff869",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/38e995753f222ba7d198d6d54033058de84a77f1",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2022
+        },
+        {
+          "dataset_name": "README",
+          "dataset_description": "Used to train models to convert complex medical jargon into patient-friendly language, focusing on seen settings and leveraging extensive pairs of jargon and lay definitions.",
+          "citing_paper_id": "279994613",
+          "cited_paper_id": 266551049,
+          "context_text": "The README dataset 15 contains extensive pairs of medical jargon 48 and their corresponding lay definitions, making it ideal for training models to convert complex medical jargon into patient-friendly language in seen settings.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the README dataset, which is a specific, verifiable dataset containing pairs of medical jargon and lay definitions. It is used for training models to convert medical jargon into patient-friendly language.",
+          "citing_paper_doi": "10.1101/2025.07.09.25331239",
+          "cited_paper_doi": "10.48550/arXiv.2312.15561",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/567f93b61d83c499d142724568622393ab6ff869",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/df16e8c7599e1a5f7dbc1beebf454cd20e938a59",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2023
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "2172129",
+      "citation_count": 0,
+      "total_dataset_mentions": 2,
+      "unique_datasets": [
+        "SQuAD"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "SQuAD",
+          "dataset_description": "Used to train and evaluate neural Seq2Seq models for question generation, focusing on reading comprehension tasks and the ability to generate questions from given passages.",
+          "citing_paper_id": "249538264",
+          "cited_paper_id": 2172129,
+          "context_text": "Question Generation Previous research has focused on training neural Seq2Seq models [8, 41, 15] on supervised full QA datasets such as SQuAD [29].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'SQuAD' as a supervised full QA dataset used for training neural Seq2Seq models. SQuAD is a well-known dataset in the field of question answering.",
+          "citing_paper_doi": "10.48550/arXiv.2206.04187",
+          "cited_paper_doi": "10.18653/v1/P17-1123",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/659c2eaf437f7750eede5798db87e156c9017963",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/9d3472849dc2cadf194ae29adbf46bdda861d8b7",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2017
+        },
+        {
+          "dataset_name": "SQuAD",
+          "dataset_description": "Used to train and evaluate neural Seq2Seq models for question generation, focusing on reading comprehension tasks and the ability to generate questions from given passages.",
+          "citing_paper_id": "249538264",
+          "cited_paper_id": 207880647,
+          "context_text": "Question Generation Previous research has focused on training neural Seq2Seq models [8, 41, 15] on supervised full QA datasets such as SQuAD [29].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'SQuAD' as a supervised full QA dataset used for training neural Seq2Seq models. SQuAD is a well-known dataset in the field of question answering.",
+          "citing_paper_doi": "10.48550/arXiv.2206.04187",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/659c2eaf437f7750eede5798db87e156c9017963",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/c1ac3fbf530bf2eb207aa1a20dd14c8ed9f6766b",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "267682397",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Rewards-in-Context"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Rewards-in-Context",
+          "dataset_description": "Used to develop a personalized reward model, focusing on user feedback for dynamic preference adjustment. | This dataset 'HelpSteer2' was mentioned in the citation context but no detailed description was generated. | Employed to ensure safety and reliability in reinforcement learning for human feedback, supporting the development of robust personalized reward models. | Utilized to align foundation models with dynamic preferences, enhancing multi-objective alignment in personalized reward systems.",
+          "citing_paper_id": "273185508",
+          "cited_paper_id": 267682397,
+          "context_text": "During the development of our personalized reward model, we utilized datasets from multiple sources including Ultrafeedback (Cui et al., 2023), HelpSteer2 (Wang et al., 2024c), Rewards-in-Context (Yang et al., 2024b), and SafeRLHF (Dai et al., 2023).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions specific datasets used for developing a personalized reward model, which are clearly named and relevant to the research topic.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.48550/arXiv.2402.10207",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/95124cb03a6e5de7a623db32b987531d7830629e",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/9637ef9019671034912ea0f506ae67c3f2fc4689",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2024
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "198967908",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "CelebAMask-HQ"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CelebAMask-HQ",
+          "dataset_description": "Used to train the DTI module by providing foreground-masked identity images, focusing on generating textual embeddings for personalized text generation. | Introduced as a large-scale multimodal dataset with prompts of imaginary human-centric depictions, using publicly available images of celebrities for training and evaluation. | Used to select 400 unique human identities for pairing with prompts, enhancing the evaluation of personalized text-to-image systems through rich meta-annotations. | Used to assist personalized text-to-image generation by providing well-curated data for facial image manipulation, enhancing the diversity and interactivity of generated images.",
+          "citing_paper_id": "266163420",
+          "cited_paper_id": 198967908,
+          "context_text": "The Dynamic Textual Inversion ( DTI ) module inverts the foreground-masked identity image (found in CelebAMask-HQ [36]) into textual embeddings, S ∗ ( left ).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "CelebAMask-HQ is mentioned as a source of masked identity images used for training the DTI module. It is a specific dataset with a clear name and is directly used in the research.",
+          "citing_paper_doi": "10.48550/arXiv.2312.06116",
+          "cited_paper_doi": "10.1109/cvpr42600.2020.00559",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/cb01408aed1a7ee32d7556af2c6949ca7f5374ca",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/9a2d83ed7d7cc647421e976d8669b023974fff67",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "53298765",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Persona dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Persona dataset",
+          "dataset_description": "Provided the basis for the Dialog NLI dataset, containing persona information used to annotate natural language inference examples. | Used to train NLI models for evaluating consistency between generated sentences and user comments, focusing on natural language inference in dialogue contexts. | Used to train a sequence classification model for evaluating persona consistency between user comments and generated sentences, focusing on natural language inference annotations.",
+          "citing_paper_id": "234757004",
+          "cited_paper_id": 53298765,
+          "context_text": "To evaluate persona consistency between user comments and generated sentences, Madotto et al. proposed consistency C score using sequence classiﬁcation model trained on Dialog NLI dataset (Welleck et al., 2019), a corpus based on Persona dataset, with NLI annotation.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the 'Dialog NLI dataset' and the 'Persona dataset'. Both are specific datasets used for training a sequence classification model to evaluate persona consistency.",
+          "citing_paper_doi": "10.18653/V1/2021.NAACL-MAIN.157",
+          "cited_paper_doi": "10.18653/v1/P19-1363",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a27ef1cae80d9a72734868b7a5d4e5092452dc31",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1dc04035b9926c46ded436e5762f3924ab29516e",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "59316441",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "PersonalDialog dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "PersonalDialog dataset",
+          "dataset_description": "Used to generate personalized dialogues with diversified traits, focusing on enhancing conversational diversity and personalization in chatbot interactions. | Used to generate personalized dialogues with diversified traits, focusing on enhancing conversational diversity and personalization in dialogue systems. | Used to generate personalized dialogues, focusing on diversified traits in conversations collected from Chinese social media Weibo.",
+          "citing_paper_id": "234757004",
+          "cited_paper_id": 59316441,
+          "context_text": ", 2016b) and PersonalDialog dataset (Zheng et al., 2020).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'PersonalDialog dataset' which is a specific, verifiable dataset used in personalized dialogue generation research.",
+          "citing_paper_doi": "10.18653/V1/2021.NAACL-MAIN.157",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a27ef1cae80d9a72734868b7a5d4e5092452dc31",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a3ce3004a0eade48a3ae652dbf5c04a60c2416aa",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "210868223",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Pushshift Reddit Dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Pushshift Reddit Dataset",
+          "dataset_description": "Used to provide raw data for preprocessing user attributes, supporting reproducibility of models and scripts in the study.",
+          "citing_paper_id": "234757004",
+          "cited_paper_id": 210868223,
+          "context_text": "We only released raw data from pushshift.io( Baumgartner et al. (2020)), and open-sourced our scripts for preprocessing user attributes and models for reproducibility.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'raw data from pushshift.io', which is a specific dataset. The cited paper title confirms it is a dataset.",
+          "citing_paper_doi": "10.18653/V1/2021.NAACL-MAIN.157",
+          "cited_paper_doi": "10.5281/ZENODO.3608135",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a27ef1cae80d9a72734868b7a5d4e5092452dc31",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1a6f4495474f75ae1e8bbf407f70d9a874e5b4d6",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "1012652",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Amazon Electronics"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Amazon Electronics",
+          "dataset_description": "Used to evaluate the model on real-world data, focusing on personalized recommendations for electronic products, using the dataset to study personalized text generation.",
+          "citing_paper_id": "29161455",
+          "cited_paper_id": 1012652,
+          "context_text": "We consider a real world dataset from Amazon Electronics (McAuley et al., 2015) to evaluate our model.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a specific dataset from Amazon Electronics, which is used to evaluate the model. The dataset is clearly identified and relevant to the research topic of personalized text generation.",
+          "citing_paper_doi": "10.18653/v1/P18-2112",
+          "cited_paper_doi": "10.1145/2766462.2767755",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/0e05e7705561c39f94e05bd3e318abab74fbeccd",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/fab4d19ed77dad7c437d885eceb8aa65fae5a783",
+          "citing_paper_year": 2018,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "4421747",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Semantic Textual Similarity Benchmark (STSB)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Semantic Textual Similarity Benchmark (STSB)",
+          "dataset_description": "Used to evaluate semantic textual similarity with a wide range of human annotation scores, providing nuanced data for training and evaluating personalized text generation models.",
+          "citing_paper_id": "277596340",
+          "cited_paper_id": 4421747,
+          "context_text": "1) Dataset: The Semantic Textual Similarity Benchmark (STSB) [44] is selected in this section as it provides a wide range of human annotation scores rather than limiting the annotations to binary or categorical labels.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the STSB dataset, which is used for semantic textual similarity tasks. It is relevant to personalized text generation as it involves human annotations of text similarity.",
+          "citing_paper_doi": "10.48550/arXiv.2504.02867",
+          "cited_paper_doi": "10.18653/v1/S17-2001",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/be135c3b7177ea502e6de54adf34fd3dd0dff474",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a23fa96e7217ba0e9405d9e1fe3cdedd57b6e096",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "224270828",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Yelp (restaurants)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Yelp (restaurants)",
+          "dataset_description": "Used to generate personalized text for cell phone recommendations, focusing on user reviews and product attributes. | Utilized to create personalized restaurant recommendations, analyzing user reviews and ratings for dining experiences. | Applied to generate personalized hotel recommendations, examining user reviews and ratings for accommodation services.",
+          "citing_paper_id": "259224364",
+          "cited_paper_id": 224270828,
+          "context_text": "We performed experiments on three datasets, namely Amazon (cell phones), Yelp (restaurants), and TripAdvisor (hotels) (Li et al., 2020b).",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions three specific datasets used for experiments, which are relevant to personalized text generation.",
+          "citing_paper_doi": "10.18653/v1/2023.acl-long.4",
+          "cited_paper_doi": "10.1145/3340531.3411992",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/d8b8b32d4e0340d71fbe26dd952519511bd57b1d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/20cfb6eaf5e3c06af379fb161a84297b88ab1b9c",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "173990818",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Instruct-QA dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Instruct-QA dataset",
+          "dataset_description": "Used to encompass three information-seeking QA tasks, including open-domain QA, to evaluate and train models on diverse question types.",
+          "citing_paper_id": "277596340",
+          "cited_paper_id": 173990818,
+          "context_text": "The Instruct-QA dataset encompasses three different information-seeking Question-Answering tasks (the overall statistics of these three datasets are shown in Table I.), including: • Open-domain QA task: Natural Questions dataset [46] with queries from Google search engine.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'Instruct-QA dataset' and the 'Natural Questions dataset'. Both are specific datasets used in the research.",
+          "citing_paper_doi": "10.48550/arXiv.2504.02867",
+          "cited_paper_doi": "10.18653/v1/P19-1612",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/be135c3b7177ea502e6de54adf34fd3dd0dff474",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a81874b4a651a740fffbfc47ef96515e8c7f782f",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "11860229",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "IMDb62"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "IMDb62",
+          "dataset_description": "Used for authorship attribution studies, specifically analyzing 62,000 movie reviews written by 62 prolific IMDb users, each contributing 1,000 reviews.",
+          "citing_paper_id": "267523283",
+          "cited_paper_id": 11860229,
+          "context_text": "IMDb62 contains 62,000 movie reviews written by 62 prolific users of the Internet Movie Database (IMDb) where each user wrote 1,000 reviews (Seroussi et al., 2014).",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "IMDb62 is a specific dataset with a clear identifier and is used for authorship attribution with topic models.",
+          "citing_paper_doi": "10.48550/arXiv.2402.04914",
+          "cited_paper_doi": "10.1162/COLI_a_00173",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/de534c7a644ea6017ddf03e22cdabc0724758f7d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/c9c4800ec66121ef1856be01f863e6a3fe68f81a",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "230435736",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "The Pile"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "The Pile",
+          "dataset_description": "Used to pretrain models, focusing on a diverse 825GB English dataset with texts from 22 sources across academic, internet, prose, dialogue, and miscellaneous categories.",
+          "citing_paper_id": "267523283",
+          "cited_paper_id": 230435736,
+          "context_text": "The models were pretrained using the Pile dataset (Gao et al., 2020), an 825GB English dataset containing texts from 22 diverse sources, roughly broken down into five categories: academic writing, internet, prose, dialogue, and miscellaneous.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'The Pile dataset' as a specific, verifiable dataset used for pretraining models. It provides details about the dataset's size and content, which aligns with the criteria for inclusion.",
+          "citing_paper_doi": "10.48550/arXiv.2402.04914",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/de534c7a644ea6017ddf03e22cdabc0724758f7d",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "13959787",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Yelp"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Yelp",
+          "dataset_description": "Used for personal style transfer, focusing on altering gender-related language in text. | Used for sentiment style transfer, specifically to alter the sentiment of reviews while preserving content. | Used for political style transfer, specifically to change the political bias in text while maintaining the original meaning.",
+          "citing_paper_id": "257587780",
+          "cited_paper_id": 13959787,
+          "context_text": "BST [23] 2018 MT Encoder, Multiple BiLSTM decoders, CNN classifier Sentiment Style Transfer Personal Style Transfer Yelp, Gender, Political slant",
+          "confidence_score": 0.7,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'Yelp, Gender, Political slant' which are likely datasets used for sentiment and style transfer experiments. However, they are not clearly identified as specific datasets.",
+          "citing_paper_doi": "10.1109/ICKECS56523.2022.10059789",
+          "cited_paper_doi": "10.18653/v1/P18-1080",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/d36b634683699713c5af8a2a583e877a67fe7496",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/bface38422b7e53287134c4d01a39fa58edd4469",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "unknown",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Avocado Research Email Collection"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Avocado Research Email Collection",
+          "dataset_description": "Used to generate personalized emails, focusing on the task of creating contextually appropriate and user-specific email content. | Used to generate personalized reviews, specifically targeting the books category to produce user-specific and contextually relevant review text.",
+          "citing_paper_id": "263333908",
+          "cited_paper_id": null,
+          "context_text": "Each of the three datasets comes from a representative domain: (1) for the Avocado Research Email Collection [20], the task is to generate personalized emails; (2) for the Amazon review data [19], the largest category books is used and the goal is to generate personalized reviews; (3) for the…",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions three datasets by name, each associated with a specific task in personalized text generation. The datasets are clearly identified and their usage is described.",
+          "citing_paper_doi": "10.1145/3589334.3645408",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c3b0da01017870729a7a83b94e7787e5105cbc32",
+          "cited_paper_url": null,
+          "citing_paper_year": 2023,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "59553505",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "ConvAI2"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "ConvAI2",
+          "dataset_description": "Used to train a Seq2Seq model for generating textual responses, focusing on improving conversational intelligence through user input interactions.",
+          "citing_paper_id": "257587780",
+          "cited_paper_id": 59553505,
+          "context_text": "We have used the ConvAI2 dataset [14] for training our Conversation AI algorithm, which is a Seq2Seq model, to generate textual responses upon user input.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the ConvAI2 dataset, which is used for training a Seq2Seq model to generate textual responses. The dataset is clearly identified and its usage is specific to the research context.",
+          "citing_paper_doi": "10.1109/ICKECS56523.2022.10059789",
+          "cited_paper_doi": "10.1007/978-3-030-29135-8_7",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/d36b634683699713c5af8a2a583e877a67fe7496",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/9ae17b09c59f06f02ef824b856a440de663471d0",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "202767450",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "product descriptions and user history"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "product descriptions and user history",
+          "dataset_description": "Used to generate personalized reviews, focusing on incorporating domain-specific features and user interaction history to enhance personalization in text generation.",
+          "citing_paper_id": "264289206",
+          "cited_paper_id": 202767450,
+          "context_text": "Prior work on personalized text generation has often focused on incorporating domain-specific features or knowledge, such as utilizing product descriptions and user history for personalized review generation [13].",
+          "confidence_score": 0.8,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'product descriptions and user history' as domain-specific features used for personalized review generation, which suggests the use of a specific dataset containing these elements.",
+          "citing_paper_doi": "10.48550/arXiv.2310.11593",
+          "cited_paper_doi": "10.18653/v1/D19-1319",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/864a81b053d480b7db11ee1a1979f86554ccecba",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a5a9b1ee9e4b3db4a3237b3cddd2630d3333abfb",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "unknown",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "L A MP-C AP"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "L A MP-C AP",
+          "dataset_description": "Used to evaluate four LLMs on personalized caption generation, focusing on the models' ability to generate contextually relevant captions.",
+          "citing_paper_id": "279251122",
+          "cited_paper_id": null,
+          "context_text": "We evaluated four LLMs on personalized caption generation using L A MP-C AP : (i) GPT-4o (Hurst et al., 2024), (ii) Llama 4 Scout (MetaAI, 2025), (iii) Gemini 2.5 Flash Preview (DeepMind, 2024), and (iv) GPT-4.",
+          "confidence_score": 0.6,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'L A MP-C AP' which appears to be a specific dataset or benchmark used for evaluating personalized caption generation. However, the name is not a clear, verifiable resource and lacks specific details or provenance.",
+          "citing_paper_doi": "10.48550/arXiv.2506.06561",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3eeba9680ce454e7e59a863dffe9e9f52886f6e8",
+          "cited_paper_url": null,
+          "citing_paper_year": 2025,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "271218187",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Long-form Language Model Personalization (LongLaMP) benchmark"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Long-form Language Model Personalization (LongLaMP) benchmark",
+          "dataset_description": "Used to evaluate personalized long-form text generation models across four diverse tasks, focusing on the effectiveness of personalization in generating coherent and contextually relevant text.",
+          "citing_paper_id": "275358199",
+          "cited_paper_id": 271218187,
+          "context_text": "We perform our experiments on the Long-form Language Model Personalization (LongLaMP) benchmark (Kumar et al., 2024), comprising four diverse long-form personalized text generation tasks.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Long-form Language Model Personalization (LongLaMP) benchmark' which is a specific benchmark for personalized long-form text generation tasks. It is used as a dataset for experimentation.",
+          "citing_paper_doi": "10.48550/arXiv.2501.04167",
+          "cited_paper_doi": "10.48550/arXiv.2407.11016",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/576b368a9e20830545ce9f1f95f33c2caf5e4483",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/b618998f9f3634331c8762342bbf110b74ad3fc0",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2024
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "267547503",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "data from user profiles"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "data from user profiles",
+          "dataset_description": "Used to enhance personalized model performance by integrating personalized user representations, focusing on improving model accuracy through user-specific data.",
+          "citing_paper_id": "274332909",
+          "cited_paper_id": 267547503,
+          "context_text": "For instance, Li, Xinyu et al. [4] leveraged data from user profiles to enhance personalized model performance by integrating personalized user representations.",
+          "confidence_score": 0.6,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'data from user profiles' which is domain-qualified and relevant to personalized text generation. However, it does not specify a named dataset.",
+          "citing_paper_doi": "10.54254/2755-2721/107/20241355",
+          "cited_paper_doi": "10.48550/arXiv.2402.05133",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/504b54675bbe19b7c8e79575f113f7a76f2118ad",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/4dcccc23c169293df73da1390c7af32ab47f3995",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2024
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "14113767",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "MS COCO"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "MS COCO",
+          "dataset_description": "Used to select 100 textual descriptions for the text condition, focusing on scene descriptions of real images to study personalized text generation.",
+          "citing_paper_id": "259165446",
+          "cited_paper_id": 14113767,
+          "context_text": "For the text condition, we randomly select 100 textual descriptions from the MS COCO [19] captions that describe scenes of real images.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "MS COCO is a well-known dataset used for image captioning and other vision-language tasks. The context indicates it is used for selecting textual descriptions.",
+          "citing_paper_doi": "10.48550/arXiv.2306.08247",
+          "cited_paper_doi": "10.1007/978-3-319-10602-1_48",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e723e37ef2e9be0220cc9d54312401824d46f45f",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2014
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "202120896",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Recipe"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Recipe",
+          "dataset_description": "Used to evaluate the recommendation framework for recipe recommendations, focusing on generating personalized recipes based on user history.",
+          "citing_paper_id": "273500577",
+          "cited_paper_id": 202120896,
+          "context_text": "We will evaluate our framework on two widely adopted recommendation benchmarks will be used (Table 1), Movielens-1M [3] for movie recommendation, and Recipe [9]",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions two specific datasets, Movielens-1M and Recipe, which are used for evaluating the recommendation framework. Both datasets are relevant to personalized text generation.",
+          "citing_paper_doi": "10.1145/3627673.3680270",
+          "cited_paper_doi": "10.18653/v1/D19-1613",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/59f128eaf84b4900473f81a7cc9b985ca4e8edcd",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/25fdf335dbf3169f2f310dff8a5501605a78be6b",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "14600881",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Amazon Movies"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Amazon Movies",
+          "dataset_description": "Used to evaluate the fairness and utility of the DDP on FeatCov method, focusing on movie reviews to assess bias and performance. | Used to evaluate the fairness and utility of the DDP on FeatCov method, focusing on restaurant reviews to assess bias and performance.",
+          "citing_paper_id": "253157965",
+          "cited_paper_id": 14600881,
+          "context_text": "We plot results on Amazon Movies and Yelp in Figure 4, where we use DDP on FeatCov for fairness and BERTScore for utility.",
+          "confidence_score": 0.9,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The citation mentions 'Amazon Movies' and 'Yelp' as datasets used for plotting results. These are well-known datasets in the domain of personalized text generation and are likely used to evaluate the fairness and utility of the DDP on FeatCov method.",
+          "citing_paper_doi": "10.48550/arXiv.2210.15500",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/65546dd9aa9ae03dcc9ee75ccf1951f2726e336c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/113424928b19a1d7645ef04a2b53532dd426c283",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "235187032",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Amazon Movies 1"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Amazon Movies 1",
+          "dataset_description": "Used to investigate explanation generation for movie recommendations, focusing on personalized explanations using the PETER model.",
+          "citing_paper_id": "253157965",
+          "cited_paper_id": 235187032,
+          "context_text": "As an example, we investigate the explanation generation on Amazon Movies 1 with the personalized transformer model PETER (Li et al., 2021a).",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Amazon Movies 1' as a dataset used for investigating explanation generation with a personalized transformer model. The dataset name is specific and plausible.",
+          "citing_paper_doi": "10.48550/arXiv.2210.15500",
+          "cited_paper_doi": "10.18653/v1/2021.acl-long.383",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/65546dd9aa9ae03dcc9ee75ccf1951f2726e336c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/0c9a2adda11ed49d091948211fcfd517113b5243",
+          "citing_paper_year": 2022,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "3526062",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "EmotionLines"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "EmotionLines",
+          "dataset_description": "Used to collect and analyze emotional dialogues from telescripts and Facebook, focusing on multi-party conversations to enhance personalized text generation models.",
+          "citing_paper_id": "202539583",
+          "cited_paper_id": 3526062,
+          "context_text": "Chen et al. [11] publish another high-quality emotional dialogue dataset collecting from telescripts and dialogues in Facebook, named EmotionLines 13 , including 29,245 utterances of 2,000 dialogues.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a specific dataset named 'EmotionLines' with clear details about its content and size, which is relevant to personalized text generation.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e324d92c005ccdec0ce04dfb9941dd99ded21920",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/ba4c923b43360325cba984549aa3c3224863d1f6",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "21669082",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "massive generic dialogue data"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "massive generic dialogue data",
+          "dataset_description": "Used to fine-tune the pre-trained model, focusing on incorporating user-specific information to generate personalized responses. | Used to pre-train the dialogue model, focusing on generating general conversational responses before personalization.",
+          "citing_paper_id": "202539583",
+          "cited_paper_id": 21669082,
+          "context_text": "fine-tuned Respectively using massive generic dialogue data and a small-scale personalized dialogue data to pre-trained and fine-tune the dialogue model to generate personalized responses Yang et al. [144] Reinforcement Learning + Persona embedding Embedding user-specific information into vector representation; RL mechanism optimizes three rewards – topic coherent, informative and grammatical, to gener",
+          "confidence_score": 0.6,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'massive generic dialogue data' and 'small-scale personalized dialogue data', which are domain-qualified data phrases. However, they lack specific identifiers. No other specific datasets are mentioned.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.1137/1.9781611975321.71",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e324d92c005ccdec0ce04dfb9941dd99ded21920",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/86fba8890d5fdf049a46e0842f2a6c2007781522",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "3348552",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Citation Network Dataset (V14)"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Citation Network Dataset (V14)",
+          "dataset_description": "Used to generate data samples for personalized text generation, focusing on academic social network structures and relationships. | Used to generate data samples for personalized text generation, leveraging 5,259,858 papers and 29 features per paper to create a comprehensive dataset.",
+          "citing_paper_id": "271218187",
+          "cited_paper_id": 3348552,
+          "context_text": "Data Curation: To generate the data samples, we leverage the Citation Network Dataset (V14) (Tang et al., 2008a), which comprises 5,259,858 papers and 29 features per paper.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the Citation Network Dataset (V14) as a specific dataset used for generating data samples, which is relevant to the research topic of personalized text generation.",
+          "citing_paper_doi": "10.48550/arXiv.2407.11016",
+          "cited_paper_doi": "10.1145/1401890.1402008",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b618998f9f3634331c8762342bbf110b74ad3fc0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/f020b61789112fe7241b871907268f0bdc5c84fa",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2008
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "202621357",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Amazon Reviews Dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Amazon Reviews Dataset",
+          "dataset_description": "Used to generate data samples for training or evaluating a recommendation system, focusing on leveraging user reviews to justify recommendations. | Used to generate data samples for personalized text generation, leveraging 150 million reviews to train models on user preferences and review content.",
+          "citing_paper_id": "271218187",
+          "cited_paper_id": 202621357,
+          "context_text": "To generate the data samples, we leverage the Amazon Reviews Dataset (Ni et al., 2019).",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions the 'Amazon Reviews Dataset' which is a specific, verifiable dataset. It is used for generating data samples, likely for training or evaluating a recommendation system.",
+          "citing_paper_doi": "10.48550/arXiv.2407.11016",
+          "cited_paper_doi": "10.18653/v1/D19-1018",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/b618998f9f3634331c8762342bbf110b74ad3fc0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/41d49ec6f73ab5621ab8e8cb5ddb677a886ccc76",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "201666118",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "story data"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "story data",
+          "dataset_description": "Used for final fine-tuning with multi-task learning to improve the performance of the model on specific story generation tasks, focusing on targeted common sense grounding. | Used for intermediate fine-tuning to adapt the pre-trained GPT-2 model to the domain of stories, enhancing the model's ability to generate coherent narratives.",
+          "citing_paper_id": "202539583",
+          "cited_paper_id": 201666118,
+          "context_text": "s. The most straightforward way to incorporate pre-trained language models to CTG systems is to modify the model architecture for extra conditional inputs or condition-specific finetuning. Mao et al. [90] perform intermediate fine-tuning on the story data to adapt the pre-trained GPT-2 model to the domain of stories, and then fine-tune on the target story generation dataset with a multi-task learning",
+          "confidence_score": 0.6,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'story data' and 'target story generation dataset', which are domain-qualified data phrases. However, no specific dataset names are provided.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.18653/v1/D19-1615",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e324d92c005ccdec0ce04dfb9941dd99ded21920",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/3e0201b514f5f09703eaa0eed25afaa9f09be20a",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "29473470",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "task-oriented dialogue system dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "task-oriented dialogue system dataset",
+          "dataset_description": "Used to provide data support for research on personalized text generation, specifically containing conversations with users' personalized information.",
+          "citing_paper_id": "146121098",
+          "cited_paper_id": 29473470,
+          "context_text": "Joshi et al. [18] published the dataset of task-oriented dialogue system, in which each conversation contained the user's personalized information, providing data support for subsequent research.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a specific dataset published by Joshi et al. that contains task-oriented dialogues with personalized user information, which is directly relevant to personalized text generation.",
+          "citing_paper_doi": "10.1109/SmartWorld-UIC-ATC-SCALCOM-IOP-SCI.2019.00176",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c60f184112ead2648f4ec9875b20035631c0c512",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/a51158f795e260e07c8dc540c07a2749add411cd",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "271403894",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "novel large-scale multi-domain dataset for persona-based empathetic conversations"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "novel large-scale multi-domain dataset for persona-based empathetic conversations",
+          "dataset_description": "Used to train and evaluate a BERT-based response selection model, CoBERT, focusing on persona-based empathetic conversations and multi-hop co-attention for interactive matching.",
+          "citing_paper_id": "202539583",
+          "cited_paper_id": 271403894,
+          "context_text": "d reasons. Zhong et al. suggest that persona plays an important role in empathetic conversations, and first present a novel large-scale multi-domain dataset for persona-based empathetic conversations [161]. Based on this dataset, they propose an efficient BERT-based response selection model, CoBERT, using multi-hop co-attention to learn higher-level interactive matching. External knowledge can provide",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions a 'novel large-scale multi-domain dataset for persona-based empathetic conversations' which is relevant to personalized text generation. The dataset is used to train and evaluate a BERT-based response selection model.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.18653/v1/2020.emnlp-main.531",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e324d92c005ccdec0ce04dfb9941dd99ded21920",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/7b73f7e59fe584a8760d86731fec503e2ae8b52c",
+          "citing_paper_year": 2019,
+          "cited_paper_year": 2020
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "16639476",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "PAWS"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "PAWS",
+          "dataset_description": "Used to generate paraphrases by adversarially scrambling words, enhancing the robustness of paraphrase detection models.",
+          "citing_paper_id": "279994613",
+          "cited_paper_id": 16639476,
+          "context_text": "• Paraphrase Generation: We utilize the PAWS 50 (Paraphrase Adversaries from Word Scrambling) and MRPC (Microsoft Research Paraphrase Corpus) 51 datasets.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions two specific datasets, PAWS and MRPC, which are used for paraphrase generation. Both are clearly identified and relevant to the topic of personalized text generation.",
+          "citing_paper_doi": "10.1101/2025.07.09.25331239",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/567f93b61d83c499d142724568622393ab6ff869",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/475354f10798f110d34792b6d88f31d6d5cb099e",
+          "citing_paper_year": 2025,
+          "cited_paper_year": 2005
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "unknown",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Pinterest image dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Pinterest image dataset",
+          "dataset_description": "Used as a source to construct a subset for personalized text generation, focusing on image-based content and user interactions.",
+          "citing_paper_id": "269736331",
+          "cited_paper_id": null,
+          "context_text": "We constructed the dataset based on a subset of the Pinterest [45] image dataset.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Pinterest image dataset' as a source for constructing their dataset, which is a specific, identifiable resource.",
+          "citing_paper_doi": "10.1109/TMM.2024.3399075",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c958736c08a86816c588fd8fe12f39cec8a64bf8",
+          "cited_paper_url": null,
+          "citing_paper_year": 2024,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "249926846",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "PartiPrompts"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "PartiPrompts",
+          "dataset_description": "Used to generate diverse scenes by providing descriptive prompts as prefixes to output prompts, enhancing content-rich text-to-image generation.",
+          "citing_paper_id": "268732776",
+          "cited_paper_id": 249926846,
+          "context_text": "To create diverse scenes, we follow [8] and use descriptive prompts from PartiPrompts [42] as prefixes to the output prompts similar to the previous setting.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'PartiPrompts' as a source of descriptive prompts, which appears to be a specific resource used for generating content-rich text-to-image outputs.",
+          "citing_paper_doi": "10.48550/arXiv.2403.19103",
+          "cited_paper_doi": "10.48550/arXiv.2206.10789",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/7164685034ba6909e3b7b428352a9984ffc5c14c",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1243e13254bb4ea1f71b4be8a3e4e54ffd02d2fe",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2022
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "unknown",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Personalized VideoIC dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Personalized VideoIC dataset",
+          "dataset_description": "Used to generate personalized video captions without relying on manually labeled personality traits, focusing on natural language generation techniques.",
+          "citing_paper_id": "269671831",
+          "cited_paper_id": null,
+          "context_text": "Unlike certain personalized image to text datasets [28], our Personalized VideoIC dataset does not rely on personality traits that are manually labeled by humans.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Personalized VideoIC dataset' as a specific dataset used in the research, contrasting it with other personalized image to text datasets. It is clearly identified and used in the research.",
+          "citing_paper_doi": "10.1145/3589334.3645711",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/61bff6dac3d479593e1f1a0683a8861c91ca6d87",
+          "cited_paper_url": null,
+          "citing_paper_year": 2024,
+          "cited_paper_year": null
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "254877751",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Per-DOC"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Per-DOC",
+          "dataset_description": "Reproduced from DOC to enhance long story coherence through detailed outline control, specifically for personalized document generation. | Used for pairwise comparison in the personalized setting, evaluating the coherence and quality of generated long stories using detailed outline control. | Used to train personalized instruction data, focusing on improving the coherence and relevance of generated text in multi-party settings. | Used for pointwise evaluation in the individual setting, assessing the performance of personalized text generation models. | Original dataset used for improving long story coherence, serving as a foundation for reproducing Per-DOC with detailed outline control. | Reproduced from MPST to study personalized multi-perspective story telling, focusing on generating diverse narrative perspectives. | Original dataset used for multi-perspective story telling, providing a basis for reproducing Per-MPST for personalized narratives. | Used to train personalized instruction data, specifically enhancing the coherence and structure of long stories through detailed outline control. | Used to validate the coherence of long stories generated with detailed outline control, ensuring no overlap with the training set to test generalization.",
+          "citing_paper_id": "263671864",
+          "cited_paper_id": 254877751,
+          "context_text": "The two datasets Per-MPST and Per-DOC are reproduced from the existing publicly released datasets MPST (Kar et al., 2018, 2020) and DOC (Yang et al., 2023)under their licenses.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific datasets, Per-MPST and Per-DOC, which are derived from existing datasets MPST and DOC. These are clearly identified and relevant to the research topic of personalized text generation.",
+          "citing_paper_doi": "10.18653/v1/2024.emnlp-main.737",
+          "cited_paper_doi": "10.18653/v1/2023.acl-long.190",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/c81fd487a418268d42dce8613236297a9dc127fc",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/6e76e29188ae8f5ff86f85945d4784b8c598b01e",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2023
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "8379583",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Ubuntu Dialogue Corpus"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Ubuntu Dialogue Corpus",
+          "dataset_description": "Used to train context-sensitive technical dialogue systems, leveraging almost one million conversations extracted from Ubuntu chat logs. | Used to research unstructured multi-turn dialogue systems, focusing on context-based interactions extracted from Ubuntu chat logs.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 8379583,
+          "context_text": "Ubuntu Dialogue Corpus [82] Context-based dataset A multi-turn dialogue dataset extracted from the Ubuntu chat logs",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions a specific dataset, 'Ubuntu Dialogue Corpus', which is a multi-turn dialogue dataset extracted from Ubuntu chat logs. The cited paper title confirms it is a dataset.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": "10.18653/v1/w15-4640",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/916441619914101258c71669b5ccc36424b54a6c",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2015
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "31298398",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "personalized dialogue data"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "personalized dialogue data",
+          "dataset_description": "Used to train a response-generation model, focusing on speaker-role adaptation in neural conversation models through multi-task learning.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 31298398,
+          "context_text": "[84] Autoencoder + Multi-task learning Training a response-generation model on a small personalized dialogue data, and then training an autoencoder model with non-conversational data; Sharing parameters of the two models to obtain the personalized dialogue model",
+          "confidence_score": 0.8,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'personalized dialogue data' which is domain-qualified and relevant to the research topic of personalized text generation.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/bfe6d67ed1c9119f91774e62fe0f4f328830526e",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "51608183",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Knowledge-based dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Knowledge-based dataset",
+          "dataset_description": "Used to train models for generating commonsense-aware conversations, focusing on one-turn post-response pairs with associated knowledge graphs. | Used to generate commonsense-aware conversations, focusing on one-turn post-response pairs with associated knowledge graphs.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 51608183,
+          "context_text": "[163] Knowledge-based dataset A commonsense conversation dataset containing one-turn post-response pairs with corresponding commonsense knowledge graphs",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions a specific dataset with a clear name and purpose, which is relevant to personalized text generation.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": "10.24963/ijcai.2018/643",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/05cf65bea06b26d11a6324113bb4d6219e495a7b",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "52307098",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "CMU DoG"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CMU DoG",
+          "dataset_description": "Used to train and evaluate models for document-grounded conversations, focusing on the ability to generate responses based on the content of a specified document. | Used to train models for document-grounded conversations, focusing on generating responses based on Wikipedia articles about popular movies. | Used to train and evaluate document-grounded conversation models, focusing on conversations linked to Wikipedia articles about popular movies.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 52307098,
+          "context_text": "CMU DoG [164] Knowledge-based dataset A document grounded conversation dataset where each conversation are about contents of a specified document",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'CMU DoG' as a dataset for document-grounded conversations, which fits the criteria for a specific, verifiable dataset.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": "10.18653/v1/D18-1076",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/e51ad1057e540404f08314caa018abb47c82293f",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "53218829",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "CMU DoG 23"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CMU DoG 23",
+          "dataset_description": "Used to train knowledge-powered conversational agents, focusing on grounding conversations with factual information from Wikipedia articles. | Used to train conversational agents that incorporate Wikipedia knowledge, focusing on generating contextually relevant and informative responses in open-domain conversations. | Used to train and evaluate document-grounded conversation models, focusing on conversations linked to Wikipedia articles about popular movies.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 53218829,
+          "context_text": "CMU DoG 23 [164] is a document grounded conversation dataset where each conversation is followed by specified documents about popular movies extracted from Wikipedia articles.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions 'CMU DoG 23' as a document-grounded conversation dataset, which fits the criteria for a specific, verifiable dataset.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/227458886343b86bd15adf58c769be326b4b058a",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "88524997",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "TaoDescribe"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "TaoDescribe",
+          "dataset_description": "Used to generate personalized product descriptions in e-commerce, focusing on integrating knowledge-based information from a large Chinese shopping website. | Used to generate personalized product descriptions in e-commerce, incorporating knowledge and user category attributes to enhance user experience and relevance.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 88524997,
+          "context_text": "[18] provide a personalized and knowledge-based product description dataset named TaoDescribe, collecting from Taobao,(20) a large Chinese shopping website.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions a specific dataset named TaoDescribe, which is relevant to personalized text generation in e-commerce.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": "10.1145/3292500.3330725",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/288b40c498c56257bb6e3d53120c5a06bed1873f",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "216009",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "CelebA-HQ"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "CelebA-HQ",
+          "dataset_description": "Used to recognize faces across pose and age, focusing on high-quality images and diverse attributes for personalized text generation.",
+          "citing_paper_id": "257766375",
+          "cited_paper_id": 216009,
+          "context_text": "Based on those criteria, we select two famous face datasets CelebA-HQ [29] and VGGFace2 [11].",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions two specific datasets, CelebA-HQ and VGGFace2, which are used for recognizing faces across pose and age. These datasets are clearly identified and relevant to the research topic.",
+          "citing_paper_doi": "10.1109/ICCV51070.2023.00202",
+          "cited_paper_doi": "10.1109/FG.2018.00020",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/d544dd9a6ba9ea5f2c1217bc554cf7fded732fbf",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/70c59dc3470ae867016f6ab0e008ac8ba03774a1",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2017
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "202780757",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Wikidata"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Wikidata",
+          "dataset_description": "Used as an external knowledge base to link extracted entities from data fields, enhancing the temporary memory in a data-to-text generation model.",
+          "citing_paper_id": "229377215",
+          "cited_paper_id": 202780757,
+          "context_text": "[19] propose a data-to-text-generation model, which extracts entities appear in the data field and links them toWikidata as external knowledge to form the temporary memory.",
+          "confidence_score": 0.8,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'Wikidata' as a source of external knowledge, which is a specific, verifiable resource. However, it does not mention a traditional dataset, but rather a knowledge base.",
+          "citing_paper_doi": "10.1145/3439816",
+          "cited_paper_doi": "10.18653/v1/D19-1299",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/9cccf796f574b996a1bc464f8596513b9ae38397",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/19f627045291224264b6d5046cce5dcda242bb15",
+          "citing_paper_year": 2021,
+          "cited_paper_year": 2019
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "1238927",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Taobao Advertising"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Taobao Advertising",
+          "dataset_description": "Used for generating biographical text from structured data in English, enhancing the readability and coherence of Wikipedia biography entries. | Used as a classical benchmark for table-to-text generation, focusing on generating biographical texts from structured data. | Applied to generate biographical text from structured Wikipedia data, emphasizing the conversion of tabular information into coherent and informative narratives. | Used to generate personalized text from structured advertising data, focusing on converting tabular information into natural language descriptions. | Used to collect structured data for neural text generation, focusing on generating biographies from tabular information. | Used for generating text from structured data in Chinese, focusing on advertising content to enhance user engagement and personalization. | Used as a source of structured data and textual content for training and evaluating neural text generation models in the biography domain.",
+          "citing_paper_id": "258187154",
+          "cited_paper_id": 1238927,
+          "context_text": "We use two table-to-text datasets: Taobao Advertising [6] in Chinese, and WikiBio [15] in English.",
+          "confidence_score": 1.0,
+          "citation_intent": [
+            "b",
+            "o",
+            "r",
+            "a",
+            " ",
+            "s",
+            "c",
+            "u",
+            "l",
+            "e"
+          ],
+          "resource_type": [
+            "a",
+            "t",
+            "d",
+            "s",
+            "e"
+          ],
+          "reasoning": "The context mentions two specific datasets, 'Taobao Advertising' and 'WikiBio', which are used for table-to-text generation in different languages.",
+          "citing_paper_doi": "10.1109/ICASSP49357.2023.10096932",
+          "cited_paper_doi": "10.18653/v1/D16-1128",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/a5a57d011040daafdd5673afe2eed94dfc3981b1",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/604764133befe7a0aaa692919545846197e6e065",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2016
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "53298765",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "person-chat dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "person-chat dataset",
+          "dataset_description": "Used to label NLI tags, focusing on dialogue contexts to enhance personalized text generation through natural language inference.",
+          "citing_paper_id": "261081749",
+          "cited_paper_id": 53298765,
+          "context_text": "Welleck et al.[11] labeled NLI tags on the person-chat dataset.",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'person-chat dataset' which is a specific dataset used for labeling NLI tags. The dataset is relevant to personalized text generation.",
+          "citing_paper_doi": "10.1109/AINIT59027.2023.10212566",
+          "cited_paper_doi": "10.18653/v1/P19-1363",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/1ed34439ac8fb124c2a3c37e073519386a6c2ed0",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/1dc04035b9926c46ded436e5762f3924ab29516e",
+          "citing_paper_year": 2023,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "244908314",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "LAION-FACE"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "LAION-FACE",
+          "dataset_description": "Used for facial representation learning, specifically focusing on face-related data to improve model accuracy in generating text about faces.",
+          "citing_paper_id": "269635322",
+          "cited_paper_id": 244908314,
+          "context_text": "Such datasets are more accessible, including collections like LAION [66] and LAION-FACE [67].",
+          "confidence_score": 0.9,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'LAION' and 'LAION-FACE' as specific collections, which are likely datasets given the cited paper's focus on visual-linguistic representation learning.",
+          "citing_paper_doi": "10.1007/s11633-025-1563-3",
+          "cited_paper_doi": "10.1109/CVPR52688.2022.01814",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/e9b5505500085040b87a6a6e364c039d7474f4b4",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/037bab9d26ef7da11ee32d7682836604d2cc8a72",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2021
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "258298303",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "Language Personalization benchmark"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "Language Personalization benchmark",
+          "dataset_description": "Used to evaluate personalization in language models, focusing on classification and summarization tasks, but lacking benchmarks for long-form text generation.",
+          "citing_paper_id": "271218757",
+          "cited_paper_id": 258298303,
+          "context_text": "To organize these efforts, the Language Personalization benchmark (Salemi et al., 2024) was recently introduced; however, it consists only of classification and summarization-style tasks, and does not introduce any benchmarks for long-form text generation.",
+          "confidence_score": 0.8,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The citation mentions the 'Language Personalization benchmark' but specifies that it does not include benchmarks for long-form text generation, which is relevant to the research topic.",
+          "citing_paper_doi": null,
+          "cited_paper_doi": "10.48550/arXiv.2304.11406",
+          "citing_paper_url": "https://www.semanticscholar.org/paper/ff42d32b0a81ff96e4ca10099f66d75f7639a619",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/17170575aa8b4fa4e3eef5d366ada706a94dd836",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2023
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "21691164",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "b5 corpus"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "b5 corpus",
+          "dataset_description": "Used to study personality-dependent natural language understanding and generation, focusing on the impact of author personality and demographics on text production.",
+          "citing_paper_id": "273834648",
+          "cited_paper_id": 21691164,
+          "context_text": "In 2018, R.M.S. Ramos, et.al [5] described the b5 corpus, a collection of controlled and free (non-topic specific) textbooks produced in different (e.g., referential or descriptive) communicative tasks, and accompanied by supplies of the personality of their authors and fresh demographics.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions 'b5 corpus', which is a specific dataset used for personality-dependent natural language understanding and generation. It includes textbooks with author personality and demographic information.",
+          "citing_paper_doi": "10.1109/ICCCNT61001.2024.10724424",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3d9c25c0585a03cdcb378fad459be158e3adf87e",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/547a6c2a15f8b40c015c7515abf3680a5df74d85",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2018
+        }
+      ]
+    },
+    {
+      "cited_paper_id": "235666838",
+      "citation_count": 0,
+      "total_dataset_mentions": 1,
+      "unique_datasets": [
+        "myPersonality dataset"
+      ],
+      "dataset_details": [
+        {
+          "dataset_name": "myPersonality dataset",
+          "dataset_description": "Used to detect personality traits from utterances, specifically focusing on the Big Five personality traits in response generation.",
+          "citing_paper_id": "273834648",
+          "cited_paper_id": 235666838,
+          "context_text": "In 2020, Wanqi Wu and Tetsuya et.al [3] constructed a personality identifier by using the myPersonality dataset for detecting particularity values from utterances.",
+          "confidence_score": 1.0,
+          "citation_intent": "reusable resource",
+          "resource_type": "dataset",
+          "reasoning": "The context mentions the 'myPersonality dataset' which is a specific, verifiable dataset used for detecting personality traits from utterances.",
+          "citing_paper_doi": "10.1109/ICCCNT61001.2024.10724424",
+          "cited_paper_doi": null,
+          "citing_paper_url": "https://www.semanticscholar.org/paper/3d9c25c0585a03cdcb378fad459be158e3adf87e",
+          "cited_paper_url": "https://www.semanticscholar.org/paper/0e00a7e0eed484f0099eb46a0cdcb99df1a42336",
+          "citing_paper_year": 2024,
+          "cited_paper_year": 2020
+        }
+      ]
+    }
+  ],
+  "citation_count_distribution": {
+    "9135567": 1,
+    "11860229": 1,
+    "14021168": 1,
+    "60514661": 1,
+    "218973759": 1,
+    "230435736": 1,
+    "235792273": 1,
+    "238252929": 2,
+    "239050492": 1,
+    "256631001": 1,
+    "257353840": 1,
+    "257921893": 1,
+    "258741409": 1,
+    "964287": 7,
+    "52167799": 2,
+    "202767450": 3,
+    "208513249": 1,
+    "230433941": 2,
+    "233296808": 2,
+    "234757004": 1,
+    "247693734": 2,
+    "142610973": 1,
+    "215548699": 1,
+    "257766307": 1,
+    "257913780": 1,
+    "258298303": 7,
+    "259108266": 1,
+    "4786918": 1,
+    "7961699": 4,
+    "12900424": 2,
+    "127986954": 3,
+    "202797141": 1,
+    "257804696": 1,
+    "257921908": 1,
+    "259251773": 1,
+    "264289231": 3,
+    "265308990": 1,
+    "267523283": 3,
+    "270560467": 2,
+    "271218187": 2,
+    "272512070": 1,
+    "15595142": 1,
+    "235187032": 2,
+    "247427270": 1,
+    "248779887": 1,
+    "267547503": 3,
+    "268710872": 1,
+    "6628106": 4,
+    "13907106": 1,
+    "27308776": 1,
+    "58370896": 1,
+    "211043589": 1,
+    "220302360": 1,
+    "226227230": 1,
+    "251371732": 1,
+    "253522998": 1,
+    "254044526": 1,
+    "258461170": 1,
+    "259064099": 2,
+    "261823330": 1,
+    "263605962": 1,
+    "265213422": 1,
+    "266359151": 1,
+    "267523232": 3,
+    "269149624": 1,
+    "269740933": 1,
+    "271221933": 1,
+    "277435679": 1,
+    "207178704": 1,
+    "258959321": 1,
+    "261934663": 1,
+    "263605618": 1,
+    "265149781": 1,
+    "266174252": 1,
+    "269348048": 1,
+    "275471754": 1,
+    "2428314": 2,
+    "7004303": 1,
+    "8308769": 1,
+    "14994977": 1,
+    "57825713": 1,
+    "166228669": 1,
+    "199466300": 1,
+    "201698258": 1,
+    "221446550": 1,
+    "260428188": 1,
+    "490669": 1,
+    "1911971": 1,
+    "3558923": 1,
+    "4642971": 1,
+    "6862403": 1,
+    "7160120": 1,
+    "8407569": 1,
+    "9424845": 1,
+    "9619992": 1,
+    "11080756": 7,
+    "11349626": 1,
+    "12924416": 1,
+    "13752895": 3,
+    "14600881": 1,
+    "17865105": 3,
+    "20981275": 1,
+    "47019137": 2,
+    "52880735": 1,
+    "54089884": 1,
+    "61222698": 1,
+    "85543316": 1,
+    "92979801": 1,
+    "102352788": 1,
+    "127953732": 2,
+    "150207412": 1,
+    "169453414": 1,
+    "201645479": 1,
+    "201666566": 1,
+    "202714856": 1,
+    "202789109": 1,
+    "204874165": 1,
+    "207847197": 1,
+    "208617790": 5,
+    "210507349": 1,
+    "218971825": 1,
+    "220936592": 1,
+    "221882637": 1,
+    "224705254": 1,
+    "232126410": 1,
+    "234337004": 1,
+    "234790153": 1,
+    "235623756": 1,
+    "235703107": 1,
+    "236468577": 1,
+    "243865608": 1,
+    "244478160": 1,
+    "7200347": 1,
+    "16289845": 1,
+    "225047150": 1,
+    "253237200": 2,
+    "257557227": 1,
+    "258841328": 1,
+    "259375553": 1,
+    "260866107": 1,
+    "266899669": 1,
+    "276558227": 1,
+    "3348552": 1,
+    "6869582": 3,
+    "10488675": 1,
+    "170076423": 1,
+    "202621357": 1,
+    "233473617": 1,
+    "256415991": 1,
+    "257219404": 3,
+    "267200117": 1,
+    "268510706": 1,
+    "216009": 2,
+    "1563370": 5,
+    "233323280": 1,
+    "244714366": 4,
+    "245117814": 2,
+    "247628171": 1,
+    "248097655": 9,
+    "248239727": 3,
+    "248986576": 9,
+    "251253049": 10,
+    "256900833": 1,
+    "257219968": 5,
+    "257631648": 4,
+    "257913352": 3,
+    "259847576": 2,
+    "264815845": 2,
+    "2927709": 1,
+    "4676177": 1,
+    "7051992": 1,
+    "38400465": 1,
+    "52814523": 1,
+    "207847600": 1,
+    "219635496": 1,
+    "219955663": 11,
+    "231572865": 1,
+    "235458009": 10,
+    "237303799": 1,
+    "244909410": 3,
+    "245335280": 14,
+    "247618995": 1,
+    "248227997": 1,
+    "248505896": 1,
+    "251649167": 1,
+    "254636532": 1,
+    "257050406": 1,
+    "257404977": 1,
+    "257482847": 1,
+    "257687714": 2,
+    "257687839": 1,
+    "257766375": 2,
+    "258509524": 1,
+    "260082364": 1,
+    "260777645": 1,
+    "261049723": 1,
+    "326772": 3,
+    "3531856": 1,
+    "14124313": 2,
+    "206592484": 1,
+    "211296702": 2,
+    "232147378": 1,
+    "233476314": 1,
+    "245117331": 2,
+    "245335086": 2,
+    "249926846": 5,
+    "253734226": 1,
+    "255372955": 2,
+    "101534": 1,
+    "2454882": 1,
+    "21357771": 1,
+    "53558598": 1,
+    "141803939": 1,
+    "149560834": 1,
+    "198854435": 1,
+    "222177356": 1,
+    "235700375": 1,
+    "12803511": 1,
+    "218971783": 4,
+    "227209335": 1,
+    "245704504": 2,
+    "252596252": 1,
+    "256627601": 2,
+    "257622962": 1,
+    "258170077": 2,
+    "259252065": 1,
+    "259298715": 1,
+    "259316242": 1,
+    "260202961": 1,
+    "263671542": 1,
+    "263830433": 1,
+    "263831566": 1,
+    "263908890": 1,
+    "3864050": 1,
+    "4844572": 1,
+    "9026666": 1,
+    "52902832": 1,
+    "52967399": 7,
+    "57246310": 1,
+    "92996193": 1,
+    "104292176": 1,
+    "197928119": 2,
+    "211066479": 1,
+    "232306930": 1,
+    "235097581": 1,
+    "23763057": 1,
+    "204402699": 1,
+    "214410607": 1,
+    "222140788": 6,
+    "226742001": 1,
+    "253069389": 1,
+    "256416326": 1,
+    "257364757": 3,
+    "258436985": 4,
+    "258999106": 1,
+    "259252486": 1,
+    "260387426": 1,
+    "260849232": 1,
+    "261101003": 1,
+    "264492267": 1,
+    "266177436": 1,
+    "220665910": 1,
+    "221818900": 1,
+    "233241040": 1,
+    "247518748": 1,
+    "250607505": 1,
+    "250698823": 1,
+    "257833572": 1,
+    "258509029": 1,
+    "980236": 2,
+    "3719281": 2,
+    "7023610": 1,
+    "8858625": 3,
+    "9417016": 1,
+    "10319744": 4,
+    "13756489": 10,
+    "19046372": 1,
+    "52889459": 1,
+    "54482423": 4,
+    "214713859": 1,
+    "220871180": 1,
+    "235702618": 1,
+    "251800180": 7,
+    "253581213": 3,
+    "256827727": 5,
+    "53592270": 3,
+    "257557484": 2,
+    "257767281": 1,
+    "258866047": 1,
+    "263671961": 1,
+    "9197196": 1,
+    "51729727": 1,
+    "221819581": 1,
+    "232185275": 1,
+    "250526766": 1,
+    "254823489": 1,
+    "254877751": 1,
+    "257232490": 2,
+    "257427629": 1,
+    "2645819": 1,
+    "3310672": 1,
+    "3639844": 1,
+    "12387176": 1,
+    "211818224": 1,
+    "211818320": 1,
+    "219964874": 2,
+    "234357997": 3,
+    "253254800": 2,
+    "256662278": 1,
+    "1238927": 2,
+    "88524997": 3,
+    "174801388": 1,
+    "211020900": 1,
+    "231846815": 1,
+    "232092620": 1,
+    "9176830": 1,
+    "14924561": 1,
+    "52895470": 1,
+    "91183909": 1,
+    "142861440": 1,
+    "196834421": 1,
+    "203591432": 1,
+    "209377041": 1,
+    "211171538": 1,
+    "214743564": 1,
+    "215548657": 1,
+    "229212848": 1,
+    "231592822": 2,
+    "231603119": 2,
+    "231802331": 1,
+    "235390635": 1,
+    "235658331": 1,
+    "236950721": 1,
+    "237386023": 1,
+    "241033103": 1,
+    "244772984": 1,
+    "244773443": 1,
+    "247157966": 1,
+    "249145348": 2,
+    "250644432": 1,
+    "250956830": 1,
+    "46898260": 1,
+    "53103701": 1,
+    "198897678": 1,
+    "202577442": 1,
+    "214802845": 2,
+    "218719151": 1,
+    "236772156": 1,
+    "251252882": 3,
+    "252668838": 1,
+    "252918469": 1,
+    "256616002": 1,
+    "60666": 1,
+    "4492210": 2,
+    "59182972": 1,
+    "231632658": 3,
+    "247939764": 1,
+    "254853701": 2,
+    "258546701": 1,
+    "262054258": 1,
+    "44134226": 2,
+    "24986117": 1,
+    "248834570": 1,
+    "257766541": 1,
+    "258352270": 1,
+    "258352455": 1,
+    "258841635": 1,
+    "258959284": 1,
+    "259165461": 1,
+    "261243203": 1,
+    "238582870": 1,
+    "245855878": 1,
+    "258841470": 1,
+    "258841553": 2,
+    "268297180": 1,
+    "275342326": 1,
+    "51608471": 2,
+    "53298765": 2,
+    "160025533": 4,
+    "195873898": 1,
+    "215745354": 1,
+    "231847372": 1,
+    "248299824": 1,
+    "127986044": 4,
+    "244488758": 1,
+    "2955580": 3,
+    "7338076": 1,
+    "21691164": 1,
+    "235666838": 1,
+    "258267089": 1,
+    "201701022": 1,
+    "207761262": 1,
+    "222278410": 1,
+    "235313588": 1,
+    "256221409": 1,
+    "265609037": 1,
+    "269148520": 1,
+    "269983560": 2,
+    "86611921": 1,
+    "244906179": 1,
+    "247922246": 1,
+    "254408780": 7,
+    "258041269": 1,
+    "258079316": 3,
+    "261917624": 1,
+    "267211817": 1,
+    "268247980": 1,
+    "268512710": 1,
+    "268667428": 1,
+    "272398104": 1,
+    "1687220": 1,
+    "12275803": 1,
+    "22727274": 1,
+    "198967908": 2,
+    "220714131": 1,
+    "226281395": 1,
+    "231639297": 1,
+    "232035663": 4,
+    "233296711": 2,
+    "244908764": 1,
+    "247292765": 1,
+    "248227685": 1,
+    "252917726": 3,
+    "253116574": 1,
+    "254408758": 2,
+    "257952647": 2,
+    "259243718": 1,
+    "3693512": 1,
+    "4704285": 1,
+    "10409742": 1,
+    "266052536": 2,
+    "273532312": 1,
+    "276742376": 1,
+    "6292200": 1,
+    "27290051": 1,
+    "208248357": 1,
+    "209445099": 1,
+    "221971391": 1,
+    "237941100": 1,
+    "247447133": 1,
+    "252780132": 1,
+    "256868430": 1,
+    "257079092": 1,
+    "257235906": 1,
+    "261378072": 1,
+    "418729": 1,
+    "819096": 1,
+    "1646733": 1,
+    "3416650": 1,
+    "14246611": 1,
+    "18933022": 1,
+    "30673212": 1,
+    "60848654": 1,
+    "143407414": 1,
+    "145565198": 1,
+    "145589047": 1,
+    "157695530": 1,
+    "28780910": 1,
+    "195767143": 1,
+    "218872004": 1,
+    "2765857": 1,
+    "16282767": 1,
+    "29161455": 4,
+    "189762150": 1,
+    "215873485": 1,
+    "222133992": 1,
+    "3000900": 1,
+    "4413279": 1,
+    "11952750": 1,
+    "12190278": 1,
+    "15164445": 1,
+    "21464874": 1,
+    "38629149": 1,
+    "40740503": 1,
+    "15676318": 1,
+    "22987563": 1,
+    "218630075": 1,
+    "221090498": 1,
+    "222291664": 2,
+    "226202134": 1,
+    "226976076": 1,
+    "234778100": 1,
+    "244908340": 1,
+    "253062025": 1,
+    "246472929": 1,
+    "257262719": 1,
+    "268091298": 1,
+    "270843326": 1,
+    "205010943": 1,
+    "257532912": 1,
+    "257687545": 1,
+    "258179432": 1,
+    "258841022": 1,
+    "258960099": 1,
+    "259342813": 1,
+    "262064720": 1,
+    "265722909": 1,
+    "267320286": 1,
+    "269294082": 1,
+    "3038382": 1,
+    "11767561": 1,
+    "18754233": 1,
+    "19228797": 1,
+    "27572397": 1,
+    "46940529": 1,
+    "46941428": 1,
+    "195891353": 1,
+    "202660943": 1,
+    "204960716": 2,
+    "209387630": 1,
+    "225159510": 1,
+    "231915098": 1,
+    "235368201": 2,
+    "237485277": 1,
+    "245218671": 1,
+    "247762874": 1,
+    "250390433": 1,
+    "251308055": 1,
+    "201669163": 1,
+    "220968925": 1,
+    "231591445": 6,
+    "247778989": 1,
+    "250607546": 1,
+    "253760983": 1,
+    "257427461": 1,
+    "258546711": 1,
+    "258888228": 3,
+    "263792502": 1,
+    "30484693": 1,
+    "52941531": 1,
+    "53093005": 1,
+    "198169848": 1,
+    "206593370": 1,
+    "211677243": 1,
+    "214693045": 1,
+    "219980285": 1,
+    "232148091": 1,
+    "235731535": 1,
+    "236088010": 1,
+    "247292104": 1,
+    "248157334": 1,
+    "248476220": 1,
+    "248986248": 1,
+    "250113850": 1,
+    "251040605": 1,
+    "251224247": 1,
+    "251953565": 1,
+    "253080823": 1,
+    "253761291": 1,
+    "254043959": 1,
+    "254221091": 1,
+    "255942203": 1,
+    "259262201": 1,
+    "263830081": 1,
+    "264935374": 1,
+    "268041236": 1,
+    "268876071": 1,
+    "270063742": 1,
+    "270226625": 1,
+    "270226636": 1,
+    "270878382": 1,
+    "271161859": 1,
+    "271244829": 1,
+    "273001409": 1,
+    "276117223": 1,
+    "276317891": 1,
+    "277677790": 1,
+    "277857630": 1,
+    "13995862": 1,
+    "173990382": 1,
+    "211146177": 1,
+    "229297973": 2,
+    "257557738": 1,
+    "258078844": 1,
+    "258740710": 2,
+    "258887639": 1,
+    "259138505": 2,
+    "266736230": 1,
+    "266999462": 2,
+    "267212094": 1,
+    "268183380": 1,
+    "268248909": 1,
+    "27282405": 1,
+    "198317027": 1,
+    "202120896": 1,
+    "265149820": 1,
+    "270563652": 1,
+    "271746016": 1,
+    "6200260": 1,
+    "218763388": 1,
+    "219708245": 1,
+    "231979499": 3,
+    "233168962": 1,
+    "257757256": 1,
+    "258967805": 1,
+    "262084134": 1,
+    "264128197": 1,
+    "265609355": 1,
+    "231802467": 1,
+    "1473130": 1,
+    "1586456": 1,
+    "13690180": 1,
+    "113562250": 1,
+    "207869708": 2,
+    "208006638": 1,
+    "221969995": 2,
+    "229348988": 1,
+    "235826029": 1,
+    "247058662": 1,
+    "247411350": 1,
+    "247628267": 1,
+    "252918698": 1,
+    "254591615": 1,
+    "258378197": 1,
+    "258823272": 1,
+    "259370601": 1,
+    "258887872": 1,
+    "267198502": 1,
+    "267583021": 1,
+    "267638578": 1,
+    "656562": 1,
+    "22716243": 1,
+    "54458806": 1,
+    "196186167": 2,
+    "198899669": 1,
+    "202719307": 1,
+    "237940272": 1,
+    "16639476": 1,
+    "169577694": 1,
+    "172136697": 1,
+    "207536026": 1,
+    "229351463": 1,
+    "237416585": 1,
+    "245425088": 1,
+    "246098480": 1,
+    "252282839": 1,
+    "252846393": 1,
+    "254877310": 1,
+    "257532815": 2,
+    "257803126": 1,
+    "258221707": 1,
+    "261046857": 1,
+    "261049152": 1,
+    "261076002": 1,
+    "264334422": 1,
+    "264744285": 1,
+    "266551049": 1,
+    "266844311": 1,
+    "268266688": 1,
+    "269030019": 1,
+    "269354751": 1,
+    "270711489": 1,
+    "273749420": 1,
+    "274163373": 1,
+    "274234014": 1,
+    "275931918": 1,
+    "276106991": 1,
+    "276212530": 1,
+    "276839200": 1,
+    "277549219": 1,
+    "225016068": 1,
+    "665667": 1,
+    "738850": 1,
+    "748227": 2,
+    "1055111": 1,
+    "2024574": 2,
+    "2057420": 1,
+    "3527896": 1,
+    "3626819": 1,
+    "6126582": 3,
+    "6203757": 1,
+    "6484065": 1,
+    "7164502": 2,
+    "7356547": 2,
+    "8379583": 3,
+    "9447219": 2,
+    "11212020": 4,
+    "12300158": 3,
+    "14067706": 1,
+    "14941970": 1,
+    "16447573": 2,
+    "18347865": 1,
+    "21669082": 2,
+    "29797603": 2,
+    "31298398": 2,
+    "34405847": 2,
+    "51608183": 2,
+    "51609716": 2,
+    "51609768": 1,
+    "52136077": 1,
+    "52159416": 1,
+    "52307098": 1,
+    "53217693": 2,
+    "53218829": 1,
+    "53287752": 2,
+    "53771922": 1,
+    "53955763": 2,
+    "59316441": 2,
+    "67855999": 1,
+    "69778590": 2,
+    "70350032": 1,
+    "102354588": 2,
+    "131777931": 1,
+    "184487709": 2,
+    "196176000": 1,
+    "196192573": 1,
+    "196197006": 2,
+    "196210081": 2,
+    "199466228": 1,
+    "199551982": 1,
+    "201666118": 2,
+    "202734183": 1,
+    "202763690": 2,
+    "202770245": 1,
+    "202780757": 1,
+    "202788651": 2,
+    "204735695": 2,
+    "211146411": 1,
+    "221293335": 1,
+    "224705337": 1,
+    "467086": 2,
+    "3331952": 3,
+    "20282961": 1,
+    "224280561": 1,
+    "229924402": 1,
+    "235743020": 1,
+    "237278204": 1,
+    "246863587": 1,
+    "246904359": 1,
+    "44614": 1,
+    "1849689": 1,
+    "2332513": 1,
+    "7287895": 2,
+    "9514751": 2,
+    "12926055": 1,
+    "12938495": 1,
+    "19208846": 1,
+    "36574384": 1,
+    "86611657": 1,
+    "2172129": 1,
+    "11077516": 1,
+    "52111971": 1,
+    "58772416": 1,
+    "201646309": 2,
+    "207880647": 1,
+    "220045416": 1,
+    "233289583": 1,
+    "235352574": 1,
+    "237684656": 1,
+    "1981391": 1,
+    "29473470": 2,
+    "47012216": 1,
+    "53629366": 1,
+    "69392767": 1,
+    "202774468": 2,
+    "220404390": 1,
+    "224770745": 1,
+    "234789923": 1,
+    "236980280": 1,
+    "247592257": 1,
+    "1129667": 1,
+    "13742826": 1,
+    "18593743": 1,
+    "46939411": 1,
+    "67350953": 1,
+    "196177632": 1,
+    "202712680": 2,
+    "207971106": 1,
+    "232168936": 1,
+    "235165921": 1,
+    "4349820": 1,
+    "7355407": 1,
+    "17498620": 1,
+    "24938914": 1,
+    "48363067": 1,
+    "209322955": 1,
+    "209376338": 1,
+    "221266065": 1,
+    "225066732": 1,
+    "233739719": 1,
+    "243861060": 1,
+    "221516475": 1,
+    "255942528": 2,
+    "258179774": 1,
+    "258999486": 1,
+    "259287552": 1,
+    "259341735": 1,
+    "268030731": 1,
+    "268553866": 1,
+    "270380175": 1,
+    "271050462": 1,
+    "273507856": 1,
+    "14888175": 1,
+    "28266287": 1,
+    "64048023": 1,
+    "109380360": 1,
+    "191256143": 1,
+    "232352655": 1,
+    "237513697": 1,
+    "251066705": 1,
+    "252519648": 1,
+    "258676160": 1,
+    "1578178": 1,
+    "3147007": 1,
+    "5932528": 1,
+    "10565222": 2,
+    "14247119": 2,
+    "20956365": 2,
+    "165163819": 1,
+    "210868223": 1,
+    "273563": 1,
+    "1623913": 1,
+    "5045941": 1,
+    "5077306": 1,
+    "9522695": 1,
+    "220486718": 1,
+    "220730038": 1,
+    "221012566": 1,
+    "224280529": 1,
+    "228954221": 1,
+    "236150308": 1,
+    "237941022": 1,
+    "265150332": 1,
+    "269565799": 1,
+    "269761580": 1,
+    "4421747": 1,
+    "10241043": 1,
+    "173990818": 1,
+    "253018554": 1,
+    "258564230": 1,
+    "259129398": 1,
+    "260379087": 1,
+    "262464745": 1,
+    "263829791": 1,
+    "267750948": 1,
+    "269188036": 1,
+    "270226640": 1,
+    "271270693": 1,
+    "271516195": 1,
+    "1856462": 1,
+    "8781744": 1,
+    "15800462": 1,
+    "52956095": 1,
+    "62654138": 1,
+    "96426372": 1,
+    "204981295": 1,
+    "223798991": 1,
+    "229373521": 1,
+    "235490460": 1,
+    "238700218": 1,
+    "5013313": 1,
+    "13936837": 1,
+    "32893704": 1,
+    "52153976": 1,
+    "64318990": 1,
+    "201070608": 1,
+    "235306313": 1,
+    "1957433": 1,
+    "7299043": 1,
+    "13959787": 2,
+    "16997286": 1,
+    "19919625": 1,
+    "196181724": 1,
+    "196471084": 1,
+    "202540017": 1,
+    "211043910": 1,
+    "10627900": 1,
+    "14713935": 1,
+    "51973914": 1,
+    "59553505": 1,
+    "80628279": 1,
+    "153313581": 1,
+    "203180740": 1,
+    "246862580": 1,
+    "53022581": 1,
+    "214604370": 1,
+    "231648047": 1,
+    "247446806": 1,
+    "251280109": 1,
+    "257205967": 1,
+    "266755649": 1,
+    "275336716": 1,
+    "1277217": 1,
+    "14113767": 1,
+    "244714856": 2,
+    "258556958": 1,
+    "33504": 1,
+    "3366315": 1,
+    "3633127": 1,
+    "4865465": 1,
+    "5985692": 1,
+    "21010143": 1,
+    "26100519": 1,
+    "52986403": 1,
+    "57721163": 1,
+    "102352475": 1,
+    "211044093": 1,
+    "218595851": 1,
+    "232075892": 1,
+    "94285": 1,
+    "1820614": 1,
+    "3389583": 1,
+    "3526062": 1,
+    "4942873": 1,
+    "5523008": 1,
+    "5590763": 2,
+    "14857825": 1,
+    "19096382": 1,
+    "28896855": 1,
+    "44160625": 1,
+    "51606047": 1,
+    "67855963": 1,
+    "81982679": 1,
+    "119304814": 1,
+    "146808476": 1,
+    "147704286": 1,
+    "201327983": 1,
+    "218915023": 1,
+    "222272091": 1,
+    "261514205": 1,
+    "266003912": 1,
+    "271403894": 1,
+    "86903": 1,
+    "780171": 1,
+    "1169492": 2,
+    "1918428": 1,
+    "2808203": 1,
+    "2867243": 1,
+    "2950705": 1,
+    "2963092": 1,
+    "4940548": 1,
+    "8244856": 1,
+    "8928715": 1,
+    "11216909": 1,
+    "12365096": 1,
+    "13943041": 1,
+    "14420812": 1,
+    "16946362": 2,
+    "17048224": 2,
+    "18124397": 1,
+    "238873": 1,
+    "311011": 1,
+    "2488088": 1,
+    "5048947": 1,
+    "7672408": 1,
+    "8822680": 1,
+    "9027681": 1,
+    "13530374": 1,
+    "23892230": 1,
+    "30088448": 1,
+    "52012400": 1,
+    "61825275": 1,
+    "174797747": 1,
+    "198917339": 1,
+    "201093978": 1,
+    "209053721": 1,
+    "209532167": 1,
+    "210839751": 1,
+    "210927488": 1,
+    "211171605": 1,
+    "216056509": 1,
+    "216641852": 1,
+    "218614095": 1,
+    "218673683": 1,
+    "221761146": 1,
+    "231855531": 1,
+    "232185260": 1,
+    "232478685": 1,
+    "233004676": 1,
+    "233987023": 1,
+    "235195882": 1,
+    "235782694": 1,
+    "237091377": 1,
+    "237100969": 1,
+    "237940127": 1,
+    "244119798": 1,
+    "252089836": 1,
+    "253553511": 1,
+    "256416408": 1,
+    "256615816": 1,
+    "257669023": 1,
+    "258532956": 1,
+    "261100919": 1,
+    "263609483": 1,
+    "265045103": 1,
+    "265055617": 1,
+    "266162524": 1,
+    "266348364": 1,
+    "267759856": 1,
+    "268032490": 1,
+    "13490401": 1,
+    "201667597": 1,
+    "212650062": 1,
+    "219531522": 1,
+    "238634774": 1,
+    "244130481": 1,
+    "249538510": 1,
+    "251307839": 1,
+    "253237382": 1,
+    "253553270": 1,
+    "257378493": 1,
+    "258676394": 1,
+    "259108357": 1,
+    "261822707": 1,
+    "262480519": 1,
+    "266818441": 1,
+    "270257988": 1,
+    "272366525": 1,
+    "3897405": 1,
+    "6767966": 1,
+    "8278351": 1,
+    "9791192": 1,
+    "10585115": 1,
+    "13689658": 1,
+    "206592766": 1,
+    "214728393": 1,
+    "244908314": 1,
+    "246411402": 2,
+    "249240415": 1,
+    "252596087": 1,
+    "252596091": 2,
+    "253254916": 1,
+    "256390509": 1,
+    "257557302": 1,
+    "257687552": 1,
+    "257901164": 1,
+    "258078921": 1,
+    "258447166": 1,
+    "258887939": 1,
+    "258888112": 1,
+    "258959444": 1,
+    "258960192": 1,
+    "258999614": 1,
+    "259187900": 1,
+    "259262648": 1,
+    "259316083": 1,
+    "260886966": 1,
+    "261705666": 1,
+    "263620748": 1,
+    "263909602": 1,
+    "264172934": 1,
+    "264403242": 1,
+    "264590753": 1,
+    "265050824": 1,
+    "265281113": 1,
+    "265295502": 1,
+    "265445614": 1,
+    "265466231": 1,
+    "265498336": 1,
+    "265498829": 1,
+    "265608730": 1,
+    "265608824": 1,
+    "265659109": 1,
+    "266053833": 1,
+    "266163420": 1,
+    "266374640": 1,
+    "266436022": 1,
+    "266550896": 1,
+    "266551699": 1,
+    "267035298": 1,
+    "267202776": 1,
+    "267782887": 1,
+    "267960812": 1,
+    "268064742": 1,
+    "268527573": 1,
+    "268531420": 1,
+    "268537084": 1,
+    "269005949": 1,
+    "269293816": 1,
+    "274166550": 1,
+    "274235061": 1,
+    "274251363": 1,
+    "274763217": 1,
+    "275994148": 1,
+    "1770102": 1,
+    "2776693": 1,
+    "4833213": 1,
+    "5959482": 1,
+    "7139779": 1,
+    "13480063": 1,
+    "16538528": 1,
+    "52975881": 1,
+    "54457428": 1,
+    "55461757": 1,
+    "86471548": 1,
+    "225039882": 1,
+    "232352874": 1,
+    "233444273": 1,
+    "257427549": 1,
+    "4787508": 1,
+    "12559116": 1,
+    "121987403": 1,
+    "174802898": 1,
+    "208910339": 1,
+    "246426909": 1,
+    "246634179": 1,
+    "248118878": 1,
+    "260333927": 1,
+    "261031087": 1,
+    "261076203": 1,
+    "261531157": 1,
+    "263831633": 1,
+    "263834741": 1,
+    "264306285": 1,
+    "264491118": 1,
+    "265608726": 1,
+    "267411977": 1,
+    "267682397": 1,
+    "268537409": 1,
+    "269214194": 1,
+    "270095324": 1,
+    "270357470": 1,
+    "270559827": 1,
+    "270562658": 1,
+    "270764846": 1,
+    "271213154": 1,
+    "275118993": 1,
+    "511247": 1,
+    "947719": 1,
+    "2364329": 1,
+    "4581300": 1,
+    "9257319": 1,
+    "10838471": 1,
+    "12016582": 1,
+    "22553740": 1,
+    "24512760": 1,
+    "32041197": 1,
+    "37693837": 1,
+    "46571650": 1,
+    "51966859": 1,
+    "145023057": 1,
+    "207034961": 1,
+    "207821484": 1,
+    "261601645": 1,
+    "1012652": 1,
+    "1998416": 1,
+    "8174613": 1,
+    "8314118": 1,
+    "1177942": 1,
+    "7992772": 1,
+    "9938081": 1,
+    "13083632": 1,
+    "14636783": 1,
+    "15879823": 1,
+    "41140640": 1,
+    "146755699": 1,
+    "102483628": 1,
+    "116376892": 1,
+    "195069387": 2,
+    "198229624": 1,
+    "202558505": 2,
+    "168169824": 1,
+    "195791872": 1,
+    "198968327": 1,
+    "202573071": 1,
+    "2307261": 1,
+    "3051291": 1,
+    "3753452": 1,
+    "5201925": 1,
+    "8517067": 1,
+    "12469208": 1,
+    "14850173": 1,
+    "16313264": 1,
+    "18939716": 1,
+    "44268933": 1,
+    "221275765": 1,
+    "9996719": 1,
+    "15883006": 1,
+    "202542455": 1,
+    "235619773": 1,
+    "246605112": 1,
+    "247778704": 1,
+    "248476190": 1,
+    "253581838": 1,
+    "254535649": 1,
+    "258865473": 1,
+    "304614": 1,
+    "17471203": 1,
+    "18712907": 1,
+    "186206810": 1,
+    "212747830": 1,
+    "215737187": 1,
+    "218869575": 1,
+    "221186870": 1,
+    "224270828": 1,
+    "229386054": 1,
+    "235293983": 1,
+    "235792544": 1,
+    "739696": 1,
+    "2568227": 1,
+    "12890187": 1,
+    "16482857": 1,
+    "1033682": 1,
+    "5632716": 1,
+    "13637778": 1,
+    "211989178": 1,
+    "232147187": 1,
+    "233305207": 1,
+    "236976082": 1,
+    "247939336": 1,
+    "253708074": 1,
+    "257757040": 1,
+    "257757213": 1,
+    "257834153": 1,
+    "257912580": 1,
+    "258833547": 1,
+    "260866168": 1,
+    "260926600": 1,
+    "261064940": 1,
+    "265714588": 1
+  },
+  "merged_dataset_groups": [
+    {
+      "display_name": "PERSONA-CHAT",
+      "normalized_name": "personachat",
+      "name_variants": [
+        "PERSONA CHAT",
+        "PERSONA-CHAT",
+        "PersonaChat"
+      ],
+      "mention_count": 6,
+      "cited_papers_count": 6,
+      "topic_summary": "The PERSONA-CHAT dataset is primarily used to train and evaluate personalized dialogue systems, focusing on incorporating user profiles and persona information into conversations to enhance personalization and engagement. It is employed to extract personalized characteristics from users' posts, build profile-based dialogue datasets, and generate personalized dialogues, product descriptions, and conversation topics. The dataset supports the development of dialogue agents that can conduct more natural and contextually relevant interactions, emphasizing the variety of topics and user-specific contexts."
+    },
+    {
+      "display_name": "WEATHERGOV",
+      "normalized_name": "weathergov",
+      "name_variants": [
+        "WEATHERGOV"
+      ],
+      "mention_count": 5,
+      "cited_papers_count": 5,
+      "topic_summary": "The WEATHERGOV dataset is primarily used for generating weather reports from structured data, focusing on semantic correspondences with minimal supervision. It is also utilized in generating basketball game summaries, sports commentaries, personalized restaurant reviews, and biographical texts, employing natural language generation techniques to test grounded language acquisition and evaluate neural models' effectiveness in producing coherent, contextually appropriate text."
+    },
+    {
+      "display_name": "NBDESCRIB",
+      "normalized_name": "nbdescrib",
+      "name_variants": [
+        "NBDESCRIB",
+        "NBDESCRIB dataset"
+      ],
+      "mention_count": 3,
+      "cited_papers_count": 3,
+      "topic_summary": "The NBDESCRIB dataset is used for generating personalized and high-fidelity text, particularly in the context of table-to-text generation and scientific reasoning. It focuses on decomposing evidence and questions to enhance the accuracy and relevance of the generated descriptions. This dataset supports the creation of detailed and accurate textual content, enabling researchers to improve the fidelity and personalization of generated text through controlled and reasoned approaches."
+    },
+    {
+      "display_name": "LAION-5B",
+      "normalized_name": "laion5b",
+      "name_variants": [
+        "LAION-5B"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 1,
+      "topic_summary": "The LAION-5B dataset is used to sample easy-negative examples for training personalized text generation models, ensuring consistency across different concepts. This approach helps in refining the model's ability to generate coherent and contextually appropriate text by providing a diverse set of negative examples. The dataset's large scale and diverse content enable robust training and validation processes."
+    },
+    {
+      "display_name": "LAMP",
+      "normalized_name": "lamp",
+      "name_variants": [
+        "LAMP",
+        "LaMP"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The LAMP dataset is used to evaluate and validate personalized text generation tasks, particularly in enhancing the performance of large language models through personalization techniques. It provides structured data for benchmarking, supporting research in generating personalized long-form texts, tweets, movie reviews, emails, and social media posts. This dataset enables researchers to assess the effectiveness of personalization methods across various text generation applications."
+    },
+    {
+      "display_name": "Stanford Politeness Corpus (SPC)",
+      "normalized_name": "stanfordpolitenesscorpusspc",
+      "name_variants": [
+        "Stanford Politeness Corpus (SPC)"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The Stanford Politeness Corpus (SPC) is primarily used to analyze and improve formal and polite language in text-based communication. Researchers employ the dataset to examine stylistic elements and linguistic markers of politeness, enhancing the formality and naturalness of generated responses. It is used to train models for style transfer, focusing on generating polite conversational data and evaluating the impact of synthetic data on model performance. The dataset's focus on stylistic variations and linguistic markers enables detailed studies on perceived politeness and formality in dialogue."
+    },
+    {
+      "display_name": "LibriTTS",
+      "normalized_name": "libritts",
+      "name_variants": [
+        "LibriTTS"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The LibriTTS dataset is primarily used to train multi-speaker English speech synthesis models, such as StyleSpeech and Meta-StyleSpeech. It provides a rich corpus that enables researchers to develop personalized text-to-speech systems, focusing on enhancing the naturalness and expressiveness of synthesized speech. The dataset's extensive speaker diversity and high-quality audio recordings are crucial for these applications."
+    },
+    {
+      "display_name": "README",
+      "normalized_name": "readme",
+      "name_variants": [
+        "README"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The README dataset is used to train models that convert complex medical jargon into patient-friendly language. It leverages extensive pairs of jargon and lay definitions, focusing on seen settings. This dataset enables researchers to develop more accessible and understandable medical communications, enhancing patient comprehension and engagement."
+    },
+    {
+      "display_name": "SQuAD",
+      "normalized_name": "squad",
+      "name_variants": [
+        "SQuAD"
+      ],
+      "mention_count": 2,
+      "cited_papers_count": 2,
+      "topic_summary": "The SQuAD dataset is primarily used to train and evaluate neural Seq2Seq models for question generation, specifically focusing on reading comprehension tasks. It enables researchers to assess the model's ability to generate questions from given passages, emphasizing the accuracy and relevance of the generated questions. This dataset facilitates the development and testing of models that can understand and process textual information effectively."
+    },
+    {
+      "display_name": "Rewards-in-Context",
+      "normalized_name": "rewardsincontext",
+      "name_variants": [
+        "Rewards-in-Context"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The 'Rewards-in-Context' dataset is used to develop personalized reward models by incorporating user feedback for dynamic preference adjustment. It supports the safety and reliability of reinforcement learning systems, ensuring robust alignment with user preferences. The dataset enhances multi-objective alignment in personalized reward systems, making it valuable for research focused on adaptive and reliable personalized models."
+    },
+    {
+      "display_name": "CelebAMask-HQ",
+      "normalized_name": "celebamaskhq",
+      "name_variants": [
+        "CelebAMask-HQ"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The CelebAMask-HQ dataset is primarily used to enhance personalized text-to-image generation and evaluation. It provides well-curated, foreground-masked identity images and rich meta-annotations, enabling researchers to train models for generating textual embeddings and manipulating facial images. The dataset supports the selection of diverse human identities, improving the interactivity and diversity of generated images. It is also utilized to pair prompts with celebrity images, facilitating the evaluation of personalized text-to-image systems."
+    },
+    {
+      "display_name": "Persona dataset",
+      "normalized_name": "persona",
+      "name_variants": [
+        "Persona dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Persona dataset is primarily used to train and evaluate natural language inference (NLI) models in dialogue contexts. It provides persona information to annotate NLI examples, enabling researchers to assess the consistency between generated sentences and user comments. The dataset supports the development of sequence classification models focused on maintaining persona consistency, enhancing the reliability of dialogue systems."
+    },
+    {
+      "display_name": "PersonalDialog dataset",
+      "normalized_name": "personaldialog",
+      "name_variants": [
+        "PersonalDialog dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The PersonalDialog dataset is used to generate personalized dialogues with diversified traits, enhancing conversational diversity and personalization in chatbot and dialogue systems. It focuses on conversations collected from Chinese social media Weibo, enabling researchers to develop more engaging and varied interactions in conversational agents."
+    },
+    {
+      "display_name": "Pushshift Reddit Dataset",
+      "normalized_name": "pushshiftredditdataset",
+      "name_variants": [
+        "Pushshift Reddit Dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Pushshift Reddit Dataset is used to provide raw data for preprocessing user attributes, which supports the reproducibility of models and scripts in research studies. It enables researchers to validate and replicate methodologies, ensuring transparency and consistency in their analyses. The dataset's comprehensive user attribute data facilitates robust preprocessing and model development."
+    },
+    {
+      "display_name": "Amazon Electronics",
+      "normalized_name": "amazonelectronics",
+      "name_variants": [
+        "Amazon Electronics"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Amazon Electronics dataset is used to evaluate models on real-world data, specifically for personalized recommendations of electronic products. It focuses on personalized text generation, employing the dataset to study and enhance the effectiveness of text-based recommendation systems. This enables researchers to assess how well models can generate personalized product suggestions, leveraging the dataset's rich textual content and user interaction data."
+    },
+    {
+      "display_name": "Semantic Textual Similarity Benchmark (STSB)",
+      "normalized_name": "semantictextualsimilaritybenchmarkstsb",
+      "name_variants": [
+        "Semantic Textual Similarity Benchmark (STSB)"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Semantic Textual Similarity Benchmark (STSB) is used to evaluate semantic textual similarity, leveraging a wide range of human annotation scores. This dataset provides nuanced data for training and evaluating models, particularly in the context of personalized text generation. It enables researchers to assess the effectiveness of models in understanding and generating text that aligns with human perceptions of similarity."
+    },
+    {
+      "display_name": "Yelp (restaurants)",
+      "normalized_name": "yelprestaurants",
+      "name_variants": [
+        "Yelp (restaurants)"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Yelp (restaurants) dataset is primarily used to generate personalized recommendations for various services, including restaurants, hotels, and cell phones. Researchers analyze user reviews and ratings to create tailored recommendations, focusing on user preferences and product attributes. This dataset enables the development of recommendation systems by leveraging detailed user feedback and rating data, enhancing the personalization and relevance of recommendations."
+    },
+    {
+      "display_name": "Instruct-QA dataset",
+      "normalized_name": "instructqa",
+      "name_variants": [
+        "Instruct-QA dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Instruct-QA dataset is used to evaluate and train models on three information-seeking QA tasks, including open-domain QA. It encompasses diverse question types, enabling researchers to assess model performance across a wide range of queries. This dataset facilitates the development and refinement of QA systems by providing a comprehensive set of questions that challenge models' ability to retrieve and generate accurate answers."
+    },
+    {
+      "display_name": "IMDb62",
+      "normalized_name": "imdb62",
+      "name_variants": [
+        "IMDb62"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The IMDb62 dataset is used for authorship attribution studies, focusing on 62,000 movie reviews from 62 prolific IMDb users, each contributing 1,000 reviews. Researchers employ this dataset to analyze writing styles and patterns, enabling the development and testing of algorithms for identifying authors based on their textual contributions. The large, consistent sample size per author enhances the robustness of these studies."
+    },
+    {
+      "display_name": "The Pile",
+      "normalized_name": "thepile",
+      "name_variants": [
+        "The Pile"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Pile is used to pretrain models, leveraging its diverse 825GB English dataset comprising texts from 22 sources, including academic, internet, prose, dialogue, and miscellaneous categories. This extensive and varied content enables researchers to develop robust language models capable of handling a wide range of textual data, enhancing model performance and generalization across different applications."
+    },
+    {
+      "display_name": "Yelp",
+      "normalized_name": "yelp",
+      "name_variants": [
+        "Yelp"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Yelp dataset is primarily used for style transfer research, focusing on altering specific aspects of text such as gender-related language, sentiment, and political bias. Researchers employ methodologies that preserve the original content while changing these stylistic elements. This enables studies on personal style transfer, sentiment modification, and political bias adjustment, leveraging the dataset's rich textual reviews to explore and develop natural language processing techniques."
+    },
+    {
+      "display_name": "Avocado Research Email Collection",
+      "normalized_name": "avocadoresearchemailcollection",
+      "name_variants": [
+        "Avocado Research Email Collection"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Avocado Research Email Collection is used for generating personalized text, specifically emails and book reviews. It focuses on creating contextually appropriate and user-specific content. The dataset enables researchers to develop algorithms that tailor text generation to individual users, enhancing the relevance and personalization of the generated content."
+    },
+    {
+      "display_name": "ConvAI2",
+      "normalized_name": "convai2",
+      "name_variants": [
+        "ConvAI2"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The ConvAI2 dataset is used to train Seq2Seq models for generating textual responses, specifically aiming to enhance conversational intelligence through user input interactions. This dataset enables researchers to focus on improving the quality and relevance of automated conversational agents by providing a rich set of dialogues for training and evaluation."
+    },
+    {
+      "display_name": "product descriptions and user history",
+      "normalized_name": "productdescriptionsanduserhistory",
+      "name_variants": [
+        "product descriptions and user history"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The 'product descriptions and user history' dataset is used to generate personalized reviews by incorporating domain-specific features and user interaction history. This enhances the personalization in text generation, focusing on how past user interactions and product details can be integrated to create more relevant and tailored review content."
+    },
+    {
+      "display_name": "L A MP-C AP",
+      "normalized_name": "lampcap",
+      "name_variants": [
+        "L A MP-C AP"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The L A MP-C AP dataset is used to evaluate the performance of four large language models (LLMs) in generating personalized captions. It focuses on assessing the models' ability to produce contextually relevant captions, thereby enabling researchers to analyze and compare the effectiveness of these models in personalized text generation tasks."
+    },
+    {
+      "display_name": "Long-form Language Model Personalization (LongLaMP) benchmark",
+      "normalized_name": "longformlanguagemodelpersonalization",
+      "name_variants": [
+        "Long-form Language Model Personalization (LongLaMP) benchmark"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Long-form Language Model Personalization (LongLaMP) benchmark is used to evaluate personalized long-form text generation models across four diverse tasks. It focuses on assessing the effectiveness of personalization in generating coherent and contextually relevant text, enabling researchers to measure how well models can adapt to individual user characteristics and maintain consistency over longer text sequences."
+    },
+    {
+      "display_name": "data from user profiles",
+      "normalized_name": "fromuserprofiles",
+      "name_variants": [
+        "data from user profiles"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The dataset 'data from user profiles' is used to enhance personalized model performance by integrating user-specific representations, primarily focusing on improving model accuracy. This involves methodologies that leverage user-specific data to refine and tailor model outputs, ensuring they are more accurate and relevant to individual users. The dataset's key characteristic is its ability to provide detailed user profiles, which are crucial for developing and validating personalized models."
+    },
+    {
+      "display_name": "MS COCO",
+      "normalized_name": "mscoco",
+      "name_variants": [
+        "MS COCO"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The MS COCO dataset is used to select 100 textual descriptions of real images, focusing on scene descriptions to study personalized text generation. This involves using the dataset's rich image-caption pairs to analyze and generate personalized textual content, leveraging the detailed and varied nature of the descriptions to enhance the research on text generation methodologies."
+    },
+    {
+      "display_name": "Recipe",
+      "normalized_name": "recipe",
+      "name_variants": [
+        "Recipe"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Recipe dataset is used to evaluate recommendation frameworks, specifically for generating personalized recipe recommendations based on user history. The methodology involves assessing the effectiveness of these frameworks in tailoring recipe suggestions to individual users. This dataset enables researchers to address the challenge of providing relevant and personalized content, enhancing user experience in recipe recommendation systems."
+    },
+    {
+      "display_name": "Amazon Movies",
+      "normalized_name": "amazonmovies",
+      "name_variants": [
+        "Amazon Movies"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Amazon Movies dataset is used to evaluate the fairness and utility of the DDP on FeatCov method, specifically focusing on movie reviews. This involves assessing bias and performance in the context of fairness. The dataset's review content and ratings enable researchers to test and refine methods aimed at ensuring fair and unbiased outcomes in recommendation systems and other applications."
+    },
+    {
+      "display_name": "Amazon Movies 1",
+      "normalized_name": "amazonmovies1",
+      "name_variants": [
+        "Amazon Movies 1"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Amazon Movies 1 dataset is used to investigate the generation of personalized explanations for movie recommendations. Researchers employ the PETER model to create tailored explanations, enhancing user understanding and satisfaction. This dataset enables the exploration of how different explanatory approaches can improve recommendation systems, focusing on the effectiveness of personalized content."
+    },
+    {
+      "display_name": "EmotionLines",
+      "normalized_name": "emotionlines",
+      "name_variants": [
+        "EmotionLines"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The EmotionLines dataset is used to collect and analyze emotional dialogues from telescripts and Facebook, with a focus on multi-party conversations. It enhances personalized text generation models by providing rich, contextually diverse data that captures nuanced emotional interactions. This dataset enables researchers to develop more emotionally intelligent and context-aware dialogue systems."
+    },
+    {
+      "display_name": "massive generic dialogue data",
+      "normalized_name": "massivegenericdialogue",
+      "name_variants": [
+        "massive generic dialogue data"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The 'massive generic dialogue data' dataset is used to pre-train and fine-tune dialogue models. It focuses on generating general conversational responses and incorporating user-specific information to produce personalized outputs. This dataset enables researchers to enhance the responsiveness and relevance of dialogue systems by providing a large corpus of generic dialogues for initial training and subsequent personalization."
+    },
+    {
+      "display_name": "Citation Network Dataset (V14)",
+      "normalized_name": "citationnetworkdatasetv14",
+      "name_variants": [
+        "Citation Network Dataset (V14)"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Citation Network Dataset (V14) is used to generate data samples for personalized text generation, particularly focusing on academic social network structures and relationships. It leverages a large corpus of 5,259,858 papers, each with 29 features, to create comprehensive datasets. This enables researchers to explore and model complex academic networks, enhancing the accuracy and relevance of personalized text generation in academic contexts."
+    },
+    {
+      "display_name": "Amazon Reviews Dataset",
+      "normalized_name": "amazonreviewsdataset",
+      "name_variants": [
+        "Amazon Reviews Dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Amazon Reviews Dataset is used for training and evaluating recommendation systems and personalized text generation models. It leverages 150 million user reviews to enhance recommendation justifications and model user preferences. The dataset's extensive review content and user interactions enable researchers to develop and test algorithms that provide more accurate and contextually relevant recommendations and generated text."
+    },
+    {
+      "display_name": "story data",
+      "normalized_name": "story",
+      "name_variants": [
+        "story data"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The 'story data' dataset is used for fine-tuning pre-trained language models like GPT-2, specifically through multi-task and intermediate fine-tuning approaches. This enhances the model's performance in generating coherent and contextually grounded stories. The dataset focuses on improving common sense grounding and narrative coherence, enabling researchers to address specific story generation tasks and adapt models to the storytelling domain."
+    },
+    {
+      "display_name": "task-oriented dialogue system dataset",
+      "normalized_name": "taskorienteddialoguesystem",
+      "name_variants": [
+        "task-oriented dialogue system dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The task-oriented dialogue system dataset is used to support research on personalized text generation, containing conversations with users' personalized information. This dataset enables researchers to develop and evaluate models that can generate text tailored to individual user profiles, enhancing the relevance and personalization of dialogue systems."
+    },
+    {
+      "display_name": "novel large-scale multi-domain dataset for persona-based empathetic conversations",
+      "normalized_name": "novellargescalemultidomain",
+      "name_variants": [
+        "novel large-scale multi-domain dataset for persona-based empathetic conversations"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The dataset is used to train and evaluate a BERT-based response selection model, CoBERT, which focuses on persona-based empathetic conversations. It employs multi-hop co-attention for interactive matching, enabling researchers to assess the model's ability to generate contextually appropriate and empathetic responses. The dataset's multi-domain nature supports the development of more nuanced and versatile conversational agents."
+    },
+    {
+      "display_name": "PAWS",
+      "normalized_name": "paws",
+      "name_variants": [
+        "PAWS"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The PAWS dataset is used to enhance the robustness of paraphrase detection models by generating paraphrases through adversarially scrambling words. This methodology specifically addresses the challenge of creating diverse and challenging paraphrases, which helps in improving the generalization and reliability of natural language processing models. The dataset's adversarial nature is crucial for testing and strengthening model performance in recognizing paraphrases."
+    },
+    {
+      "display_name": "Pinterest image dataset",
+      "normalized_name": "pinterestimage",
+      "name_variants": [
+        "Pinterest image dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Pinterest image dataset is used to construct subsets for personalized text generation, specifically focusing on image-based content and user interactions. This involves leveraging the dataset's rich image and interaction data to develop models that generate personalized text. The dataset's characteristics, such as diverse images and user engagement metrics, enable researchers to explore how visual content influences text generation and user behavior."
+    },
+    {
+      "display_name": "PartiPrompts",
+      "normalized_name": "partiprompts",
+      "name_variants": [
+        "PartiPrompts"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The PartiPrompts dataset is used to enhance content-rich text-to-image generation by providing descriptive prompts as prefixes to output prompts, thereby generating diverse scenes. This approach leverages the dataset's descriptive prompts to improve the richness and variability of generated images, addressing research questions related to improving the quality and diversity of text-to-image synthesis."
+    },
+    {
+      "display_name": "Personalized VideoIC dataset",
+      "normalized_name": "personalizedvideoic",
+      "name_variants": [
+        "Personalized VideoIC dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Personalized VideoIC dataset is used to generate personalized video captions using natural language generation techniques, without relying on manually labeled personality traits. This dataset enables researchers to explore methods for creating more natural and contextually relevant captions by leveraging the inherent characteristics of the video content and user data."
+    },
+    {
+      "display_name": "Per-DOC",
+      "normalized_name": "perdoc",
+      "name_variants": [
+        "Per-DOC"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Per-DOC dataset is primarily used for enhancing the coherence and quality of personalized long stories through detailed outline control. It is employed in both pairwise and pointwise evaluations to assess the coherence, quality, and relevance of generated text in individual and multi-party settings. The dataset serves as a foundation for training personalized instruction data, validating the generalization of models, and studying multi-perspective storytelling."
+    },
+    {
+      "display_name": "Ubuntu Dialogue Corpus",
+      "normalized_name": "ubuntudialoguecorpus",
+      "name_variants": [
+        "Ubuntu Dialogue Corpus"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Ubuntu Dialogue Corpus is used to train context-sensitive technical dialogue systems and to research unstructured multi-turn dialogue systems. It leverages almost one million conversations from Ubuntu chat logs, focusing on context-based interactions. This dataset enables the development and evaluation of models that can handle complex, multi-turn dialogues in technical contexts, enhancing the ability to create more effective and context-aware conversational agents."
+    },
+    {
+      "display_name": "personalized dialogue data",
+      "normalized_name": "personalizeddialogue",
+      "name_variants": [
+        "personalized dialogue data"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The 'personalized dialogue data' dataset is used to train response-generation models, specifically focusing on speaker-role adaptation in neural conversation models. This involves employing multi-task learning to enhance the model's ability to generate contextually appropriate responses that reflect different speaker roles. The dataset enables researchers to improve the personalization and adaptability of conversational agents by providing diverse dialogue examples."
+    },
+    {
+      "display_name": "Knowledge-based dataset",
+      "normalized_name": "knowledgebased",
+      "name_variants": [
+        "Knowledge-based dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Knowledge-based dataset is used to train models for generating commonsense-aware conversations, specifically focusing on one-turn post-response pairs with associated knowledge graphs. This dataset enables researchers to develop models that can produce more contextually relevant and coherent responses by leveraging structured knowledge. The dataset's key feature is its integration of knowledge graphs, which provide the necessary context for generating commonsense-aware interactions."
+    },
+    {
+      "display_name": "CMU DoG",
+      "normalized_name": "cmudog",
+      "name_variants": [
+        "CMU DoG"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The CMU DoG dataset is used to train and evaluate models for document-grounded conversations, specifically focusing on generating responses based on the content of Wikipedia articles about popular movies. This dataset enables researchers to assess the models' ability to incorporate and accurately reference document content in their conversational responses, enhancing the relevance and coherence of the generated dialogues."
+    },
+    {
+      "display_name": "CMU DoG 23",
+      "normalized_name": "cmudog23",
+      "name_variants": [
+        "CMU DoG 23"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The CMU DoG 23 dataset is used to train and evaluate knowledge-powered conversational agents that ground conversations in factual information from Wikipedia articles. It focuses on generating contextually relevant and informative responses in open-domain conversations, particularly those linked to popular movies. This dataset enables researchers to develop and assess models that can effectively incorporate external knowledge into their interactions, enhancing the quality and accuracy of conversational responses."
+    },
+    {
+      "display_name": "TaoDescribe",
+      "normalized_name": "taodescribe",
+      "name_variants": [
+        "TaoDescribe"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The TaoDescribe dataset is used to generate personalized product descriptions in e-commerce, integrating knowledge-based information and user category attributes from a large Chinese shopping website. This dataset enhances user experience and relevance by incorporating detailed product knowledge and user-specific data, focusing on improving the accuracy and personalization of product descriptions."
+    },
+    {
+      "display_name": "CelebA-HQ",
+      "normalized_name": "celebahq",
+      "name_variants": [
+        "CelebA-HQ"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The CelebA-HQ dataset is primarily used for face recognition tasks, particularly focusing on recognizing faces across different poses and ages. It leverages high-quality images and diverse attributes to enhance the accuracy and robustness of facial recognition models. Despite the context mentioning personalized text generation, the dataset's primary application is in improving facial recognition technology through its rich, high-resolution image set."
+    },
+    {
+      "display_name": "Wikidata",
+      "normalized_name": "wikidata",
+      "name_variants": [
+        "Wikidata"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "Wikidata is used as an external knowledge base to link extracted entities from data fields, enhancing the temporary memory in data-to-text generation models. This linkage enriches the context and accuracy of generated text by providing structured, verifiable information. The dataset's extensive and interconnected nature supports the integration of diverse data sources, improving the coherence and relevance of the generated content."
+    },
+    {
+      "display_name": "Taobao Advertising",
+      "normalized_name": "taobaoadvertising",
+      "name_variants": [
+        "Taobao Advertising"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Taobao Advertising dataset is primarily used for generating biographical and advertising text from structured data. It serves as a benchmark for table-to-text generation, focusing on converting tabular information into coherent narratives. The dataset is utilized to enhance readability, coherence, and user engagement in both English and Chinese contexts. Research applications include generating biographies for Wikipedia and personalized advertising content, employing neural text generation models to improve the quality and personalization of generated text."
+    },
+    {
+      "display_name": "person-chat dataset",
+      "normalized_name": "personchat",
+      "name_variants": [
+        "person-chat dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The 'person-chat dataset' is used to label Natural Language Inference (NLI) tags within dialogue contexts, enhancing personalized text generation. This involves employing NLI techniques to improve the coherence and relevance of generated text in conversational settings. The dataset's focus on dialogue provides rich contextual data, enabling researchers to develop more nuanced and context-aware text generation models."
+    },
+    {
+      "display_name": "LAION-FACE",
+      "normalized_name": "laionface",
+      "name_variants": [
+        "LAION-FACE"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The LAION-FACE dataset is used for facial representation learning, focusing on enhancing the accuracy of models in generating text about faces. Researchers employ this dataset to train and evaluate models that can produce more precise and contextually relevant textual descriptions of facial features and expressions. This approach specifically aims to improve the quality and detail of text generated about faces, leveraging the dataset's rich face-related content."
+    },
+    {
+      "display_name": "Language Personalization benchmark",
+      "normalized_name": "languagepersonalization",
+      "name_variants": [
+        "Language Personalization benchmark"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The Language Personalization benchmark dataset is used to evaluate personalization in language models, specifically for classification and summarization tasks. It provides a standardized way to assess how well models can adapt to individual user characteristics, though it does not cover long-form text generation. This dataset enables researchers to compare different personalization techniques and measure their effectiveness in these specific tasks."
+    },
+    {
+      "display_name": "b5 corpus",
+      "normalized_name": "b5",
+      "name_variants": [
+        "b5 corpus"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The b5 corpus is used to study personality-dependent natural language understanding and generation, specifically examining how author personality and demographics influence text production. Researchers employ this dataset to analyze the impact of individual traits on language use, enabling insights into personalized text generation and understanding."
+    },
+    {
+      "display_name": "myPersonality dataset",
+      "normalized_name": "mypersonality",
+      "name_variants": [
+        "myPersonality dataset"
+      ],
+      "mention_count": 1,
+      "cited_papers_count": 1,
+      "topic_summary": "The myPersonality dataset is used to detect personality traits from utterances, focusing specifically on the Big Five personality traits. Researchers employ this dataset to analyze and model personality in response generation, leveraging its rich textual data to understand how personality influences language use. This enables studies to explore the relationship between personality traits and communication patterns, enhancing our understanding of human behavior in social interactions."
+    }
+  ]
+}
