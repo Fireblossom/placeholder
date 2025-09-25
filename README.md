@@ -221,6 +221,334 @@ This repository provides the supplementary materials to support peer review. The
   </table>
 
 
+## Citation-Context Counts (per RQ)
+
+This section reports, for each research question (RQ), how many papers and citation contexts our pipeline processed in both directions:
+- Citing: contexts where target papers cite others.
+- Cited: contexts where target papers are cited by others.
+
+Column notes:
+- Seed Papers (Original/Filtered): the candidate seed set before/after topic filtering used at the dataset-extraction stage (per direction). In practice, “Original” often equals “Papers with Contexts” (the set that yielded at least one context and thus became seeds), and “Filtered” is the topic‑validated subset.
+- Papers Queried: number of unique paper IDs sent to the citation‑context retrieval step.
+  - Citing: LLM‑pre‑filtered hits from the initial search for the RQ.
+  - Cited: all unique references cited by the citing set (an expansion beyond seeds).
+- Papers with Contexts: papers for which at least one citation context was found.
+- Citation Contexts (Total): total contexts processed for that direction.
+- Validated Contexts: contexts retained after LLM-based validation.
+- Validated Contexts (Total): sum of citing + cited validated counts.
+
+Why “Papers Queried” can exceed “Seed Papers”:
+- The query step deliberately casts a wider net (e.g., includes all unique references on the cited side, and all LLM‑pre‑filtered hits on the citing side). Many of these queried IDs either have no usable contexts or are filtered out later by topic validation, so the downstream seed counts are smaller.
+
+<table>
+  <thead>
+    <tr>
+      <th>Research Question</th>
+      <th>Citing Papers Queried</th>
+      <th>Citing Papers with Contexts</th>
+      <th>Citing Seed Papers (Original)</th>
+      <th>Citing Seed Papers (Filtered)</th>
+      <th>Citing Citation Contexts (Total)</th>
+      <th>Citing Validated Contexts</th>
+      <th>Cited Papers Queried</th>
+      <th>Cited Papers with Contexts</th>
+      <th>Cited Seed Papers (Original)</th>
+      <th>Cited Seed Papers (Filtered)</th>
+      <th>Cited Citation Contexts (Total)</th>
+      <th>Cited Validated Contexts</th>
+      <th>Validated Contexts (Total)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CRLM scRNAseq</td>
+      <td align="right">87</td>
+      <td align="right">36</td>
+      <td align="right">36</td>
+      <td align="right">36</td>
+      <td align="right">819</td>
+      <td align="right">24</td>
+      <td align="right">488</td>
+      <td align="right">293</td>
+      <td align="right">293</td>
+      <td align="right">7</td>
+      <td align="right">120</td>
+      <td align="right">7</td>
+      <td align="right">31</td>
+    </tr>
+    <tr>
+      <td>Salty enhancing peptides</td>
+      <td align="right">103</td>
+      <td align="right">20</td>
+      <td align="right">20</td>
+      <td align="right">20</td>
+      <td align="right">599</td>
+      <td align="right">1</td>
+      <td align="right">257</td>
+      <td align="right">91</td>
+      <td align="right">91</td>
+      <td align="right">11</td>
+      <td align="right">244</td>
+      <td align="right">0</td>
+      <td align="right">1</td>
+    </tr>
+    <tr>
+      <td>Antioxidant peptides sequence activity</td>
+      <td align="right">214</td>
+      <td align="right">130</td>
+      <td align="right">130</td>
+      <td align="right">125</td>
+      <td align="right">3769</td>
+      <td align="right">57</td>
+      <td align="right">1619</td>
+      <td align="right">657</td>
+      <td align="right">657</td>
+      <td align="right">111</td>
+      <td align="right">2698</td>
+      <td align="right">20</td>
+      <td align="right">77</td>
+    </tr>
+    <tr>
+      <td>Patent Classification NLP</td>
+      <td align="right">80</td>
+      <td align="right">52</td>
+      <td align="right">52</td>
+      <td align="right">47</td>
+      <td align="right">1077</td>
+      <td align="right">105</td>
+      <td align="right">406</td>
+      <td align="right">309</td>
+      <td align="right">309</td>
+      <td align="right">67</td>
+      <td align="right">1347</td>
+      <td align="right">119</td>
+      <td align="right">224</td>
+    </tr>
+    <tr>
+      <td>Multi modal Knowledge Graph Reasoning</td>
+      <td align="right">126</td>
+      <td align="right">97</td>
+      <td align="right">97</td>
+      <td align="right">91</td>
+      <td align="right">3349</td>
+      <td align="right">359</td>
+      <td align="right">1348</td>
+      <td align="right">1200</td>
+      <td align="right">1200</td>
+      <td align="right">179</td>
+      <td align="right">7488</td>
+      <td align="right">1155</td>
+      <td align="right">1514</td>
+    </tr>
+    <tr>
+      <td>Text Line Segmentation</td>
+      <td align="right">187</td>
+      <td align="right">130</td>
+      <td align="right">130</td>
+      <td align="right">116</td>
+      <td align="right">1740</td>
+      <td align="right">177</td>
+      <td align="right">603</td>
+      <td align="right">494</td>
+      <td align="right">494</td>
+      <td align="right">131</td>
+      <td align="right">2040</td>
+      <td align="right">233</td>
+      <td align="right">410</td>
+    </tr>
+    <tr>
+      <td>Document level Event Extraction</td>
+      <td align="right">143</td>
+      <td align="right">108</td>
+      <td align="right">108</td>
+      <td align="right">86</td>
+      <td align="right">1992</td>
+      <td align="right">288</td>
+      <td align="right">676</td>
+      <td align="right">614</td>
+      <td align="right">614</td>
+      <td align="right">100</td>
+      <td align="right">3489</td>
+      <td align="right">572</td>
+      <td align="right">860</td>
+    </tr>
+    <tr>
+      <td>All in One Image Restoration</td>
+      <td align="right">118</td>
+      <td align="right">80</td>
+      <td align="right">80</td>
+      <td align="right">79</td>
+      <td align="right">4008</td>
+      <td align="right">561</td>
+      <td align="right">1045</td>
+      <td align="right">941</td>
+      <td align="right">941</td>
+      <td align="right">190</td>
+      <td align="right">10648</td>
+      <td align="right">1542</td>
+      <td align="right">2103</td>
+    </tr>
+    <tr>
+      <td>Planning Capabilities of LLM</td>
+      <td align="right">132</td>
+      <td align="right">127</td>
+      <td align="right">168</td>
+      <td align="right">132</td>
+      <td align="right">132</td>
+      <td align="right">127</td>
+      <td align="right">4549</td>
+      <td align="right">393</td>
+      <td align="right">1807</td>
+      <td align="right">1592</td>
+      <td align="right">1592</td>
+      <td align="right">293</td>
+      <td align="right">10933</td>
+      <td align="right">770</td>
+      <td align="right">1163</td>
+    </tr>
+    <tr>
+      <td>Personalized Text Generation</td>
+      <td align="right">111</td>
+      <td align="right">95</td>
+      <td align="right">95</td>
+      <td align="right">89</td>
+      <td align="right">2943</td>
+      <td align="right">155</td>
+      <td align="right">1210</td>
+      <td align="right">1120</td>
+      <td align="right">1120</td>
+      <td align="right">162</td>
+      <td align="right">5734</td>
+      <td align="right">420</td>
+      <td align="right">575</td>
+    </tr>
+    <tr>
+      <td>Event based Stereo Depth</td>
+      <td align="right">41</td>
+      <td align="right">34</td>
+      <td align="right">34</td>
+      <td align="right">33</td>
+      <td align="right">1082</td>
+      <td align="right">108</td>
+      <td align="right">366</td>
+      <td align="right">343</td>
+      <td align="right">343</td>
+      <td align="right">60</td>
+      <td align="right">1651</td>
+      <td align="right">175</td>
+      <td align="right">283</td>
+    </tr>
+    <tr>
+      <td>Plant disease pest detection image dataset</td>
+      <td align="right">354</td>
+      <td align="right">222</td>
+      <td align="right">222</td>
+      <td align="right">215</td>
+      <td align="right">2315</td>
+      <td align="right">174</td>
+      <td align="right">1374</td>
+      <td align="right">913</td>
+      <td align="right">913</td>
+      <td align="right">440</td>
+      <td align="right">8177</td>
+      <td align="right">734</td>
+      <td align="right">908</td>
+    </tr>
+    <tr>
+      <td>Laban movement analysis for dance emotion</td>
+      <td align="right">39</td>
+      <td align="right">23</td>
+      <td align="right">23</td>
+      <td align="right">17</td>
+      <td align="right">284</td>
+      <td align="right">3</td>
+      <td align="right">178</td>
+      <td align="right">103</td>
+      <td align="right">103</td>
+      <td align="right">10</td>
+      <td align="right">321</td>
+      <td align="right">3</td>
+      <td align="right">6</td>
+    </tr>
+    <tr>
+      <td>Statistical Learning Non native</td>
+      <td align="right">53</td>
+      <td align="right">41</td>
+      <td align="right">41</td>
+      <td align="right">23</td>
+      <td align="right">799</td>
+      <td align="right">4</td>
+      <td align="right">506</td>
+      <td align="right">360</td>
+      <td align="right">360</td>
+      <td align="right">30</td>
+      <td align="right">883</td>
+      <td align="right">6</td>
+      <td align="right">10</td>
+    </tr>
+  </tbody>
+  </table>
+
+
+## Processing Times (per RQ)
+
+This table summarizes the total processing time measured from logs for the two directions of dataset extraction per RQ:
+- Citing: extracting datasets from contexts where target papers cite others
+- Cited: extracting datasets from contexts where target papers are cited by others
+
+<table>
+  <thead>
+    <tr>
+      <th>Research Question</th>
+      <th>Citing Total Time (s)</th>
+      <th>Cited Total Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All in One Image Restoration</td>
+      <td align="right">168.74</td>
+      <td align="right">465.38</td>
+    </tr>
+    <tr>
+      <td>Document level Event Extraction</td>
+      <td align="right">101.35</td>
+      <td align="right">164.99</td>
+    </tr>
+    <tr>
+      <td>Event based Stereo Depth</td>
+      <td align="right">50.97</td>
+      <td align="right">76.95</td>
+    </tr>
+    <tr>
+      <td>Multi modal Knowledge Graph Reasoning</td>
+      <td align="right">165.54</td>
+      <td align="right">373.46</td>
+    </tr>
+    <tr>
+      <td>Patent Classification NLP</td>
+      <td align="right">53.44</td>
+      <td align="right">64.10</td>
+    </tr>
+    <tr>
+      <td>Personalized Text Generation</td>
+      <td align="right">132.87</td>
+      <td align="right">260.53</td>
+    </tr>
+    <tr>
+      <td>Planning Capabilities of LLM</td>
+      <td align="right">205.25</td>
+      <td align="right">479.57</td>
+    </tr>
+    <tr>
+      <td>Text Line Segmentation</td>
+      <td align="right">84.46</td>
+      <td align="right">97.43</td>
+    </tr>
+  </tbody>
+  </table>
+
+
 ## Evaluation Files
 
 - Computer and Information Sciences (automated): [cs_automated_evaluations.tsv](cs_automated_evaluations.tsv)
