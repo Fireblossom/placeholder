@@ -390,8 +390,6 @@ Why “Papers Queried” can exceed “Seed Papers”:
     </tr>
     <tr>
       <td>Planning Capabilities of LLM</td>
-      <td align="right">132</td>
-      <td align="right">127</td>
       <td align="right">168</td>
       <td align="right">132</td>
       <td align="right">132</td>
